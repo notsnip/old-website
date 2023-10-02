@@ -8,8 +8,8 @@ function Navbar(props) {
   return (
     // navbar section 
     <div id='navbar'>
-        <span id='mode' target=''><img src="src/assets/light_mode.png" alt="" id='modeimg'/></span>
-        <span id='mode' target=''><img src="src/assets/web_light.png" alt="" id='modeimg'/></span>
+        <span id='mode' target=''><iconify-icon icon="ph:sun" height='1.4em'></iconify-icon></span>
+        <span id='mode' target=''><iconify-icon icon="mdi:web" height='1.4em'></iconify-icon></span>
         </div>
 )}
 
