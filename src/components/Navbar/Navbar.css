@@ -12,6 +12,7 @@
 }
 #mode:hover{
     background-color: var(--tertiary-background-color);
+    transition: 0.3s;
 }
 #mode:focus {outline:0;}
 /* navbar postioning */

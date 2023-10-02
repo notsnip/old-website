@@ -58,10 +58,12 @@
     padding-bottom: 0px;
     border-radius: 10px;
     background-color: rgba(38,38,38,.3);
+    transition: 0.3s;
 
 }
 .link:hover{
-    background-color: var(--tertiary-background-color)
+    background-color: var(--tertiary-background-color);
+    transition: 0.3s;
 }
 #links{
     margin-top: 20px;
