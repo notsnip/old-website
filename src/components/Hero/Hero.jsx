@@ -57,9 +57,10 @@ function Hero() {
 
 
 </div>
-<div className="pages">
-  <div id="Repository" className='page'><h3>Text</h3> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur minima earum quis ipsam repellendus deserunt distinctio repellat delectus, ea molestias?</p></div>
-  <div id="" className='page'><h3>Text2</h3> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur minima earum quis ipsam repellendus deserunt distinctio repellat delectus, ea molestias?</p></div>
+<div className="pages1">
+
+  <div id="Repository" className='page'><h3>Text</h3> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, voluptates!</p></div>
+  <div id="" className='page'><h3>Text2</h3> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, earum.</p></div>
   {/* <div id="" className='page'><h3>Text2</h3> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur minima earum quis ipsam repellendus deserunt distinctio repellat delectus, ea molestias?</p></div>
   <div id="" className='page'><h3>Text2</h3> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur minima earum quis ipsam repellendus deserunt distinctio repellat delectus, ea molestias?</p></div> */}
 </div>

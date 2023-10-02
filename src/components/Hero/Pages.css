@@ -1,4 +1,4 @@
-.pages{
+.pages1{
     display: flex;
 }
 .page{
@@ -12,11 +12,15 @@
 }
 .page p{
     margin: 2px;
+    margin-bottom: 15px;
 }
 .page h3{
     margin-bottom: 2px;
 }
 #Repository{
     margin-right: 15px;
+}
+.pages1{
+    margin-top: 15em;
 }
 

@@ -29,11 +29,17 @@ body{
 
 /* the scroll bar styling */
 html ::-webkit-scrollbar-thumb {
-    background-color: var(--secondary-background-color);
+    background-color: #404040;
+    height: 2px;
 }
 
 html ::-webkit-scrollbar-track {
-    background-color: var(--primary-background-color);
+    background-color: #262626;
+
+}
+html ::-webkit-scrollbar {
+    height: 2px;
+    width: 8px;
 }
 /* this code removes blue section when someone click on image on mobile  */
 * {
