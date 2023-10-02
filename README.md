@@ -1,10 +1,26 @@
-<h1 align='center'>snipc.me</h1>
+<h1 align='center'>snipc.me (in dev!)</h1>
 
 ![ss](src/assets/sss.png)
 
-Source code of my new web homepage written in React.js .
+My new homepage written in React.js with Vite.
 
-Currently, two official plugins are available:
+Currently, there's a lot of work to get ready:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [ ] Dark/Light mode toggle
+- [x] Navbar
+- [x] About Me
+- [x] Lanyard Integration
+- [ ] Tools
+- [ ] Gears
+- [ ] MyAnimeList Integration
+- [ ] Github Repo Integration
+
+
+### Credits & Inspirations ✨
+**Freepik**
+
+For Light/Dark Mode Icons.
+
+**Eggsy.xyz**
+
+HIGHLY inpired from overall look and features of https://eggsy.xyz
