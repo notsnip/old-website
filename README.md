@@ -1,6 +1,6 @@
-# React + Vite
+# snipc.me
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Source code of my new web homepage written in React.js .
 
 Currently, two official plugins are available:
 
