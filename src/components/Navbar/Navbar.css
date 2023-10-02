@@ -1,0 +1,33 @@
+/* navbar button styling  */
+#mode{
+    border: 0.1px solid var(--margin-dark);
+    padding: 7px 22px;
+    border-radius: 30px;
+    opacity: 1;
+    background-color: var(--secondary-bg-dark);
+    cursor: pointer;
+    padding-bottom: 3px;
+
+}
+#mode:hover{
+    background-color: var(--tertiary-background-color);
+}
+/* navbar postioning */
+#navbar{
+    margin-top: 7vh;
+    display: flex;
+    justify-content: end;
+}
+
+/* styling of the image/icon inside the button  */
+#modeimg{
+    height: 20px;
+}
+
+/* mobile styling */
+@media only screen and (max-width: 600px) {
+    /* fixes the postion of navbar container  */
+    #navbar{
+        margin-top: 5px;
+    }
+  }

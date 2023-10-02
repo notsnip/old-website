@@ -1,0 +1,56 @@
+/* made the about section narrow to not take up img's space  */
+#about{
+    width: 70%;
+}
+
+/* the main container */
+.container{
+    display: flex;
+    margin-top: 12vh;
+}
+
+/* the img and img container  */
+.img{
+    margin-left: 40px;
+}
+.img img{
+    height: 250px;
+}
+
+/* hello and intro styling  */
+#hello{
+    font-size: 55px;
+    margin: 0px;
+}
+#intro{
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+/* changed the fonts of whole text container  */
+.text{
+    /* alternate font  */
+    /* font-family: 'Manrope', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* "Name" element styling  */
+#Shaurya{
+    color: var(--special-text)
+}
+
+/* for mobile folks */
+@media only screen and (max-width: 600px) {
+     .container{
+        flex-direction: column-reverse;
+     }
+     #hello{
+        font-size: 35px;
+     }
+     .text{
+        text-align: center;
+     }
+     #about{
+        width: 100%;
+     }
+}

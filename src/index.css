@@ -1,0 +1,44 @@
+/* this is the main css file with universal styling  */
+
+/* popping and work sans fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Poppins&display=swap');
+
+/* main colors  */
+:root {
+    --bg-dark: rgb(23,23,23);
+    --margin-dark: #3b3a3a;
+    --secondary-bg-dark: rgba(38,38,38,.3);
+    --special-text: rgb(214, 187, 187);
+    --tertiary-background-color: #232325;
+}
+
+
+/* change default bg to dark and display flex  */
+html{
+    background-color: var(--bg-dark);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* make bg narrow */
+/* body{
+    width: 77%;
+} */
+
+
+/* the scroll bar styling */
+html ::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-background-color);
+}
+
+html ::-webkit-scrollbar-track {
+    background-color: var(--primary-background-color);
+}
+
+/* for mobile folks */
+@media only screen and (max-width: 600px) {
+    body{
+        width: 95%;
+    }}
