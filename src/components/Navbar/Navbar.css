@@ -32,6 +32,6 @@
 @media only screen and (max-width: 600px) {
     /* fixes the postion of navbar container  */
     #navbar{
-        margin-top: 5px;
+        margin-top: 20px;
     }
   }
