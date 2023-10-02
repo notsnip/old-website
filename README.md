@@ -1,4 +1,4 @@
-# snipc.me
+<h1 align='center'>snipc.me</h1>
 
 Source code of my new web homepage written in React.js .
 
