@@ -1,5 +1,7 @@
 <h1 align='center'>snipc.me</h1>
 
+![ss](src/assets/ss.png)
+
 Source code of my new web homepage written in React.js .
 
 Currently, two official plugins are available:
