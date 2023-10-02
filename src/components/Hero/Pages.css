@@ -1,0 +1,22 @@
+.pages{
+    display: flex;
+}
+.page{
+    width: 50%;
+    border: 1px solid var(--margin-dark);
+    border-radius: 8px;
+    padding: 0px 10px;
+    background-color: var(--secondary-bg-dark);
+    cursor: pointer;
+
+}
+.page p{
+    margin: 2px;
+}
+.page h3{
+    margin-bottom: 2px;
+}
+#Repository{
+    margin-right: 15px;
+}
+

@@ -22,10 +22,9 @@ html{
     justify-content: center;
 }
 
-/* make bg narrow */
-/* body{
+body{
     width: 77%;
-} */
+}
 
 
 /* the scroll bar styling */
@@ -41,6 +40,8 @@ html ::-webkit-scrollbar-track {
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
     -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
     outline: none !important;
+    font-family: 'Poppins', sans-serif;
+    
 }
 /* for mobile folks */
 @media only screen and (max-width: 600px) {
