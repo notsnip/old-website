@@ -1,5 +1,5 @@
 import {React,useState} from 'react'
-import './hero.css'
+import './Hero.css'
 
 function Hero() {
   const [discord_state,setStatus]= useState('Loading..')
