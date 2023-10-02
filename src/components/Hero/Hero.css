@@ -46,6 +46,26 @@
     border-radius: 150px;
 }
 
+
+
+#linkedin{
+    margin-left: 20px;
+}
+
+.link{
+    border: 2px solid var(--margin-dark);
+    padding: 12px 7px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    background-color: rgba(38,38,38,.3);
+
+}
+.link:hover{
+    background-color: var(--tertiary-background-color)
+}
+#links{
+    margin-top: 20px;
+}
 /* for mobile folks */
 @media only screen and (max-width: 600px) {
      .container{
@@ -62,3 +82,6 @@
         width: 100%;
      }
 }
+
+
+
