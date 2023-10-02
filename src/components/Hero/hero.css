@@ -38,6 +38,9 @@
 #Shaurya{
     color: var(--special-text)
 }
+#Shaurya:hover{
+    color: rgb(238, 215, 215);;
+}
 #circle{
     padding: 0px 10px;
     border-radius: 150px;
