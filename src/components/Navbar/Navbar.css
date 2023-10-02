@@ -7,11 +7,13 @@
     background-color: var(--secondary-bg-dark);
     cursor: pointer;
     padding-bottom: 3px;
-
+    user-select: none;
+    margin-left: 10px;
 }
 #mode:hover{
     background-color: var(--tertiary-background-color);
 }
+#mode:focus {outline:0;}
 /* navbar postioning */
 #navbar{
     margin-top: 7vh;
@@ -23,6 +25,7 @@
 #modeimg{
     height: 20px;
 }
+#modeimg:focus {outline:0;}
 
 /* mobile styling */
 @media only screen and (max-width: 600px) {

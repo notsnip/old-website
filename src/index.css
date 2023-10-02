@@ -36,7 +36,12 @@ html ::-webkit-scrollbar-thumb {
 html ::-webkit-scrollbar-track {
     background-color: var(--primary-background-color);
 }
-
+/* this code removes blue section when someone click on image on mobile  */
+* {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
+    outline: none !important;
+}
 /* for mobile folks */
 @media only screen and (max-width: 600px) {
     body{
