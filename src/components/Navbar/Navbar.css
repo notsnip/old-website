@@ -1,7 +1,7 @@
 /* navbar button styling  */
 #mode{
     border: 0.1px solid var(--margin-dark);
-    padding: 7px 22px;
+    padding: 8px 22px;
     border-radius: 30px;
     opacity: 1;
     background-color: var(--secondary-bg-dark);
