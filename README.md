@@ -15,6 +15,9 @@ Currently, there's a lot of work to get ready:
 - [ ] MyAnimeList Integration
 - [ ] Github Repo Integration
 
+#### Code Improvement
+- [ ] Implement props
+
 
 ### Credits & Inspirations ✨
 **Freepik**

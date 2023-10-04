@@ -7,7 +7,7 @@ import Contact from './components/Contact/Contact.jsx';
 import Hero from './components/Hero/Hero.jsx';
 
 
-const router= createHashRouter([{
+const router= createBrowserRouter([{
     path: "/",
     element: <App />,
     children: [
