@@ -59,8 +59,8 @@ function Hero() {
 </div>
 <div className="pages1">
 
-  <div id="Repository" className='page'><h3>Text</h3> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, voluptates!</p></div>
-  <div id="" className='page'><h3>Text2</h3> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, earum.</p></div>
+  <div id="Repository" className='page'><h3>Repositories (Dummy Button)</h3> <p>View my GitHub repositories and a look of my projects and configs!</p></div>
+  <div id="" className='page'><h3>Anime (Dummy Button)</h3> <p>I love anime and here's some cool anime I'm watching right now.</p></div>
   {/* <div id="" className='page'><h3>Text2</h3> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur minima earum quis ipsam repellendus deserunt distinctio repellat delectus, ea molestias?</p></div>
   <div id="" className='page'><h3>Text2</h3> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur minima earum quis ipsam repellendus deserunt distinctio repellat delectus, ea molestias?</p></div> */}
 </div>

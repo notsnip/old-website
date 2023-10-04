@@ -5,14 +5,15 @@ import './Navbar.css'
 
 function Navbar(props) {
   function redirect() {
-    window.location= "https://old.snipc.me";
+    console.log('running')
+    window.location= "http://old.snipc.me";
   }
 
   return (
     // navbar section 
     <div id='navbar'>
-        <span id='mode' target=''><iconify-icon icon="ph:sun" height='1.4em' onclick=''></iconify-icon></span>
-        <span id='mode' target=''><iconify-icon icon="mdi:web" height='1.4em'></iconify-icon></span>
+        <span id='mode' target=''><iconify-icon icon="ph:sun" height='1.4em'></iconify-icon></span>
+        <span id='mode' target=''><iconify-icon icon="mdi:web" height='1.4em'  onClick={redirect}></iconify-icon></span>
         </div>
 )}
 

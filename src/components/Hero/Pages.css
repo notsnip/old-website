@@ -8,19 +8,47 @@
     padding: 0px 10px;
     background-color: var(--secondary-bg-dark);
     cursor: pointer;
-
 }
+
+.page:hover{
+    background-color: var(--tertiary2-background-color);
+    transition: 0.3s;
+}
+
 .page p{
     margin: 2px;
     margin-bottom: 15px;
+    color: var(--text-white);
+    font-size: 16px;
+    color: rgb(204, 202, 202);
 }
 .page h3{
     margin-bottom: 2px;
+    font-size: 15px;
+
 }
 #Repository{
     margin-right: 15px;
 }
 .pages1{
     margin-top: 15em;
+    color: var(--text-white);
 }
 
+
+
+@media only screen and (max-width: 600px) {
+    .pages1{
+        flex-direction: column;
+    }
+    .page{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .page h3{
+        font-size: 15px;
+    }
+    .page p{
+        font-size: 12px;
+    }
+}
