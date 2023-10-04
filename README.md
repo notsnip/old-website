@@ -9,7 +9,8 @@ Currently, there's a lot of work to get ready:
 - [ ] Dark/Light mode toggle
 - [x] Navbar
 - [x] About Me
-- [x] Lanyard Integration
+- [x] Discord status integration (Lanyard)
+- [ ] Spotify Now and listened tracks integration
 - [ ] Tools
 - [ ] Gears
 - [ ] MyAnimeList Integration
