@@ -11,7 +11,7 @@ Currently, there's a lot of work to get ready:
 - [x] About Me
 - [x] Discord status integration (Lanyard)
  - [ ] Spotify and Playing Status
-- [ ] Spotify Now and listened tracks integration
+- [ ] Book Read Section
 - [ ] Tools
 - [ ] Gears
 - [ ] MyAnimeList Integration
