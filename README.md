@@ -22,11 +22,9 @@ Currently, there's a lot of work to get ready:
 - [ ] Shift assets offline from servers
 
 
-### Credits & Inspirations ✨
-**Freepik**
+## Credits & Inspirations ✨
 
-For Light/Dark Mode Icons.
+Thanks a lot to Eggsy (https://eggsy.xyz) to provide inspiration for this project ☁️.
 
-**Eggsy.xyz**
+[Lanyard](https://github.com/Phineas/Lanyard) for a sweet and hassle free Discord status integration 🛠️.
 
-HIGHLY inpired from overall look and features of https://eggsy.xyz
