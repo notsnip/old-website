@@ -63,7 +63,7 @@ function Hero() {
 
 {/* image container */}
 <div className="img">
-  <img src="https://sniarchive.github.io/images/snipc_nobg.png" alt="" />
+  <img src="../../src/assets/snipc_nobg.png" alt="" />
 </div>
 
 
