@@ -1,7 +1,7 @@
 <h1 align='center'>snipc.me (in dev!)</h1>
 
 ![ss](src/assets/ss.png)
-[](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+![](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 
 Currently, there's a lot of work to get ready:
 
