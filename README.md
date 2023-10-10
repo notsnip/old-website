@@ -3,7 +3,7 @@
 ![ss](src/assets/ss.png)
 
 ![](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
-![]([https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB))
+![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 
 Currently, there's a lot of work to get ready:
