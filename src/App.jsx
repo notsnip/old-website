@@ -3,6 +3,7 @@ import { Outlet,Routes,BrowserRouter,Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Contact from './components/Contact/Contact';
+import Anime from './components/Anime/Anime';
 import AnimatedCursor from "react-animated-cursor";
 
 function App(){
@@ -13,6 +14,7 @@ function App(){
     <Navbar/>
     <Routes>
       <Route path='/' element={<Hero/>}/>
+      <Route path='/anime' element={<Anime/>}/>
       <Route path='/contact' element={<Contact/>}/>
       </Routes>
     </>
