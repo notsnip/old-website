@@ -11,14 +11,12 @@ Currently, there's a lot of work to get ready:
 - [x] About Me
 - [x] Discord status integration (Lanyard)
 - [x] Spotify song status (Lanyard)
-- [ ] Book Read Section
-- [ ] Tools
-- [ ] Gears
+- [ ] Tools/Gears Section
 - [ ] MyAnimeList Integration
 - [ ] Github Repo Integration
 
 #### Code Improvement
-- [ ] Shift assets offline from servers
+- [ ] Suggest Me!
 
 
 ## Credits & Inspirations ✨
