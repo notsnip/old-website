@@ -10,7 +10,7 @@ Currently, there's a lot of work to get ready:
 - [x] Navbar
 - [x] About Me
 - [x] Discord status integration (Lanyard)
-- [ ] Spotify song status (Lanyard)
+- [x] Spotify song status (Lanyard)
 - [ ] Book Read Section
 - [ ] Tools
 - [ ] Gears
