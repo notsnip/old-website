@@ -36,17 +36,23 @@
 #Shaurya:hover{
     color: rgb(238, 215, 215);;
 }
+
+/* status circle and spotify icon syling  */
 #circle{
     padding: 0px 10px;
     border-radius: 150px;
 }
+#spotify{
+    display: none;
+    width: 25px;
+}
 
-
-
+/* some space between links  */
 #linkedin{
     margin-left: 20px;
 }
 
+/* link styles  */
 .link{
     border: 2px solid var(--margin-dark);
     padding: 12px 7px;
@@ -77,6 +83,14 @@
      }
      #about{
         width: 100%;
+     }
+     #discord_s{
+        font-size: 10px;
+     }
+     
+     #intro{
+        justify-content: center;
+        align-items: center
      }
 }
 

@@ -1,12 +1,19 @@
-.pages1{
+.pages1,.pages2{
     display: flex;
+}
+.pages1{
+    margin-top: 15em;
+    color: var(--text-white);
+}
+.pages2{
+    margin-top: 15px;
 }
 .page{
     width: 50%;
     border: 1px solid var(--margin-dark);
     border-radius: 8px;
     padding: 0px 10px;
-    background-color: var(--secondary-bg-dark);
+    background-color: rgba(38,38,38,var(--tw-bg-opacity));
     cursor: pointer;
 }
 
@@ -16,30 +23,33 @@
 }
 
 .page p{
-    margin: 2px;
-    margin-bottom: 15px;
-    color: var(--text-white);
+    margin: 1px;
+    margin-bottom: 13px;
     font-size: 16px;
-    color: rgb(204, 202, 202);
+    color: var(--dark-text)
 }
 .page h3{
-    margin-bottom: 2px;
+    margin-bottom: 0px;
     font-size: 15px;
+    margin-top: 15px;
 
 }
-#Repository{
-    margin-right: 15px;
+#first,#third{
+    margin-right: 17px;
 }
-.pages1{
-    margin-top: 15em;
-    color: var(--text-white);
+#second{
+    margin-bottom: 3px;
 }
 
 
 
 @media only screen and (max-width: 600px) {
-    .pages1{
+    .pages1,.pages2{
         flex-direction: column;
+        align-items: center;
+    }
+    #first,#third{
+        margin-right: 0px;
     }
     .page{
         width: 90%;

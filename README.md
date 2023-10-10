@@ -18,7 +18,6 @@ Currently, there's a lot of work to get ready:
 - [ ] Github Repo Integration
 
 #### Code Improvement
-- [ ] Implement props
 - [ ] Shift assets offline from servers
 
 

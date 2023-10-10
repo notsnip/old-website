@@ -11,7 +11,15 @@ function Hero() {
   .then((res) => res.json())
   .then((json) => {
     let data= json.data.discord_status
-    if (data=='offline') {
+    if (json.data.spotify!=null){
+      setStatus(`Listening to${json.data.spotify.song} on Spotify`)
+      document.getElementById('circle').style.display='none'
+      document.getElementById('intro').style.display='flex'
+      document.getElementById('spotify').style.display='inline'
+
+      
+    }
+    else if (data=='offline') {
       setStatus('Offline')
     }
     else if (data=='online'){
@@ -36,7 +44,10 @@ function Hero() {
 <div className="text">
   {/* the text in bracket */}
     <h5 id="intro">
-      <span id="circle" style={stylesObj}></span> &nbsp; {discord_state}
+      <img src="https://www.freeiconspng.com/uploads/spotify-icon-18.png" alt="" id="spotify" />
+      <span id="circle" style={stylesObj}></span> 
+      &nbsp; 
+      <span id='discord_s'>{discord_state}</span>
     </h5>
     {/* name and about me section  */}
     <h1 id='hello'>Hello, I'm <span id='Shaurya'>Shaurya</span></h1>
@@ -44,7 +55,7 @@ function Hero() {
 
     <div id="links">
 
-  <a href="https://github.com/realsnipc" target="_blank"className="link"><iconify-icon icon="line-md:github-loop" className="icon"  height='1em' style={{color:'white'}}></iconify-icon></a>
+  <a href="https://github.com/realsnipc" target="_blank"className="link"><iconify-icon icon="line-md:github-loop" className="icon"  height='1.5em' style={{color:'white'}}></iconify-icon></a>
 
   <a href="https://linkedin.com/in/realshaurya" target="_blank"className="link"  id="linkedin" ><iconify-icon icon="ri:linkedin-fill" height='1.5em'style={{color:'white'}}></iconify-icon></a>
 </div>
@@ -57,12 +68,16 @@ function Hero() {
 
 
 </div>
-<div className="pages1">
 
-  <div id="Repository" className='page'><h3>Repositories (Dummy Button)</h3> <p>View my GitHub repositories and a look of my projects and configs!</p></div>
-  <div id="" className='page'><h3>Anime (Dummy Button)</h3> <p>I love anime and here's some cool anime I'm watching right now.</p></div>
-  {/* <div id="" className='page'><h3>Text2</h3> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur minima earum quis ipsam repellendus deserunt distinctio repellat delectus, ea molestias?</p></div>
-  <div id="" className='page'><h3>Text2</h3> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur minima earum quis ipsam repellendus deserunt distinctio repellat delectus, ea molestias?</p></div> */}
+
+<div className="pages1">
+  
+  <div id="first" className='page'><h3>Repositories</h3> <p>View my GitHub repositories and have a look of my projects and configs!</p></div>
+  <div id="second" className='page'><h3>Anime</h3> <p>I love anime and here's some cool anime I'm watching right now.</p></div>
+</div>
+<div className="pages2">
+  <div id="third" className='page'><h3>Donate</h3> <p>View my GitHub repositories and have a look of my projects and configs!</p></div>
+  <div id="fourth" className='page'><h3>Contact</h3> <p>Wanna Chitchat? Need some help? Or just wanna say hey? React me out.</p></div>
 </div>
 
 </>
