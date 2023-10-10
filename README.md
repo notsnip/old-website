@@ -14,6 +14,7 @@ Currently, there's a lot of work to get ready:
 - [ ] Tools/Gears Section
 - [ ] MyAnimeList Integration
 - [ ] Github Repo Integration
+- [ ] Donate/Pay Section
 
 #### Code Improvement
 - [ ] Suggest Me!
