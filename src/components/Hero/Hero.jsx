@@ -44,7 +44,7 @@ function Hero() {
 <div className="text">
   {/* the text in bracket */}
     <h5 id="intro">
-      <img src="https://www.freeiconspng.com/uploads/spotify-icon-18.png" alt="" id="spotify" />
+      <img src="https://sniarchive.github.io/images/spotify-icon.png" alt="" id="spotify" />
       <span id="circle" style={stylesObj}></span> 
       &nbsp; 
       <span id='discord_s'>{discord_state}</span>
@@ -53,6 +53,8 @@ function Hero() {
     <h1 id='hello'>Hello, I'm <span id='Shaurya'>Shaurya</span></h1>
     <p id='about'>I'm a 14 y/o self-taught hobbyistic frontend developer from India. As a Nerd you may find me as <span id='Shaurya'>snipc</span> online.</p>
 
+
+{/* the social links section  */}
     <div id="links">
 
   <a href="https://github.com/realsnipc" target="_blank"className="link"><iconify-icon icon="line-md:github-loop" className="icon"  height='1.5em' style={{color:'white'}}></iconify-icon></a>
@@ -63,13 +65,13 @@ function Hero() {
 
 {/* image container */}
 <div className="img">
-  <img src="./public/snipc_nobg.png" alt="" />
+  <img src="https://sniarchive.github.io/images/snipc_nobg.png" alt="" />
 </div>
 
 
 </div>
 
-
+{/* pages section  */}
 <div className="pages1">
   
   <div id="first" className='page'><h3>Repositories</h3> <p>View my GitHub repositories and have a look of my projects and configs!</p></div>
