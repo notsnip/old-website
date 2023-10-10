@@ -87,10 +87,13 @@
      #discord_s{
         font-size: 10px;
      }
-     
+
      #intro{
         justify-content: center;
         align-items: center
+     }
+     #spotify{
+        width: 20px;
      }
 }
 

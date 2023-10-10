@@ -12,7 +12,7 @@ function Hero() {
   .then((json) => {
     let data= json.data.discord_status
     if (json.data.spotify!=null){
-      setStatus(`Listening to${json.data.spotify.song} on Spotify`)
+      setStatus(`Listening to '${json.data.spotify.song}'`)
       document.getElementById('circle').style.display='none'
       document.getElementById('intro').style.display='flex'
       document.getElementById('spotify').style.display='inline'
