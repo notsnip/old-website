@@ -40,11 +40,11 @@ function Hero() {
     </h5>
     {/* name and about me section  */}
     <h1 id='hello'>Hello, I'm <span id='Shaurya'>Shaurya</span></h1>
-    <p id='about'>I'm a 14 y/o self-taught hobbyistic frontend developer from India. I'm a Nerd who go by <span id='Shaurya'>snipc</span> online.</p>
+    <p id='about'>I'm a 14 y/o self-taught hobbyistic frontend developer from India. As a Nerd you may find me as <span id='Shaurya'>snipc</span> online.</p>
 
     <div id="links">
 
-  <a href="https://github.com/realsnipc" target="_blank"className="link"><iconify-icon icon="line-md:github-loop" className="icon"  height='1.5em' style={{color:'white'}}></iconify-icon></a>
+  <a href="https://github.com/realsnipc" target="_blank"className="link"><iconify-icon icon="line-md:github-loop" className="icon"  height='1em' style={{color:'white'}}></iconify-icon></a>
 
   <a href="https://linkedin.com/in/realshaurya" target="_blank"className="link"  id="linkedin" ><iconify-icon icon="ri:linkedin-fill" height='1.5em'style={{color:'white'}}></iconify-icon></a>
 </div>
