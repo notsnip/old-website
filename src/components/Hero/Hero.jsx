@@ -78,7 +78,7 @@ function Hero() {
   <div id="first" className='page'>
   <Link to="/repo"  style={{ textDecoration: 'none' }}>
     <h3>Repositories</h3> 
-    <p>View my GitHub repositories and have a look of my projects and configs!</p>
+    <p>View my GitHub repositories and have a look of my projects and archives.</p>
     </Link>
     </div>
 
@@ -97,9 +97,9 @@ function Hero() {
   </Link>
      </div>
   <div id="fourth" className='page'>
-  <Link to="/contact"  style={{ textDecoration: 'none' }}>
-    <h3>Contact</h3> 
-    <p>Wanna Chitchat? Need some help? Or just wanna say hey? React me out.</p>
+  <Link to="/stack"  style={{ textDecoration: 'none' }}>
+    <h3>Stack</h3> 
+    <p>Gears I use to create stuffs.</p>
     </Link>
     </div>
 </div>
