@@ -1,6 +1,7 @@
 import {React,useState} from 'react'
 import './Hero.css'
 import './Pages.css'
+import { Link } from "react-router-dom";
 
 function Hero() {
   const [discord_state,setStatus]= useState('Loading..')
@@ -74,12 +75,33 @@ function Hero() {
 {/* pages section  */}
 <div className="pages1">
   
-  <div id="first" className='page'><h3>Repositories</h3> <p>View my GitHub repositories and have a look of my projects and configs!</p></div>
-  <div id="second" className='page'><h3>Anime</h3> <p>I love anime and here's some cool anime I'm watching right now.</p></div>
+  <div id="first" className='page'>
+  <Link to="/repo"  style={{ textDecoration: 'none' }}>
+    <h3>Repositories</h3> 
+    <p>View my GitHub repositories and have a look of my projects and configs!</p>
+    </Link>
+    </div>
+
+
+  <div id="second" className='page'>
+  <Link to="/anime"  style={{ textDecoration: 'none' }}>
+    <h3>Anime</h3> <p>I love anime and here's some cool anime I'm watching right now.</p>
+  </Link>
+    </div>
 </div>
 <div className="pages2">
-  <div id="third" className='page'><h3>Donate</h3> <p>View my GitHub repositories and have a look of my projects and configs!</p></div>
-  <div id="fourth" className='page'><h3>Contact</h3> <p>Wanna Chitchat? Need some help? Or just wanna say hey? React me out.</p></div>
+  <div id="third" className='page'>
+  <Link to="/donate"  style={{ textDecoration: 'none' }}>
+    <h3>Donate</h3>
+     <p>View my GitHub repositories and have a look of my projects and configs!</p>
+  </Link>
+     </div>
+  <div id="fourth" className='page'>
+  <Link to="/contact"  style={{ textDecoration: 'none' }}>
+    <h3>Contact</h3> 
+    <p>Wanna Chitchat? Need some help? Or just wanna say hey? React me out.</p>
+    </Link>
+    </div>
 </div>
 
 </>
