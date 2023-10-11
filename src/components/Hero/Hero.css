@@ -11,7 +11,8 @@
 
 /* the img and img container  */
 .img{
-    margin-left: 40px;
+    display: flex;
+    justify-content: center;
 }
 .img img{
     height: 250px;
@@ -27,7 +28,6 @@
     margin-bottom: 2px;
     margin-top: 0px;
 }
-
 
 /* "Name" element styling  */
 #Shaurya{
