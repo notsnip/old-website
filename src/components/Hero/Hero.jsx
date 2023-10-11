@@ -93,13 +93,13 @@ function Hero() {
   <div id="third" className='page'>
   <Link to="/donate"  style={{ textDecoration: 'none' }}>
     <h3>Donate</h3>
-     <p>View my GitHub repositories and have a look of my projects and configs!</p>
+     <p>Wanna Support my work? Any amount will contribute and motivate me!</p>
   </Link>
      </div>
   <div id="fourth" className='page'>
   <Link to="/stack"  style={{ textDecoration: 'none' }}>
     <h3>Stack</h3> 
-    <p>Gears I use to create stuffs.</p>
+    <p>Gears I usually use to create some awesome stuffs (or I believe so).  </p>
     </Link>
     </div>
 </div>
