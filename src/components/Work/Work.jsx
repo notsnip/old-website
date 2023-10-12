@@ -16,7 +16,7 @@ function Work() {
 
 {/* projects  */}
  <div className="repo">
-      <img src='../../../src/assets/ss.png' alt="" height='250px' width='500px'/>
+      <img src='https://sniarchive.github.io/images/ss.png' alt="" height='250px' width='500px'/>
       <div id="text">
       <h2>snipc.me</h2>
       <p> Personal website (yep this one!). Everthing is included. Written in React.js with Vite.</p>
