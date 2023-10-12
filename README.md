@@ -6,16 +6,17 @@
 ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 
-Currently, there's a lot of work to get ready:
+Currently, there's a lot of work to get it ready:
 
-- [ ] Dark/Light mode toggle
 - [x] Navbar
 - [x] About Me
 - [x] Discord status integration (Lanyard)
 - [x] Spotify song status (Lanyard)
+- [ ] Dark/Light mode toggle
 - [ ] Tools/Gears Section
+- [ ] Project Section
 - [ ] MyAnimeList Integration
-- [ ] Github Repo Integration
+- [ ] Link click sound
 - [ ] Donate/Pay Section
 
 #### Code Improvement
@@ -27,4 +28,6 @@ Currently, there's a lot of work to get ready:
 Thanks a lot to [Eggsy](https://eggsy.xyz) to provide overall inspiration for this project ☁️.
 
 [Lanyard](https://github.com/Phineas/Lanyard) for a sweet and hassle free Discord status integration 🛠️.
+
+Also, [Iconify](https://iconify.design/) for free and highres icons.
 
