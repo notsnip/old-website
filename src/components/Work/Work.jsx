@@ -36,7 +36,7 @@ function Work() {
       <img src='https://old.snipc.me/img/snipc.png' alt="" height='250px' width='500px'/>
       <div id="text">
       <h2>Personal Homepage</h2>
-      <p> (Old) Personal Homepage. Simple and elegent single framed page.</p>
+      <p> (Old) Personal Homepage. Simple and elegent single framed page. Used to be my main website.</p>
       <p id='link'>
         <a href="https://github.com/realsnipc/old.snipc" target='_blank'>
           <iconify-icon icon="mingcute:github-line" height='1.5em'></iconify-icon></a>
