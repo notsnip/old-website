@@ -44,8 +44,11 @@
 /* moves the project image to right side (for alternate pattern) */
 .right{
     flex-direction: row-reverse;
-}
 
+}
+.right #text{
+    margin-right: 100px;
+}
 /* the project note styles  */
 #note{
    margin-top: 30px;
