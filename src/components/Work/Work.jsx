@@ -1,11 +1,13 @@
 import React from 'react';
 import './Work.css'
 import ss from '../../assets/ss.png'
+import FadeIn from 'react-fade-in';
 
 
 function Work() {
   return (
  <>
+ <FadeIn delay={300}>
 
  {/* the github note  */}
  <div id="note">
@@ -68,6 +70,7 @@ function Work() {
 
     
  </div>
+ </FadeIn>
  </>
   )
 }

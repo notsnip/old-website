@@ -6,9 +6,7 @@ import Contact from './components/Contact/Contact';
 import Anime from './components/Anime/Anime';
 import Work from './components/Work/Work';
 import AnimatedCursor from "react-animated-cursor";
-import ScrollToTop from "./ScrollToTop";
-
-
+import ScrollToTop from './ScrollToTop';
 
 
 function App(){
@@ -16,9 +14,10 @@ function App(){
   return (
     <>
     <AnimatedCursor color='128, 128, 128'/>
-    <ScrollToTop />
     <Navbar/>
+    <ScrollToTop/>
     <Routes>
+
       <Route path='/' element={<Hero/>} />
       <Route path='/anime' element={<Anime/>}/>
       <Route path='/contact' element={<Contact/>}/>
