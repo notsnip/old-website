@@ -1,15 +1,19 @@
+
+/* margin to the container to move it down from hero section  */
 #repos_container{
     margin-top: 20px;
 }
+
+/* repo/project card styling  */
 .repo{
     border-radius: 10px;
     padding: 20px;
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
 }
-#text{
-    margin-left: 40px;
-}
+
+/* styling of para and heading inside project card  */
 .repo p{
     color: var(--dark-text);
 }
@@ -19,4 +23,46 @@
     height: 250px;
     border-radius: 10px;
     border: 1px solid rgb(51, 51, 51);
+}
+.repo p,h2{
+    margin: 0px;
+}
+#link{
+    margin-top: 7px;
+
+}
+#link a{
+    color: rgb(147, 180, 238);
+    margin-right: 5px;
+}
+
+/* moves the text away from the image to the right side  */
+#text{
+    margin-left: 40px;}
+
+
+/* moves the project image to right side (for alternate pattern) */
+.right{
+    flex-direction: row-reverse;
+}
+
+/* the project note styles  */
+#note{
+   margin-top: 30px;
+   border: 1px solid var(--margin-dark);
+   border-radius: 10px;
+   font-size: 7px;
+   display: flex;
+   justify-content: center;
+   color: var(--dark-text);
+}
+#note a{
+    color:grey;
+}
+
+
+/* last updated line  */
+#last_updated{
+    color: var(--dark-text);
+    font-size: 10px;
 }
