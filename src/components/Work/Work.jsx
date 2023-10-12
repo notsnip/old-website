@@ -6,11 +6,15 @@ import ss from '../../assets/ss.png'
 function Work() {
   return (
  <>
+
+ {/* the github note  */}
  <div id="note">
   <h1>Find my newest open-source projects on <a href="https://github.com/realsnipc">GitHub.</a></h1>
  </div>
  <div id="repos_container">
 
+
+{/* projects  */}
  <div className="repo">
       <img src='../../../src/assets/ss.png' alt="" height='250px' width='500px'/>
       <div id="text">
@@ -56,7 +60,7 @@ function Work() {
       </div>
     </div>
 
-
+{/* last updated note  */}
     <div id="last_updated">
       <p>Projects Last Updated: 12 October 2023</p>
     </div>

@@ -66,3 +66,21 @@
     color: var(--dark-text);
     font-size: 10px;
 }
+
+
+/* mobile styling */
+@media only screen and (max-width: 600px) {
+    /* fixes the postion of navbar container  */
+    #note h1{
+        text-align: center;
+        font-size: 12px;
+    }
+    .repo{
+        flex-direction: column;
+    }
+    .repo img{
+        margin-bottom: 20px;
+        width: 300px;
+        height: 150px;
+    }
+  }
