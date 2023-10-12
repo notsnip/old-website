@@ -4,16 +4,16 @@ import './Navbar.css'
 
 
 function Navbar(props) {
-  function redirect(location) {
+  function redirect() {
     console.log('running')
-    window.location= `http://${location}`;
+    window.location= `http://snipc.me`;
   }
 
   return (
     // navbar section 
     <div id='navbar'>
         <span id='mode' target=''><iconify-icon icon="ph:sun" height='1.4em'></iconify-icon></span>
-        <span id='mode' target=''><iconify-icon icon="ic:round-home" height='1.4em'  onClick={redirect('snipc.me')}></iconify-icon></span>
+        <span id='mode' target=''><iconify-icon icon="ic:round-home" height='1.4em'  onClick={redirect}></iconify-icon></span>
         </div>
 )}
 
