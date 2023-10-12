@@ -14,9 +14,9 @@ Currently, there's a lot of work to get it ready:
 - [x] Spotify song status (Lanyard)
 - [ ] Dark/Light mode toggle
 - [ ] Tools/Gears Section
-- [ ] Project Section
+- [x] Project Section
 - [ ] MyAnimeList Integration
-- [ ] Link click sound
+- [x] Link click sound
 - [ ] Donate/Pay Section
 
 #### Code Improvement
