@@ -78,7 +78,7 @@ function Hero() {
   <div id="first" className='page'>
   <Link to="/work"  style={{ textDecoration: 'none' }} preventScrollReset={false}>
     <h3>/work</h3> 
-    <p>View my GitHub repositories and have a look of my projects and archives.</p>
+    <p>View my elegently and stressfully crafted awesome projects and archives.</p>
     </Link>
     </div>
 
