@@ -78,14 +78,14 @@ function Hero() {
   <div id="first" className='page'>
   <Link to="/work"  style={{ textDecoration: 'none' }} preventScrollReset={false}>
     <h3>/work</h3> 
-    <p>View my elegently and stressfully crafted awesome projects and archives.</p>
+    <p>View my elegently crafted open-source and other awesome projects.</p>
     </Link>
     </div>
 
 
   <div id="second" className='page'>
   <Link to="/anime"  style={{ textDecoration: 'none' }}>
-    <h3>/anime</h3> <p>I love anime and here's some cool anime I'm watching right now.</p>
+    <h3>/anime</h3> <p>The animes that I'm currently watching that make me feel like I can do anything.</p>
   </Link>
     </div>
 </div>
@@ -93,13 +93,13 @@ function Hero() {
   <div id="third" className='page'>
   <Link to="/donate"  style={{ textDecoration: 'none' }}>
     <h3>/donate</h3>
-     <p>Wanna Support my work? Any amount will contribute and motivate me!</p>
+     <p>Support my work to help me create something that will blow people's minds!</p>
   </Link>
      </div>
   <div id="fourth" className='page'>
   <Link to="/stack"  style={{ textDecoration: 'none' }}>
     <h3>/stack</h3> 
-    <p>Gears I usually use to create some awesome stuffs (or I believe so).  </p>
+    <p>The tools that make me look like a genius (even though I'm not). </p>
     </Link>
     </div>
 </div>

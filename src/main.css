@@ -6,13 +6,13 @@
 /* main colors  */
 :root {
     --bg-dark: rgb(23,23,23);
-    --margin-dark: #3b3a3a;
+    --margin-dark: #242424;
     --secondary-bg-dark: rgba(38,38,38,.3);
     --special-text: rgb(214, 187, 187);
     --tertiary-background-color: #232325;
     --tertiary2-background-color: #181818;
     --text-white: bab4b4;
-    --dark-text: rgb(141, 140, 140);
+    --dark-text: rgb(102, 102, 102);
     --tw-bg-opacity: 0.3;
 }
 

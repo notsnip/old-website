@@ -21,7 +21,7 @@ function Work() {
       <img src='https://sniarchive.github.io/images/ss.png' alt="" height='250px' width='500px'/>
       <div id="text">
       <h2>snipc.me</h2>
-      <p> Personal website (yep this one!). Everthing is included. Written in React.js with Vite.</p>
+      <p> Personal Website (yep this one!). Packed with custom made components . Written in React.js with Vite.</p>
       <p id='link'>
         <a href="https://github.com/realsnipc/snipc.me" target='_blank'>
           <iconify-icon icon="mingcute:github-line" height='1.5em'></iconify-icon></a>
@@ -36,7 +36,7 @@ function Work() {
       <img src='https://old.snipc.me/img/snipc.png' alt="" height='250px' width='500px'/>
       <div id="text">
       <h2>Personal Homepage</h2>
-      <p> (Old) Personal Homepage. Simple and elegent single framed page. Used to be my main website.</p>
+      <p> (Old) Personal Homepage. Simple and elegent single framed page. Used to be my homepage.</p>
       <p id='link'>
         <a href="https://github.com/realsnipc/old.snipc" target='_blank'>
           <iconify-icon icon="mingcute:github-line" height='1.5em'></iconify-icon></a>
@@ -64,7 +64,7 @@ function Work() {
 
 {/* last updated note  */}
     <div id="last_updated">
-      <p>Projects Last Updated: 12 October 2023</p>
+      <p>Projects Last Updated: 13 October 2023</p>
     </div>
 
 

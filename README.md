@@ -16,7 +16,7 @@ Currently, there's a lot of work to get it ready:
 - [ ] Tools/Gears Section
 - [x] Project Section
 - [ ] MyAnimeList Integration
-- [x] Link click sound
+- [x] Click sound
 - [ ] Donate/Pay Section
 
 #### Code Improvement
