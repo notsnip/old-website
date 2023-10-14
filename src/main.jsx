@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './main.css'
 import { BrowserRouter as Router, HashRouter, Route, createBrowserRouter,RouterProvider, BrowserRouter} from 'react-router-dom';
-import Contact from './components/Contact/Contact.jsx';
 import Hero from './components/Hero/Hero.jsx';
 import FadeIn from 'react-fade-in';
 

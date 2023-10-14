@@ -52,7 +52,7 @@ function Hero() {
     </h5>
     {/* name and about me section  */}
     <h1 id='hello'>Hello, I'm <span id='Shaurya'>Shaurya</span></h1>
-    <p id='about'>I'm a 14 y/o self-taught hobbyistic frontend developer from India. As a nerd you may find me as <span id='Shaurya'>snipc</span> online.</p>
+    <p id='about'>I'm a 14 y/o self-taught fullstack developer from India. I'm a nerd so you may find me as <span id='Shaurya'>snipc</span> online.</p>
 
 
 {/* the social links section  */}
@@ -93,7 +93,7 @@ function Hero() {
   <div id="third" className='page'>
   <Link to="/donate"  style={{ textDecoration: 'none' }}>
     <h3>/donate</h3>
-     <p>Support my work to help me create something that will blow people's minds!</p>
+     <p>Support my work to help me create something that will blow up people's minds!</p>
   </Link>
      </div>
   <div id="fourth" className='page'>
@@ -103,6 +103,9 @@ function Hero() {
     </Link>
     </div>
 </div>
+
+
+div#
 
 </>
   )

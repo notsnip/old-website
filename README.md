@@ -29,5 +29,5 @@ Thanks a lot to [Eggsy](https://eggsy.xyz) to provide overall inspiration for th
 
 [Lanyard](https://github.com/Phineas/Lanyard) for a sweet and hassle free Discord status integration 🛠️.
 
-Also, [Iconify](https://iconify.design/) for free and highres icons.
+Also, [Iconify](https://iconify.design/) for free and high-res icons.
 
