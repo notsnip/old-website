@@ -1,23 +1,32 @@
 import {React,useState} from 'react'
-import './Hero.css'
-import './Pages.css'
 import { Link } from "react-router-dom";
 
+// main css 
+import './Hero.css'
+// 'pages' area css 
+import './Pages.css'
+// Learning & Contact section 
+import './Others.css'
+
+
 function Hero() {
+
   const [discord_state,setStatus]= useState('Loading..')
+
   var stylesObj = {
     backgroundColor: 'grey',
   };
+  // fetch discord data from Lanyard 
   fetch("https://api.lanyard.rest/v1/users/1019641343875760350")
   .then((res) => res.json())
   .then((json) => {
     let data= json.data.discord_status
+    // Conditions respective to data recieved
     if (json.data.spotify!=null){
       setStatus(`Listening to ${json.data.spotify.song}`)
       document.getElementById('circle').style.display='none'
       document.getElementById('intro').style.display='flex'
       document.getElementById('spotify').style.display='inline'
-
       
     }
     else if (data=='offline') {
@@ -72,7 +81,7 @@ function Hero() {
 
 </div>
 
-{/* pages section  */}
+{/* pages1 section (work & anime)  */}
 <div className="pages1">
   
   <div id="first" className='page'>
@@ -83,19 +92,23 @@ function Hero() {
     </div>
 
 
-  <div id="second" className='page'>
+    <div id="second" className='page'>
   <Link to="/anime"  style={{ textDecoration: 'none' }}>
     <h3>/anime</h3> <p>The animes that I'm currently watching that make me feel like I can do anything.</p>
   </Link>
     </div>
 </div>
+{/* page2 secion (donate and stack)  */}
 <div className="pages2">
+
+  {/* /donate  */}
   <div id="third" className='page'>
   <Link to="/donate"  style={{ textDecoration: 'none' }}>
     <h3>/donate</h3>
      <p>Support my work to help me create something that will blow up people's minds!</p>
   </Link>
      </div>
+    {/* /stack   */}
   <div id="fourth" className='page'>
   <Link to="/stack"  style={{ textDecoration: 'none' }}>
     <h3>/stack</h3> 
@@ -103,6 +116,47 @@ function Hero() {
     </Link>
     </div>
 </div>
+<div id="others">
+
+  {/* learning section  */}
+  <div id="learning">
+    <h5>WHAT I DO</h5>
+    <div className="item">
+    <h6><iconify-icon icon="gg:website" height='1.5rem'></iconify-icon></h6>
+      <p>Frontend</p>
+    </div>
+    <div className="item">
+    <h6><iconify-icon icon="solar:server-bold" height='1.5rem'></iconify-icon></h6>
+      <p>Backend (little bit)</p>
+    </div>
+    <div className="item">
+    <h6><iconify-icon icon="simple-icons:linux" height='1.5rem'></iconify-icon></h6>
+      <p>Linux Systems</p>
+    </div>
+  </div>
+
+  <div id="contact">
+  <h5>SOCIAL</h5>
+  <div className="item" onClick={()=>{window.location= "https://discord.com/users/1019641343875760350"}}>
+    <h6><iconify-icon icon="ic:baseline-discord" height='1.5rem' className='social_icon'></iconify-icon></h6>
+      <p>snipc</p>
+    </div>
+    <div className="item" onClick={()=>{window.location= "https://linkedin.com/in/realshaurya"}}>
+    <h6><iconify-icon icon="mdi:linkedin" height='1.5rem'></iconify-icon></h6>
+      <p>realshaurya</p>
+    </div>
+    <div className="item" onClick={()=>{window.location= "https://github.com/realsnipc"}}>
+    <h6><iconify-icon icon="mingcute:github-fill" height='1.5rem'></iconify-icon></h6>
+      <p>realsnipc</p>
+    </div>
+    <div className="item" onClick={()=>{window.location= "mailto:hello@snipc.me"}}>
+    <h6><iconify-icon icon="dashicons:email" height='1.5rem'></iconify-icon></h6>
+      <p>hey@snipc.me</p>
+    </div>
+  </div>
+</div>
+
+
 
 </>
   )

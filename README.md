@@ -1,4 +1,4 @@
-<h1 align='center'>snipc.me (in dev!)</h1>
+<h1 align='center'>snipc (in dev!)</h1>
 
 ![ss](src/assets/ss.png)
 

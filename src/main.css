@@ -11,7 +11,7 @@
     --special-text: rgb(214, 187, 187);
     --tertiary-background-color: #232325;
     --tertiary2-background-color: #181818;
-    --text-white: bab4b4;
+    --text-white: rgb(224, 224, 224);
     --dark-text: rgb(102, 102, 102);
     --tw-bg-opacity: 0.3;
 }
@@ -21,7 +21,6 @@
 html{
     background-color: var(--bg-dark);
     color: white;
-
     display: flex;
     justify-content: center;
 }
