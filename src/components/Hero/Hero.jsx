@@ -2,7 +2,6 @@ import {React,useState} from 'react'
 import './Hero.css'
 import './Pages.css'
 import { Link } from "react-router-dom";
-import help from 'nodemon/lib/help';
 
 function Hero() {
   const [discord_state,setStatus]= useState('Loading..')
