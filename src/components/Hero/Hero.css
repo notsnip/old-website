@@ -1,6 +1,7 @@
 /* made the about section narrow to not take up img's space  */
 #about{
     width: 70%;
+    color: var(--text-white);
 }
 
 /* the main container */
@@ -22,10 +23,13 @@
 #hello{
     font-size: 55px;
     margin: 0px;
+    color: var(--text-white);
 }
 #intro{
     font-size: 15px;
     margin-bottom: 2px;
+    color: var(--text-white);
+
     /* margin-top: 0px; */
 }
 

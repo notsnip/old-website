@@ -122,36 +122,50 @@ function Hero() {
   <div id="learning">
     <h5>WHAT I DO</h5>
     <div className="item">
+    <span id="item_container">
     <h6><iconify-icon icon="gg:website" height='1.5rem'></iconify-icon></h6>
       <p>Frontend</p>
+      </span>
     </div>
     <div className="item">
+    <span id="item_container">
     <h6><iconify-icon icon="solar:server-bold" height='1.5rem'></iconify-icon></h6>
       <p>Backend (little bit)</p>
+      </span>
     </div>
     <div className="item">
+    <span id="item_container">
     <h6><iconify-icon icon="simple-icons:linux" height='1.5rem'></iconify-icon></h6>
       <p>Linux Systems</p>
+      </span>
     </div>
   </div>
 
   <div id="contact">
   <h5>SOCIAL</h5>
   <div className="item" onClick={()=>{window.location= "https://discord.com/users/1019641343875760350"}}>
+    <span id="item_container">
     <h6><iconify-icon icon="ic:baseline-discord" height='1.5rem' className='social_icon'></iconify-icon></h6>
       <p>snipc</p>
+      </span>
     </div>
     <div className="item" onClick={()=>{window.location= "https://linkedin.com/in/realshaurya"}}>
+    <span id="item_container">
     <h6><iconify-icon icon="mdi:linkedin" height='1.5rem'></iconify-icon></h6>
       <p>realshaurya</p>
+      </span>
     </div>
     <div className="item" onClick={()=>{window.location= "https://github.com/realsnipc"}}>
+    <span id="item_container">
     <h6><iconify-icon icon="mingcute:github-fill" height='1.5rem'></iconify-icon></h6>
       <p>realsnipc</p>
+      </span>
     </div>
     <div className="item" onClick={()=>{window.location= "mailto:hello@snipc.me"}}>
+    <span id="item_container">
     <h6><iconify-icon icon="dashicons:email" height='1.5rem'></iconify-icon></h6>
       <p>hey@snipc.me</p>
+      </span>
     </div>
   </div>
 </div>
