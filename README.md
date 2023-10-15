@@ -6,7 +6,7 @@
 ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 
-Currently, there's a lot of work to get it ready:
+To Do and Improvement:
 
 - [x] Navbar
 - [x] About Me
@@ -18,10 +18,7 @@ Currently, there's a lot of work to get it ready:
 - [ ] MyAnimeList Integration
 - [x] Click sound
 - [ ] Donate/Pay Section
-
-#### Code Improvement
-- [ ] Suggest Me!
-
+- [ ]  Proper Layout
 
 ## Credits & Inspirations ✨
 
