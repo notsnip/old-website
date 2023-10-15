@@ -13,7 +13,7 @@ To Do and Improvement:
 - [x] Discord status integration (Lanyard)
 - [x] Spotify song status (Lanyard)
 - [ ] Dark/Light mode toggle
-- [ ] Setup home button route
+- [x] Setup home button route
 - [ ] Tools/Gears Section
 - [ ] Footer
 - [x] Project Section

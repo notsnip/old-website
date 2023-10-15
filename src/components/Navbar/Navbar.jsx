@@ -6,7 +6,7 @@ import './Navbar.css'
 function Navbar(props) {
   function redirect() {
     console.log('running')
-    window.location= `http://snipc.me`;
+    window.location= `/`;
   }
 
   return (
