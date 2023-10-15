@@ -3,7 +3,6 @@ import './Hero.css'
 import './Pages.css'
 import { Link } from "react-router-dom";
 import help from 'nodemon/lib/help';
-import './Contact.css'
 
 function Hero() {
   const [discord_state,setStatus]= useState('Loading..')
@@ -104,21 +103,6 @@ function Hero() {
     <p>The tools that make me look like a genius (even though I'm not). </p>
     </Link>
     </div>
-</div>
-
-
-<div id="contact">
-
-<iconify-icon icon="fluent:contact-card-16-filled" height='10em' style={{color: '#b3bdb6;'}}></iconify-icon>
-
-<div id="text_section">
-  <div className="social">
-    <h3>Discord</h3>
-    <p>snipc</p>
-  </div>
-  <div className="social"></div>
-  <div className="social"></div>
-</div>
 </div>
 
 </>
