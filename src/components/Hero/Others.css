@@ -5,9 +5,9 @@
 #contact{
     margin-left: 12em;
 }
-#learning{
+/* #learning{
     margin-left: 5rem;
-}
+} */
 #learning h5, #contact h5{
     margin-bottom: 2px;
     margin-left: 5px;
@@ -48,12 +48,15 @@
 .item{
     display: flex;
     align-items: center;
+    width: 147%;
+    margin-right: 32px;
+    transition: 0.3s;
 }
 #item_container{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 13px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -73,6 +76,7 @@
         align-items: center;
     }
     .item{
+        margin-right: 0px;
         width: 90%;
         margin-bottom: 7px;
     }

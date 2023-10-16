@@ -130,13 +130,13 @@ function Hero() {
     <div className="item">
     <span id="item_container">
     <h6><iconify-icon icon="solar:server-bold" height='1.5rem'></iconify-icon></h6>
-      <p>Backend (little bit)</p>
+      <p>Backend</p>
       </span>
     </div>
     <div className="item">
     <span id="item_container">
     <h6><iconify-icon icon="simple-icons:linux" height='1.5rem'></iconify-icon></h6>
-      <p>Linux Systems</p>
+      <p>Break Systems</p>
       </span>
     </div>
   </div>

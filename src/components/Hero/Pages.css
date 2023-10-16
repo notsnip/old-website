@@ -19,7 +19,7 @@
 }
 
 .page:hover{
-    background-color: var(--tertiary2-background-color);
+    background-color: var(--tertiary-background-color);
     transition: 0.3s;
 }
 
@@ -28,6 +28,7 @@
     margin-bottom: 13px;
     font-size: 16px;
     color: var(--dark-text);
+    padding-top: 7px;
 
 
 }
@@ -36,6 +37,7 @@
     font-size: 15px;
     margin-top: 15px;
     color: var(--text-white);
+    padding-bottom: 5px;
     
 
 }
