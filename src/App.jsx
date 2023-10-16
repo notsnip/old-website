@@ -41,7 +41,7 @@ function App(){
       <Route path='/' element={<Hero/>} />
       <Route path='/anime' element={<Anime/>}/>
       <Route path='/work' element={<Work/>}/>
-
+      </Routes>
       {/* default footer on every route  */}
       <Footer/>
 
