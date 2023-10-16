@@ -6,9 +6,10 @@ import Anime from './components/Anime/Anime';
 import Work from './components/Work/Work';
 import Footer from './components/Footer/Footer';
 import AnimatedCursor from "react-animated-cursor";
-import ScrollToTop from '../scripts/ScrollToTop';
+import ToTop from '../scripts/ToTop';
 import sound from './sound.mp3'
 import FadeIn from 'react-fade-in';
+import ScrollToTop from "react-scroll-to-top";
 
 
 function App(){
@@ -28,15 +29,18 @@ function App(){
     {/* default navbar in every route  */}
     <Navbar/>
 
-    {/* scroll to top script which shift the page to top when user visit a route  */}
-    <ScrollToTop/>
+    {/* scroll to top script which shift the page to top when user visit a route (this is script not button) */}
+    <ToTop/>
+    {/* scroll to top button  */}
+    <ScrollToTop smooth style={{width:'30px'}}/>
+
+
 
     {/* routes setup */}
     <Routes>
       <Route path='/' element={<Hero/>} />
       <Route path='/anime' element={<Anime/>}/>
       <Route path='/work' element={<Work/>}/>
-      </Routes>
 
       {/* default footer on every route  */}
       <Footer/>
