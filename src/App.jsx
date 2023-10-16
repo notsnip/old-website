@@ -9,7 +9,6 @@ import AnimatedCursor from "react-animated-cursor";
 import ToTop from '../scripts/ToTop';
 import sound from './sound.mp3'
 import FadeIn from 'react-fade-in';
-import ScrollToTop from "react-scroll-to-top";
 
 
 function App(){
