@@ -30,8 +30,6 @@ function App(){
 
     {/* scroll to top script which shift the page to top when user visit a route (this is script not button) */}
     <ToTop/>
-    {/* scroll to top button  */}
-    <ScrollToTop smooth style={{width:'30px'}}/>
 
 
 
