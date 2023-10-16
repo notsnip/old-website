@@ -20,7 +20,6 @@ To Do and Improvement:
 - [ ] MyAnimeList Integration (anime section)
 - [x] Click sound
 - [ ] Donate/Pay Section
-- [ ] Scroll to top button
 - [x] Proper Layout
 
 ## Credits & Inspirations ✨
