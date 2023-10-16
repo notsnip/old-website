@@ -12,15 +12,14 @@ To Do and Improvement:
 - [x] About Me
 - [x] Discord status integration (Lanyard)
 - [x] Spotify song status (Lanyard)
-- [ ] Dark/Light mode toggle
-- [x] Setup home button route
-- [ ] Tools/Gears Section
-- [ ] Footer
 - [x] Project Section
+- [x] Sound on click
+- [ ] Dark/Light mode toggle
+- [ ] Tools/Gears Section
 - [ ] MyAnimeList Integration (anime section)
-- [x] Click sound
 - [ ] Donate/Pay Section
-- [x] Proper Layout
+- [ ] 404 page
+- [ ] Footer
 
 ## Credits & Inspirations ✨
 
