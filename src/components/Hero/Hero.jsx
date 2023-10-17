@@ -9,7 +9,7 @@ import './Pages.css'
 import './Others.css'
 
 
-function Hero() {
+function Hero(props) {
 
   const [discord_state,setStatus]= useState('Loading..')
 
@@ -61,7 +61,7 @@ function Hero() {
     </h5>
     {/* name and about me section  */}
     <h1 id='hello'>Hello, I'm <span id='Shaurya'>Shaurya</span></h1>
-    <p id='about'>I'm a 14 y/o self-taught fullstack developer from India. I'm a nerd so you may find me as <span id='Shaurya'>snipc</span> online.</p>
+    <p id='about'>I'm a {props.age} y/o self-taught {props.developer} developer from India. I'm a nerd so you may find me as <span id='Shaurya'>{props.nerd_name}</span> online.</p>
 
 
 {/* the social links section  */}
@@ -146,25 +146,25 @@ function Hero() {
   <div className="item" onClick={()=>{window.location= "https://discord.com/users/1019641343875760350"}}>
     <span id="item_container">
     <h6><iconify-icon icon="ic:baseline-discord" height='1.5rem' className='social_icon'></iconify-icon></h6>
-      <p>snipc</p>
+      <p>{props.discord}</p>
       </span>
     </div>
-    <div className="item" onClick={()=>{window.location= "https://linkedin.com/in/realshaurya"}}>
+    <div className="item" onClick={()=>{window.location= `https://linkedin.com/in/${props.linkedin}`}}>
     <span id="item_container">
     <h6><iconify-icon icon="mdi:linkedin" height='1.5rem'></iconify-icon></h6>
-      <p>realshaurya</p>
+      <p>{props.linkedin}</p>
       </span>
     </div>
-    <div className="item" onClick={()=>{window.location= "https://github.com/realsnipc"}}>
+    <div className="item" onClick={()=>{window.location= `https://github.com/${props.github}`}}>
     <span id="item_container">
     <h6><iconify-icon icon="mingcute:github-fill" height='1.5rem'></iconify-icon></h6>
-      <p>realsnipc</p>
+      <p>{props.github}</p>
       </span>
     </div>
-    <div className="item" onClick={()=>{window.location= "mailto:hello@snipc.me"}}>
+    <div className="item" onClick={()=>{window.location= `mailto:${props.email}`}}>
     <span id="item_container">
     <h6><iconify-icon icon="dashicons:email" height='1.5rem'></iconify-icon></h6>
-      <p>hey@snipc.me</p>
+      <p>{props.email}</p>
       </span>
     </div>
   </div>

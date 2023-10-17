@@ -35,8 +35,14 @@ function App(){
 
     {/* routes setup */}
     <Routes>
-      <Route path='/' element={<Hero/>} />
+
+      {/* home route (i have given value in props to age and social links here )  */}
+      <Route path='/' element={<Hero age='14' developer='fullstack' nerd_name='snipc' discord='snipc' linkedin='realshaurya' github='realsnipc' email='hey@snipc.me'/>} />
+
+      {/* the anime section  */}
       <Route path='/anime' element={<Anime/>}/>
+
+      {/* projects section  */}
       <Route path='/work' element={<Work/>}/>
       </Routes>
       {/* footer (on every route) with text and project_link props */}
