@@ -1,5 +1,19 @@
-/* #footer{
-    background-color: var(--tertiary-background-color);
-    height: 10px;
-    width: 100%;
-} */
+#footer{
+    margin-top: 13vh;
+    display: flex;
+    justify-content: center;
+    opacity: 0.4;
+}
+#icon{
+    margin: 0px;
+    margin-top: 2px;
+
+}
+#text{
+    margin-left: 5px;
+    color: var(--dark-text);
+}
+#link{
+    display: flex;
+    text-decoration: none;
+}

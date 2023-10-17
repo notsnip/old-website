@@ -20,6 +20,7 @@ To Do and Improvement:
 - [ ] Donate/Pay Section
 - [ ] 404 page
 - [ ] Footer
+- [ ] Implement props
 
 ## Credits & Inspirations ✨
 

@@ -39,8 +39,8 @@ function App(){
       <Route path='/anime' element={<Anime/>}/>
       <Route path='/work' element={<Work/>}/>
       </Routes>
-      {/* default footer on every route  */}
-      <Footer/>
+      {/* footer (on every route) with text and project_link props */}
+      <Footer text='snipc' project_link='https://github.com/realsnipc/snipc.me'/>
 
       </div>
       </FadeIn>
