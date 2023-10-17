@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+#recently_updated_anime{
+    display: flex;
+}
+.anime{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px
+}
+.anime span,#count{
+    font-family: 'Gabarito', sans-serif;
+}
+.anime span{
+    font-size: 15px;
+    overflow-wrap: break-word;
+    color: var(--dark-text);
+}
+.anime #count{
+    font-size: 10px;
+}
+.anime img{
+    height: 250px;
+    width:  180px;
+    border-radius: 5px;
+}
+
+#name{
+    margin-top: 10px;
+}
+
+h5{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 20px;
+}
+
+/* mobile styling */
+@media only screen and (max-width: 600px) {
+    #recently_updated_anime{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .anime{
+        margin-bottom: 20px;
+    }
+
+}
