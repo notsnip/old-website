@@ -37,8 +37,9 @@
 }
 
 /* moves the text away from the image to the right side  */
-#text{
-    margin-left: 40px;}
+#info_text{
+    margin-left: 90px;
+}
 
 
 /* moves the project image to right side (for alternate pattern) */
@@ -46,7 +47,7 @@
     flex-direction: row-reverse;
 
 }
-.right #text{
+.right #info_text{
     margin-right: 50px;
 }
 /* the project note styles  */
