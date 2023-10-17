@@ -19,7 +19,7 @@ To Do and Improvement:
 - [ ] MyAnimeList Integration (anime section)
 - [ ] Donate/Pay Section
 - [ ] 404 page
-- [ ] Footer
+- [x] Footer
 - [ ] Implement props
 
 ## Credits & Inspirations ✨
