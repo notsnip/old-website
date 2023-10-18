@@ -17,12 +17,11 @@
 }
 
 * {
-    -webkit-touch-callout: none; /* No text selection on iOS Safari */
-    -webkit-user-select: none; /* No text selection on Safari */
-    -khtml-user-select: none; /* No text selection on Konqueror HTML */
-    -moz-user-select: none; /* No text selection on older Firefox versions */
-    -ms-user-select: none; /* No text selection on Internet Explorer/Edge */
-    user-select: none; /* No text selection on modern browsers like Chrome, Edge, Opera, and Firefox */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
   }
 
 /* change default bg to dark and display flex  */
