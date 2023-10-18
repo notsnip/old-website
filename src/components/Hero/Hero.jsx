@@ -103,18 +103,18 @@ function Hero(props) {
 
   {/* /donate  */}
   <div id="third" className='page'>
-  <Link to="/donate"  style={{ textDecoration: 'none' }}>
+  <Link to="https://buymeacoffee.com/snipc"  style={{ textDecoration: 'none' }} target='_blank'>
     <h3>donate</h3>
      <p>Support my work to help me create something that will blow up people's minds!</p>
   </Link>
      </div>
     {/* /stack   */}
-  <div id="fourth" className='page'>
+  {/* <div id="fourth" className='page'>
   <Link to="/stack"  style={{ textDecoration: 'none' }}>
     <h3>stack</h3> 
     <p>The tools that make me look like a genius (even though I'm not). </p>
     </Link>
-    </div>
+    </div> */}
 </div>
 <div id="others">
 
@@ -135,8 +135,8 @@ function Hero(props) {
     </div>
     <div className="item">
     <span id="item_container">
-    <h6><iconify-icon icon="simple-icons:linux" height='1.5rem'></iconify-icon></h6>
-      <p>Break Systems</p>
+    <h6><iconify-icon icon="solar:tv-bold-duotone" height='1.5rem'></iconify-icon></h6>
+      <p>Watch Animes</p>
       </span>
     </div>
   </div>

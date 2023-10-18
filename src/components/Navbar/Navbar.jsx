@@ -8,12 +8,15 @@ function Navbar(props) {
     console.log('running')
     window.location= `/`;
   }
+  function tooglemode(){
+    alert("DARK MODE SUPREMACYY! ( i'll do it later)")
+  }
 
   return (
     // navbar section 
     <div id='navbar'>
-        <span id='mode' target=''><iconify-icon icon="ph:sun" height='1.4em'></iconify-icon></span>
-        <span id='mode' target=''><iconify-icon icon="ic:round-home" height='1.4em'  onClick={redirect}></iconify-icon></span>
+        <span id='mode' target='' onClick={tooglemode}><iconify-icon icon="ph:sun" height='1.4em'></iconify-icon></span>
+        <span id='mode' target='' onClick={redirect}><iconify-icon icon="ic:round-home" height='1.4em'></iconify-icon></span>
         </div>
 )}
 

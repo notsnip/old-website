@@ -1,4 +1,4 @@
-<h1 align='center'>snipc (in dev!)</h1>
+<h1 align='center'>snipc (.me)</h1>
 
 ![ss](src/assets/ss.png)
 
@@ -6,21 +6,11 @@
 ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 
-To Do and Improvement:
+To Do:
 
-- [x] Navbar
-- [x] About Me
-- [x] Discord status integration (Lanyard)
-- [x] Spotify song status (Lanyard)
-- [x] Project Section
-- [x] Sound on click
-- [ ] Dark/Light mode toggle
-- [ ] Tools/Gears Section
-- [ ] MyAnimeList Integration (anime section)
-- [ ] Donate/Pay Section
-- [ ] 404 page
-- [x] Footer
-- [ ] Implement props
+- [ ] Donate/Pay section
+- [ ] Fix light mode button
+- [ ] Rewrite and design anime section
 
 ## Credits & Inspirations ✨
 
