@@ -2,12 +2,6 @@
     margin-top: 5em;
     display: flex;
 }
-#contact{
-    margin-left: 12em;
-}
-/* #learning{
-    margin-left: 5rem;
-} */
 #learning h5, #contact h5{
     margin-bottom: 2px;
     margin-left: 5px;
@@ -48,9 +42,10 @@
 .item{
     display: flex;
     align-items: center;
-    width: 147%;
-    margin-right: 32px;
+    width:30.5rem;
+    margin-right: 15px;
     transition: 0.3s;
+    padding: 0px 10px;
 }
 #item_container{
     display: flex;
@@ -77,7 +72,14 @@
     }
     .item{
         margin-right: 0px;
-        width: 90%;
+        width: 85%;
         margin-bottom: 7px;
+
     }
 }
+ /* Media Query for Tablets Ipads portrait mode */ 
+ @media (min-width: 600px) and (max-width: 1024px){ 
+    .item{
+        width: 200px;
+    }
+} 

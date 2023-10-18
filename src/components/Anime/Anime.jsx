@@ -38,7 +38,7 @@ function Anime() {
   })
   return (
     <>
-    <FadeIn delay={1500}>
+<FadeIn delay={500}>
     <h5>Recently Updated</h5>
       <div id="recently_updated_anime">
         <div className="anime">

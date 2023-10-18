@@ -9,7 +9,7 @@ function Navbar(props) {
     window.location= `/`;
   }
   function tooglemode(){
-    alert("DARK MODE SUPREMACYY! ( i'll do it later)")
+    alert("Sorry, I'm busy. I'll code it later.")
   }
 
   return (
