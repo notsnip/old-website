@@ -14,10 +14,7 @@ function Work() {
  <>
  <FadeIn delay={300}>
 
- {/* the github note  */}
- <div id="note">
-  <h1>Find my other open-source projects on <a href="https://github.com/realsnipc">GitHub.</a></h1>
- </div>
+
  <div id="repos_container">
 
 
@@ -26,7 +23,7 @@ function Work() {
       <img src={snipc_me} alt="" height='250px' width='500px'/>
       <div id="info_text">
       <h2>snipc.me</h2>
-      <p> All new personal website(this one). Packed with custom made components like Anime, Donate, Stack Components. Written in React.js with Vite.</p>
+      <p> My personal website, built with React.js, Vite and &gt;3!</p>
       <p id='link'>
         <a href="https://github.com/realsnipc/snipc.me" target='_blank'>
           <iconify-icon icon="mingcute:github-line" height='1.5em'></iconify-icon></a>
@@ -40,8 +37,8 @@ function Work() {
     <div className="repo right">
       <img src={old_snipc} alt="" height='250px' width='500px'/>
       <div id="info_text">
-      <h2>Personal Homepage</h2>
-      <p> (Old) Personal Homepage. Simple and elegent single framed page. Used to be my homepage.</p>
+      <h2>Old Homepage</h2>
+      <p> A single framed page with links to my socials. Used to be my homepage</p>
       <p id='link'>
         <a href="https://github.com/realsnipc/old.snipc" target='_blank'>
           <iconify-icon icon="mingcute:github-line" height='1.5em'></iconify-icon></a>
@@ -65,7 +62,12 @@ function Work() {
         </a>
         </p>
       </div>
+
     </div>
+           {/* the github note  */}
+           <div id="note">
+  <h1>Find my other open-source projects on <a href="https://github.com/realsnipc">GitHub</a></h1>
+ </div>
 
 
     
