@@ -11,6 +11,8 @@ To Do:
 - [ ] Donate/Pay section
 - [ ] Fix light mode button
 - [ ] Rewrite and design anime section
+- [ ] Stack Section
+- [ ] 404 Page
 
 ## Credits & Inspirations ✨
 
