@@ -55,6 +55,9 @@
 #linkedin{
     margin-left: 20px;
 }
+html{
+    background-color: var(--bg-dark);
+}
 
 /* link styles  */
 .link{

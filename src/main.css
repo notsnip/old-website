@@ -1,6 +1,6 @@
 /* this is the main css file with universal styling  */
 
-/* popping and work sans fonts  */
+/* poppin and work sans fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Poppins&display=swap');
 
 /* main colors  */
@@ -26,7 +26,7 @@
 
 /* change default bg to dark and display flex  */
 html{
-    background-color: var(--bg-dark);
+    /* background-color: var(--bg-dark); */
     color: white;
     display: flex;
     justify-content: center;
@@ -60,13 +60,6 @@ html ::-webkit-scrollbar {
     
 }
 
-html {
-    --cursor-color: #333
-  }
-  
-  html.dark-mode {
-    --cursor-color: #fff
-  }
 /* for mobile folks */
 @media only screen and (max-width: 600px) {
     body{

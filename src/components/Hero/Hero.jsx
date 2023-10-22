@@ -50,9 +50,13 @@ function Hero(props) {
   })
   return (
 <>
-<div className="container">
+
+
+  
+
+<div className="container"  data-theme={props.w_theme} >
   {/* here comes the text container  */}
-<div className="text">
+<div className="text" data-theme={props.w_theme}>
   {/* the text in bracket */}
     <h5 id="intro">
       {/* <img src="https://sniarchive.github.io/images/spotify-icon.png" alt="" id="spotify" /> */}
@@ -171,7 +175,6 @@ function Hero(props) {
     </div>
   </div>
 </div>
-
 
 
 </>

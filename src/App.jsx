@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import { Outlet,Routes,BrowserRouter,Route } from 'react-router-dom'
+import { Outlet,Routes,Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Anime from './components/Anime/Anime';
@@ -9,8 +8,13 @@ import AnimatedCursor from "react-animated-cursor";
 import ToTop from '../scripts/ToTop';
 import sound from './click_sound.mp3'
 import FadeIn from 'react-fade-in';
+import useLocalStorage from 'use-local-storage'
+
 
 function App(){
+
+
+
 
   // script to play the 'click' audio 
   function play() {
