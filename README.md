@@ -13,7 +13,7 @@ To Do:
 - [x] Rewrite and design anime section
 - [ ] Stack Section
 - [ ] 404 Page
-- [ ] Shift assets offline on server (Change Spotify Image with an icon)
+- [x] Shift assets offline on server (Change Spotify Image with an icon)
 
 ## Credits & Inspirations ✨
 

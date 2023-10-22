@@ -7,7 +7,7 @@ import Work from './components/Work/Work';
 import Footer from './components/Footer/Footer';
 import AnimatedCursor from "react-animated-cursor";
 import ToTop from '../scripts/ToTop';
-import sound from './sound.mp3'
+import sound from './click_sound.mp3'
 import FadeIn from 'react-fade-in';
 
 
