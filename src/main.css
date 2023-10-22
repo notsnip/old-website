@@ -59,6 +59,14 @@ html ::-webkit-scrollbar {
     font-family: 'Poppins', sans-serif;
     
 }
+
+html {
+    --cursor-color: #333
+  }
+  
+  html.dark-mode {
+    --cursor-color: #fff
+  }
 /* for mobile folks */
 @media only screen and (max-width: 600px) {
     body{

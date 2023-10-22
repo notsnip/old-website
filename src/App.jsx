@@ -10,8 +10,8 @@ import ToTop from '../scripts/ToTop';
 import sound from './click_sound.mp3'
 import FadeIn from 'react-fade-in';
 
-
 function App(){
+
   // script to play the 'click' audio 
   function play() {
     new Audio(sound).play()
@@ -24,13 +24,30 @@ function App(){
     <div id='main_div' onClick={play}>
 
       {/* animated cursor component  */}
-    <AnimatedCursor color='128, 128, 128'/>
+
+      <AnimatedCursor
+      color='123, 123, 123'
+      clickables={[
+        'a',
+        {
+          target: 'html',
+          options: {
+            color: '123, 123, 123',
+            innerScale:0.1,
+            innerSize: 8,
+            innerStyle: null,
+            outerAlpha:0.4
+          }
+        }
+      ]}
+    />
+
+
     {/* default navbar in every route  */}
     <Navbar/>
 
     {/* scroll to top script which shift the page to top when user visit a route (this is script not button) */}
     <ToTop/>
-
 
 
     {/* routes setup */}
