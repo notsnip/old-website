@@ -75,7 +75,7 @@ function Hero(props) {
 
 {/* image container */}
 <div className="img">
-  <img src="https://sniarchive.github.io/images/snipc_nobg.png" alt="" />
+  <img src="src/img/snipc_nobg.png" alt="img not loaded!  " />
 </div>
 
 
