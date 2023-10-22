@@ -5,8 +5,9 @@ import { Link } from "react-router-dom";
 import './Hero.css'
 // 'pages' area css 
 import './Pages.css'
-// Learning & Contact section 
+// what i do & Contact section 
 import './Others.css'
+import snipc_img from './img/snipc_nobg.png'
 
 
 function Hero(props) {
@@ -54,7 +55,8 @@ function Hero(props) {
 <div className="text">
   {/* the text in bracket */}
     <h5 id="intro">
-      <img src="https://sniarchive.github.io/images/spotify-icon.png" alt="" id="spotify" />
+      {/* <img src="https://sniarchive.github.io/images/spotify-icon.png" alt="" id="spotify" /> */}
+      <iconify-icon icon="logos:spotify-icon" id='spotify' height='1.4rem'></iconify-icon>
       <span id="circle" style={stylesObj}></span> 
       &nbsp; 
       <span id='discord_s'>{discord_state}</span>
@@ -75,7 +77,7 @@ function Hero(props) {
 
 {/* image container */}
 <div className="img">
-  <img src="src/img/snipc_nobg.png" alt="img not loaded!  " />
+  <img src={snipc_img} alt="img not loaded!  " />
 </div>
 
 
