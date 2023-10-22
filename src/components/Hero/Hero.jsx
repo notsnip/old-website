@@ -94,7 +94,7 @@ function Hero(props) {
 
     <div id="second" className='page'>
   <Link to="/anime"  style={{ textDecoration: 'none' }}>
-    <h3>anime</h3> <p>The animes that I'm currently watching that make me feel like I can do anything.</p>
+    <h3>anime</h3> <p>The anime that I'm currently watching that make me feel like I can do anything.</p>
   </Link>
     </div>
 </div>

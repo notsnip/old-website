@@ -10,9 +10,10 @@ To Do:
 
 - [ ] Donate/Pay section
 - [ ] Fix light mode button
-- [ ] Rewrite and design anime section
+- [x] Rewrite and design anime section
 - [ ] Stack Section
 - [ ] 404 Page
+- [ ] Shift assets offline on server
 
 ## Credits & Inspirations ✨
 
