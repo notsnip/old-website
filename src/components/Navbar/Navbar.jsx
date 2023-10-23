@@ -15,7 +15,7 @@ function Navbar(props) {
   
   function redirect() {
     console.log('running')
-    window.location= `https://www.eightsleep.com/blog/17-deep-thoughts-that-will-blow-your-damn-mind/`;
+    window.location= `https://i.snipc.me`;
   }
 
   return (

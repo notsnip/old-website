@@ -13,6 +13,7 @@ function Work() {
   return (
  <>
  <FadeIn delay={300}>
+ <title>work • snipc</title>
 
 
  <div id="repos_container">
@@ -25,10 +26,10 @@ function Work() {
       <h2>snipc.me</h2>
       <p> My personal website, built with React.js, Vite and &gt;3!</p>
       <p id='link'>
-        <a href="https://github.com/realsnipc/snipc.me" target='_blank'>
+        <a href="https://github.com/realsnipc/snipc.me" target='_blank' className='project_link'>
           <iconify-icon icon="mingcute:github-line" height='1.5em'></iconify-icon></a>
-        <a href="https://snipc.me">
-        <iconify-icon icon="mdi:web" height='1.5em'></iconify-icon>
+        <a href="https://snipc.me" className='project_link'>
+        <iconify-icon icon="uil:link" height='1.5em'></iconify-icon>
         </a>
         </p>
       </div>
@@ -40,10 +41,10 @@ function Work() {
       <h2>Old Homepage</h2>
       <p> A single framed page with links to my socials. Used to be my homepage</p>
       <p id='link'>
-        <a href="https://github.com/realsnipc/old.snipc" target='_blank'>
+        <a href="https://github.com/realsnipc/old.snipc" target='_blank' className='project_link'>
           <iconify-icon icon="mingcute:github-line" height='1.5em'></iconify-icon></a>
-        <a href="https://old.snipc.me">
-        <iconify-icon icon="mdi:web" height='1.5em'></iconify-icon>
+        <a href="https://old.snipc.me" className='project_link'>
+        <iconify-icon icon="uil:link" height='1.5em'></iconify-icon>
         </a>
         </p>
       </div>
@@ -53,21 +54,36 @@ function Work() {
       <img src={tribute_to_steve} alt="" height='250px' width='500px'/>
       <div id="info_text">
       <h2>Tribute To Steve</h2>
-      <p>Steve was a innovative and inspiring person and I'm always fascinated by his lifestyle and this perception of life. To remember his revolutionary contributions to the world, I've created this website.</p>
+      <p>Tribute to 'Steven Paul Jobs' to remember his revolutionary contributions to the world, I've created this website.</p>
       <p id='link'>
-        <a href="https://github.com/realsnipc/TributeToSteve/" target='_blank'>
+        <a href="https://github.com/realsnipc/TributeToSteve/" target='_blank' className='project_link'>
           <iconify-icon icon="mingcute:github-line" height='1.5em'></iconify-icon></a>
-        <a href="https://realsnipc.github.io/TributeToSteve/">
-        <iconify-icon icon="mdi:web" height='1.5em'></iconify-icon>
+        <a href="https://realsnipc.github.io/TributeToSteve/" className='project_link'>
+        <iconify-icon icon="uil:link" height='1.5em'></iconify-icon>
         </a>
         </p>
       </div>
 
+{/* template for adding another project (use class 'right' for alternate items) */}
+      {/* <div className="repo">
+      <img src={tribute_to_steve} alt="" height='250px' width='500px'/>
+      <div id="info_text">
+      <h2>Tribute To Steve</h2>
+      <p>Tribute to 'Steven Paul Jobs' to remember his revolutionary contributions to the world, I've created this website.</p>
+      <p id='link'>
+        <a href="https://github.com/realsnipc/TributeToSteve/" target='_blank' className='project_link'>
+          <iconify-icon icon="mingcute:github-line" height='1.5em'></iconify-icon></a>
+        <a href="https://realsnipc.github.io/TributeToSteve/" className='project_link'>
+        <iconify-icon icon="uil:link" height='1.5em'></iconify-icon>
+        </a>
+        </p>
+      </div> */}
+
     </div>
            {/* the github note  */}
-           <div id="note">
-  <h1>Find my other open-source projects on <a href="https://github.com/realsnipc">GitHub</a></h1>
- </div>
+           {/* <div id="note">
+  <h1>Find my other open-source projects on <a href="https://https://github.com/realsnipc?tab=repositories" target='_blank'>GitHub</a></h1>
+ </div> */}
 
 
     

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Sometype+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 /* margin to the container to move it down from hero section  */
 #repos_container{
@@ -29,18 +29,18 @@
     margin: 0px;
 }
 .repo h2{
-    font-family: 'Sometype Mono', monospace;
+    font-family: 'Raleway', sans-serif;
     font-size: 30px;
     color: var( --text-white);
     margin-bottom: 10px;
 
 }
 .repo p{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 17px;
 }
 #link{
-    margin-top: 7px;
+    margin-top: 15px;
 
 }
 #link a{
@@ -63,7 +63,7 @@
     margin-right: 10px;
 }
 /* the project note styles  */
-#note{
+/* #note{
    margin-top: 30px;
    border: 1px solid var(--margin-dark);
    border-radius: 10px;
@@ -71,18 +71,31 @@
    display: flex;
    justify-content: center;
    color: var(--dark-text);
+   background-color: var(--secondary-bg-dark);
 
-}
-#note a{
+} */
+/* #note a{
     color:grey;
     font-family: 'Sometype Mono', monospace;
-}
+} */
 
 
 /* last updated line  */
 #last_updated{
     color: var(--dark-text);
     font-size: 10px;
+}
+
+.project_link{
+    border: 1px solid var(--margin-dark);
+    padding: 5px 27px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    background-color: var(--secondary-bg-dark);
+}
+.project_link:hover{
+    background-color: var(--tertiary-background-color);
+    transition: 0.3s;
 }
 
 

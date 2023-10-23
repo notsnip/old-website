@@ -105,6 +105,8 @@ function Anime() {
   return (
     <>
 <FadeIn delay={500}>
+<title>anime • snipc</title>
+
       <h5>most-liked</h5>
       <div id="favourite_anime">
       <div className="anime">

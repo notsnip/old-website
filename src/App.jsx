@@ -66,7 +66,7 @@ function App(){
       <Route path='/work' element={<Work/>}/>
       </Routes>
       {/* footer (on every route) with text and project_link props */}
-      <Footer text='snipc' project_link='https://github.com/realsnipc/snipc.me'/>
+      <Footer text='snipc' project_link='https://github.com/realsnipc/snipc'/>
 
       </div>
       </FadeIn>
