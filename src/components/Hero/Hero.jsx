@@ -127,29 +127,36 @@ function Hero(props) {
 
   {/* learning section  */}
   <div id="learning">
-    <h5>WHAT I DO</h5>
+    <h5>MOSTLY USED</h5>
     <div className="item">
     <span id="item_container">
-    <h6><iconify-icon icon="gg:website" height='1.5rem'></iconify-icon></h6>
-      <p>Frontend</p>
+    <h6><iconify-icon icon="devicon:react" height='1.5rem'></iconify-icon></h6>
+      <p>React.js</p>
       </span>
     </div>
     <div className="item">
     <span id="item_container">
-    <h6><iconify-icon icon="solar:server-bold" height='1.5rem'></iconify-icon></h6>
-      <p>Backend</p>
+    <h6><iconify-icon icon="vscode-icons:file-type-node" height='1.5rem'></iconify-icon></h6>
+      <p>Node.js</p>
       </span>
     </div>
     <div className="item">
     <span id="item_container">
-    <h6><iconify-icon icon="solar:tv-bold-duotone" height='1.5rem'></iconify-icon></h6>
-      <p>Watch Animes</p>
+    <h6><iconify-icon icon="devicon:git" height='1.5rem'></iconify-icon></h6>
+      <p>Git/Github (VCS)</p>
       </span>
     </div>
+    <div className="item">
+    <span id="item_container">
+    <h6><iconify-icon icon="devicon:vscode" height='1.5rem'></iconify-icon></h6>
+      <p>VS Code (IDE)</p>
+      </span>
+    </div>
+    
   </div>
 
   <div id="contact">
-  <h5>CONTACT</h5>
+  <h5>MORE CONTACTS</h5>
   <div className="item" onClick={()=>{window.location= "https://discord.com/users/1019641343875760350"}}>
     <span id="item_container">
     <h6><iconify-icon icon="ic:baseline-discord" height='1.5rem' className='social_icon'></iconify-icon></h6>

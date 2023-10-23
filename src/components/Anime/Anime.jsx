@@ -58,15 +58,15 @@ function Anime() {
     // recently updated
     setanime1(anime_path[0].entry.title)
     setimg1(anime_path[0].entry.images.jpg.image_url)
-    setep1(anime_path[0].status)
+    setep1(`${anime_path[0].status} • ${anime_path[0].episodes_seen}/${anime_path[0].episodes_total}`)
 
     setanime2(anime_path[1].entry.title)
     setimg2(anime_path[1].entry.images.jpg.image_url)
-    setep2(anime_path[1].status)
+    setep2(`${anime_path[1].status} • ${anime_path[1].episodes_seen}/${anime_path[1].episodes_total}`)
 
     setanime3(anime_path[2].entry.title)
     setimg3(anime_path[2].entry.images.jpg.image_url)
-    setep3(anime_path[2].status)
+    setep3(`${anime_path[2].status} • ${anime_path[2].episodes_seen}/${anime_path[2].episodes_total}`)
 
     // favourites
 
