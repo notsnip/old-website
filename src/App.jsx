@@ -8,7 +8,6 @@ import AnimatedCursor from "react-animated-cursor";
 import ToTop from '../scripts/ToTop';
 import sound from './click_sound.mp3'
 import FadeIn from 'react-fade-in';
-import useLocalStorage from 'use-local-storage'
 
 
 function App(){
