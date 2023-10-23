@@ -68,6 +68,10 @@ function App(){
 
       {/* Donate section  */}
       <Route path='/donate' element={<Donate type='donate' title="Every bit of your support contributes in a big way."/>}/>
+
+
+{/* pay section  */}
+      <Route path='/pay' element={<Donate type='pay' title="Currently I support these payment methods, you can pay me via:"/>}/>
       </Routes>
       {/* footer (on every route) with text and project_link props */}
       <Footer text='snipc' project_link='https://github.com/realsnipc/snipc'/>
