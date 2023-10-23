@@ -1,6 +1,6 @@
 <h1 align='center'>snipc (.me)</h1>
 
-![ss](src/assets/ss.png)
+![ss](src/assets/3d-preview.png)
 
 ![](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
