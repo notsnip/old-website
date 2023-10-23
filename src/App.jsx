@@ -4,6 +4,7 @@ import Hero from './components/Hero/Hero';
 import Anime from './components/Anime/Anime';
 import Work from './components/Work/Work';
 import Footer from './components/Footer/Footer';
+import Donate from './components/Donate/Donate';
 import AnimatedCursor from "react-animated-cursor";
 import ToTop from '../scripts/ToTop';
 import sound from './click_sound.mp3'
@@ -64,6 +65,9 @@ function App(){
 
       {/* projects section  */}
       <Route path='/work' element={<Work/>}/>
+
+      {/* Donate section  */}
+      <Route path='/donate' element={<Donate type='donate' title="Every bit of your support contributes in a big way."/>}/>
       </Routes>
       {/* footer (on every route) with text and project_link props */}
       <Footer text='snipc' project_link='https://github.com/realsnipc/snipc'/>

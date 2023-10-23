@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.donate-method{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+    border: 1px solid var(--margin-dark);
+    padding: 15px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: var(--secondary-bg-dark);
+    margin-top: 3rem;
+    margin-bottom: 15rem;
+
+}
+.donate-method:hover{
+    background-color: var(--tertiary-background-color);
+    transition: 0.3s;
+}
+.donate-method h5{
+       margin: 0px;
+
+
+       
+}
+#hero-text{
+    margin-top: 3rem;
+}
+#hero-text h2,p{
+    font-family: 'Work Sans', sans-serif;
+
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .donate-method{
+        width: 70%;
+    }
+
+}
