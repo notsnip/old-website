@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
 .pages1,.pages2{
     display: flex;
 }
@@ -15,6 +18,7 @@
     padding: 0px 10px;
     background-color: var(--secondary-bg-dark);
     cursor: pointer;
+
 }
 
 .page:hover{
@@ -28,6 +32,7 @@
     font-size: 16px;
     color: var(--dark-text);
     padding-top: 7px;
+    font-family: 'Work Sans', sans-serif;
 
 
 }
@@ -37,6 +42,7 @@
     margin-top: 15px;
     color: var(--text-white);
     padding-bottom: 5px;
+    font-family: 'Work Sans', sans-serif;
     
 
 }

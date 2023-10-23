@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
 /* made the about section narrow to not take up img's space  */
 #about{
     width: 70%;
     color: var(--text-white);
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* the main container */
@@ -29,6 +32,7 @@
     font-size: 15px;
     margin-bottom: 2px;
     color: var(--text-white);
+
 
     /* margin-top: 0px; */
 }

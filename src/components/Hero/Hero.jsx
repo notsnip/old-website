@@ -149,7 +149,7 @@ function Hero(props) {
   </div>
 
   <div id="contact">
-  <h5>SOCIAL</h5>
+  <h5>CONTACT</h5>
   <div className="item" onClick={()=>{window.location= "https://discord.com/users/1019641343875760350"}}>
     <span id="item_container">
     <h6><iconify-icon icon="ic:baseline-discord" height='1.5rem' className='social_icon'></iconify-icon></h6>
