@@ -12,6 +12,7 @@
     background-color: var(--secondary-bg-dark);
     margin-top: 3rem;
     margin-bottom: 15rem;
+    color: var(--text-white);
 
 }
 .donate-method:hover{
@@ -20,9 +21,13 @@
 }
 .donate-method h5{
        margin: 0px;
+       text-decoration: none;
 
 
        
+}
+a{
+    text-decoration: none;
 }
 #hero-text{
     margin-top: 3rem;
