@@ -53,7 +53,7 @@ function Hero(props) {
 
 
   
-<title>home • snipc</title>
+<title>snipc • Shaurya</title>
 
 <div className="container"  data-theme={props.w_theme} >
   {/* here comes the text container  */}
