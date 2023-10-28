@@ -9,7 +9,6 @@ import './Pages.css'
 import './Others.css'
 import snipc_img from './img/snipc_nobg.png'
 
-
 function Hero(props) {
 
   const [discord_state,setStatus]= useState('Loading..')
@@ -53,7 +52,7 @@ function Hero(props) {
 
 
   
-<title>snipc • Shaurya</title>
+<title>snipc • (Shaurya)</title>
 
 <div className="container"  data-theme={props.w_theme} >
   {/* here comes the text container  */}
