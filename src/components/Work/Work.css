@@ -20,7 +20,6 @@
 }
 .repo img{
     width: 500px;
-
     height: 250px;
     border-radius: 10px;
     border: 1px solid rgb(51, 51, 51);
@@ -59,8 +58,8 @@
     flex-direction: row-reverse;
 }
 .right #info_text{
-    margin-left: 40px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 /* the project note styles  */
 /* #note{
@@ -115,8 +114,8 @@
     }
     .repo img{
         margin-bottom: 20px;
-        width: 300px;
-        height: 150px;
+        width: 21em;
+        height: 11em;
     }
     #info_text,.right #info_text{
         margin-left: 10px;

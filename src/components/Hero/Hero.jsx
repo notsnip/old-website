@@ -126,29 +126,29 @@ function Hero(props) {
 
   {/* learning section  */}
   <div id="learning">
-    <h5>MOSTLY USED</h5>
+    <h5>WHAT I DO</h5>
     <div className="item">
     <span id="item_container">
-    <h6><iconify-icon icon="devicon:react" height='1.5rem'></iconify-icon></h6>
-      <p>React.js</p>
+    <h6><iconify-icon icon="gg:website" height='1.5rem'></iconify-icon></h6>
+      <p>Frontend</p>
       </span>
     </div>
     <div className="item">
     <span id="item_container">
-    <h6><iconify-icon icon="vscode-icons:file-type-node" height='1.5rem'></iconify-icon></h6>
-      <p>Node.js</p>
+    <h6><iconify-icon icon="teenyicons:code-solid" height='1.5rem'></iconify-icon></h6>
+      <p>General Programming</p>
       </span>
     </div>
     <div className="item">
     <span id="item_container">
-    <h6><iconify-icon icon="devicon:git" height='1.5rem'></iconify-icon></h6>
-      <p>Git/Github (VCS)</p>
+    <h6><iconify-icon icon="solar:server-bold-duotone" height='1.5rem'></iconify-icon></h6>
+      <p>Backend (Learning)</p>
       </span>
     </div>
     <div className="item">
     <span id="item_container">
-    <h6><iconify-icon icon="devicon:vscode" height='1.5rem'></iconify-icon></h6>
-      <p>VS Code (IDE)</p>
+    <h6><iconify-icon icon="solar:user-bold-duotone" height='1.5rem'></iconify-icon></h6>
+      <p>UI/UX</p>
       </span>
     </div>
     
