@@ -13,6 +13,7 @@ function Work() {
   return (
  <>
  <FadeIn delay={300}>
+ <meta name="description" content="Projects I (Shaurya) have made and I'm working on."/>
  <title>work • snipc</title>
 
 

@@ -40,8 +40,9 @@ body{
 /* the scroll bar styling */
 html ::-webkit-scrollbar-thumb {
     background-color: #404040;
-    height: 2px;
+    /* height: 2px; */
 }
+
 
 html ::-webkit-scrollbar-track {
     background-color: #262626;

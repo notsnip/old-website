@@ -21,9 +21,15 @@ function Navbar(props) {
   return (
     // navbar section 
     <div id='navbar'>
-        <span id='mode' target='' className='switch-btn'><iconify-icon icon="akar-icons:paper-airplane" height='1.4em' onClick={redirect}></iconify-icon></span>
+        <span id='mode' target='' className='switch-btn'>
+          <iconify-icon icon="akar-icons:paper-airplane" height='1.4em' onClick={redirect}></iconify-icon>
+          </span>
         
-        <span id='mode' target=''> <Link to="/"><iconify-icon icon="ic:round-home" height='1.4em' style={{color:'white'}}></iconify-icon></Link></span>
+        <span id='mode' target=''> 
+<iconify-icon icon="ic:round-home" height='1.4em' style={{color:'white'}}>
+          </iconify-icon>
+
+          </span>
 
         </div>
 )}

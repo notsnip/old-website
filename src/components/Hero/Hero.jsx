@@ -51,15 +51,16 @@ function Hero(props) {
 <>
 
 
+
+
   
-<title>snipc • (Shaurya)</title>
+<title>Shaurya Chaudhary • snipc</title>
 
 <div className="container"  data-theme={props.w_theme} >
   {/* here comes the text container  */}
 <div className="text" data-theme={props.w_theme}>
   {/* the text in bracket */}
     <h5 id="intro">
-      {/* <img src="https://sniarchive.github.io/images/spotify-icon.png" alt="" id="spotify" /> */}
       <iconify-icon icon="logos:spotify-icon" id='spotify' height='1.4rem'></iconify-icon>
       <span id="circle" style={stylesObj}></span> 
       &nbsp; 
@@ -67,21 +68,21 @@ function Hero(props) {
     </h5>
     {/* name and about me section  */}
     <h1 id='hello'>Hello, I'm <span id='Shaurya'>Shaurya</span></h1>
-    <p id='about'>I'm a {props.age} y/o self-taught {props.developer} developer from India. I'm a nerd so you may find me as <span id='Shaurya'>{props.nerd_name}</span> online.</p>
+    <p id='about'>I'm a {props.age} y/o hobbyist {props.developer} developer from India. I'm a nerd so you may find me as <span id='Shaurya'>{props.nerd_name}</span> online.</p>
 
 
 {/* the social links section  */}
-    <div id="links">
+    {/* <div id="links">
 
   <a href="https://github.com/realsnipc" target="_blank"className="link"><iconify-icon icon="line-md:github-loop" className="icon"  height='1.5em' style={{color:'white'}}></iconify-icon></a>
 
   <a href="https://linkedin.com/in/realshaurya" target="_blank"className="link"  id="linkedin" ><iconify-icon icon="ri:linkedin-fill" height='1.5em'style={{color:'white'}}></iconify-icon></a>
-</div>
-</div>
+</div> */}
+    </div>
 
 {/* image container */}
 <div className="img">
-  <img src={snipc_img} alt="img not loaded!  " />
+  <img src={snipc_img} alt="My online avatar I use as an alternate to my real photo. " />
 </div>
 
 

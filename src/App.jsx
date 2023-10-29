@@ -23,6 +23,9 @@ function App(){
     
   return (
     <>
+
+
+
     {/* fade in animation effect to whole hero content  */}
        <FadeIn delay={900}>
     <div id='main_div' onClick={play}>
@@ -46,6 +49,9 @@ function App(){
       ]}
     />
 
+{/* these meta tags change the top bar colour to dark in ios and android devices  */}
+<meta name="theme-color" content="rgb(23,23,23)"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="rgb(23,23,23)"></meta>
 
     {/* default navbar in every route  */}
     <Navbar/>
@@ -54,11 +60,12 @@ function App(){
     <ToTop/>
 
 
+
     {/* routes setup */}
     <Routes>
 
       {/* home route (i have given value in props to age and social links here )  */}
-      <Route path='/' element={<Hero age='14' developer='fullstack' nerd_name='snipc' discord='snipc' linkedin='realshaurya' github='realsnipc' email='hey@snipc.me'/>} />
+      <Route path='/' element={<Hero age='14' developer='frontend' nerd_name='snipc' discord='snipc' linkedin='realshaurya' github='realsnipc' email='hey@snipc.me'/>} />
 
       {/* the anime section  */}
       <Route path='/anime' element={<Anime/>}/>

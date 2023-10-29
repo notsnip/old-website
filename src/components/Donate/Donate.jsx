@@ -5,6 +5,9 @@ import FadeIn from 'react-fade-in/lib/FadeIn';
 function Donate(props) {
   return (
 <>
+<meta name="description" content="Support me by donating some amount to help me awesome stuff."/>
+
+{/* Content is set according to the props(donate/pay mode)  */}
 <title>{props.type} • snipc</title>
 <FadeIn delay={400}>
 <div id="hero-text">

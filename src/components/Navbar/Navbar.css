@@ -1,6 +1,6 @@
 /* navbar button styling  */
 #mode{
-    border: 0.1px solid var(--margin-dark);
+    border: 1px solid var(--margin-dark);
     padding: 8px 22px;
     border-radius: 30px;
     opacity: 1;
@@ -14,6 +14,7 @@
     transition: 0.3s;
 }
 #mode:focus {outline:0;}
+
 /* navbar postioning */
 #navbar{
     margin-top: 7vh;
@@ -21,16 +22,15 @@
     justify-content: end;
 }
 
-/* styling of the image/icon inside the button  */
-#modeimg{
-    height: 20px;
-}
-#modeimg:focus {outline:0;}
 
 /* mobile styling */
 @media only screen and (max-width: 600px) {
     /* fixes the postion of navbar container  */
     #navbar{
         margin-top: 20px;
+    }
+    #mode{
+        padding: 7px 20px;
+        padding-bottom: 1px;
     }
   }
