@@ -1,5 +1,5 @@
 /* navbar button styling  */
-#mode{
+#mode {
     border: 1px solid var(--margin-dark);
     padding: 8px 22px;
     border-radius: 30px;
@@ -9,28 +9,49 @@
     user-select: none;
     margin-left: 10px;
 }
-#mode:hover{
+
+#mode:hover {
     background-color: var(--tertiary-background-color);
     transition: 0.3s;
 }
-#mode:focus {outline:0;}
+
+#mode:focus {
+    outline: 0;
+}
 
 /* navbar postioning */
-#navbar{
+#navbar {
     margin-top: 7vh;
     display: flex;
     justify-content: end;
 }
 
+.customOverlay {
+    background: rgba(194, 206, 211, 0.7);
+}
+
+.customModal {
+    border-radius: 100px;
+}
+
+/* #dialog_modal{
+    
+} */
+#model_box{
+    background-color: var(--tertiary-background-color);
+}
+
 
 /* mobile styling */
 @media only screen and (max-width: 600px) {
+
     /* fixes the postion of navbar container  */
-    #navbar{
+    #navbar {
         margin-top: 20px;
     }
-    #mode{
+
+    #mode {
         padding: 7px 20px;
         padding-bottom: 1px;
     }
-  }
+}

@@ -1,28 +1,38 @@
 // importing libraries and css
-import React from 'react'
+import {React, useState} from 'react'
 import './Navbar.css'
-import { Link, NavLink } from "react-router-dom";
+import { Link} from "react-router-dom";
+import 'react-responsive-modal/styles.css';
+import { Modal } from 'react-responsive-modal';
 
 
 
-function Navbar(props) {
+
+
+function Navbar() {
   
 
 
+  const [open, setOpen] = useState(false);
 
+  const onOpenModal = () => setOpen(true);
+  const onCloseModal = () => setOpen(false);
   // const darkMode = useDarkMode(false);
 
-  
-  function redirect() {
-    console.log('running')
-    window.location= `https://i.snipc.me`;
-  }
 
   return (
+    
     // navbar section 
     <div id='navbar'>
-        <span id='mode' target='' className='switch-btn'>
-          <iconify-icon icon="akar-icons:paper-airplane" height='1.4em' onClick={redirect}></iconify-icon>
+
+      {/* testing  */}
+      <Modal open={open} onClose={onCloseModal} center containerId='dialog_modal' modalId='model_box'>
+        <h2 style={{color:'black'}}>Simple centered modal</h2>
+      </Modal>
+
+
+        <span id='mode' target='' className='switch-btn' onClick={onOpenModal}>
+          <iconify-icon icon="akar-icons:paper-airplane" height='1.4em'></iconify-icon>
           </span>
 
         <span id='mode' target=''> 
