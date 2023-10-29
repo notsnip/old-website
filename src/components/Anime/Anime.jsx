@@ -39,14 +39,6 @@ function Anime() {
   const [fav_img5,setfav_img5]=useState()
   const [fav_ep5,setfav_ep5]=useState()
 
-  const [fav_anime6,setfav_anime6]=useState("Place to be filled")
-  const [fav_img6,setfav_img6]=useState("https://e0.pxfuel.com/wallpapers/994/922/desktop-wallpaper-vertical-anime-pemandangan-anime.jpg")
-  const [fav_ep6,setfav_ep6]=useState()
-
-  const [fav_anime7,setfav_anime7]=useState("Place to be filled")
-  const [fav_img7,setfav_img7]=useState("https://e0.pxfuel.com/wallpapers/994/922/desktop-wallpaper-vertical-anime-pemandangan-anime.jpg")
-  const [fav_ep7,setfav_ep7]=useState()
-
 
   fetch("https://api.jikan.moe/v4/users/snipc/full")
   .then((res) => res.json())
@@ -90,17 +82,6 @@ function Anime() {
     setfav_img5(fav_path[4].images.jpg.image_url)
     setfav_ep5(fav_path[4].start_year)
 
-    setfav_anime6(fav_path[5].title)
-    setfav_img6(fav_path[5].images.jpg.image_url)
-    setfav_ep6(fav_path[5].start_year)
-
-    setfav_anime7(fav_path[6].title)
-    setfav_img7(fav_path[6].images.jpg.image_url)
-    setfav_ep7(fav_path[6].start_year)
-
-    
-
-
   })
   return (
     <>
@@ -140,20 +121,7 @@ function Anime() {
           <span id='count'>{fav_ep5}</span>
         </div>
 
-        <div className="anime">
-          <img src={fav_img6} alt="" />
-          <span id='name'>{fav_anime6}</span>
-          <span id='count'>{fav_ep6}</span>
-        </div>
-
-        <div className="anime">
-          <img src={fav_img7} alt="" />
-          <span id='name'>{fav_anime7}</span>
-          <span id='count'>{fav_ep7}</span>
-        </div>
-
-
-
+       
       </div>
       <h5>freshly-updated</h5>
       <div id="recently_updated_anime">
