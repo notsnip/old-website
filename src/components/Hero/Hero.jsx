@@ -50,11 +50,7 @@ function Hero(props) {
   return (
 <>
 
-
-
-
-  
-<title>Shaurya Chaudhary • snipc</title>
+<title>snipc • (Shaurya)</title>
 
 <div className="container"  data-theme={props.w_theme} >
   {/* here comes the text container  */}
@@ -116,12 +112,12 @@ function Hero(props) {
   </Link>
      </div>
     {/* /stack   */}
-  {/* <div id="fourth" className='page'>
+  <div id="fourth" className='page'>
   <Link to="/stack"  style={{ textDecoration: 'none' }}>
     <h3>stack</h3> 
     <p>The tools that make me look like a genius (even though I'm not). </p>
     </Link>
-    </div> */}
+    </div>
 </div>
 <div id="others">
 
