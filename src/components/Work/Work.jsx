@@ -21,22 +21,8 @@ function Work() {
 
 
 {/* projects  */}
- <div className="repo">
-      <img src={snipc_me} alt="" height='250px' width='500px'/>
-      <div id="info_text">
-      <h2>snipc.me</h2>
-      <p> My personal website, built with React.js, Vite and &gt;3!</p>
-      <p id='link'>
-        <a href="https://github.com/realsnipc/snipc.me" target='_blank' className='project_link'>
-          <iconify-icon icon="mingcute:github-line" height='1.5em'></iconify-icon></a>
-        <a href="https://snipc.me" className='project_link'>
-        <iconify-icon icon="uil:link" height='1.5em'></iconify-icon>
-        </a>
-        </p>
-      </div>
-    </div>
-   
-    <div className="repo right">
+
+<div className="repo">
       <img src={old_snipc} alt="" height='250px' width='500px'/>
       <div id="info_text">
       <h2>Old Homepage</h2>
@@ -51,7 +37,7 @@ function Work() {
       </div>
     </div>
 
-    <div className="repo">
+    <div className="repo right">
       <img src={tribute_to_steve} alt="" height='250px' width='500px'/>
       <div id="info_text">
       <h2>Tribute To Steve</h2>
@@ -64,6 +50,25 @@ function Work() {
         </a>
         </p>
       </div>
+    </div>
+
+
+
+    <div className="repo">
+      <img src={snipc_me} alt="" height='250px' width='500px'/>
+      <div id="info_text">
+      <h2>snipc.me</h2>
+      <p> My personal website, built with React.js, Vite and &gt;3!</p>
+      <p id='link'>
+        <a href="https://github.com/realsnipc/snipc.me" target='_blank' className='project_link'>
+          <iconify-icon icon="mingcute:github-line" height='1.5em'></iconify-icon></a>
+        <a href="https://snipc.me" className='project_link'>
+        <iconify-icon icon="uil:link" height='1.5em'></iconify-icon>
+        </a>
+        </p>
+      </div>
+    </div>
+   
 
 {/* template for adding another project (use class 'right' for alternate items) */}
       {/* <div className="repo">
@@ -80,7 +85,6 @@ function Work() {
         </p>
       </div> */}
 
-    </div>
            {/* the github note  */}
            {/* <div id="note">
   <h1>Find my other open-source projects on <a href="https://https://github.com/realsnipc?tab=repositories" target='_blank'>GitHub</a></h1>

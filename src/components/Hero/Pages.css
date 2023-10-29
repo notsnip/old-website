@@ -52,11 +52,6 @@
     margin-bottom: 3px;
 }
 
-/* done this because there is only one item in page 2 currenly  */
-#third{
-    width: 46.7%;
-}
-
 
 
 @media only screen and (max-width: 600px) {
@@ -76,9 +71,5 @@
     }
     .page p{
         font-size: 12px;
-    }
-    /* done this because there is only one item in page 2 currenly  */
-    #third{
-        width: 87%;
     }
 }

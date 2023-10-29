@@ -50,7 +50,7 @@ function App(){
     />
 
 {/* these meta tags change the top bar colour to dark in ios and android devices  */}
-<meta name="theme-color" content="rgb(23,23,23)"/>
+<meta name="theme-color" content="red"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="rgb(23,23,23)"></meta>
 
     {/* default navbar in every route  */}
@@ -80,8 +80,9 @@ function App(){
 {/* pay section  */}
       <Route path='/pay' element={<Donate type='pay' title="Currently I support these payment methods, you can pay me via:"/>}/>
       </Routes>
+
       {/* footer (on every route) with text and project_link props */}
-      <Footer text='snipc' project_link='https://github.com/realsnipc/snipc'/>
+      <Footer project_link='https://github.com/realsnipc/snipc'/>
 
       </div>
       </FadeIn>
