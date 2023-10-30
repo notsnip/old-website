@@ -12,6 +12,19 @@ import snipc_img from './img/snipc_nobg.png'
 
 function Hero(props) {
 
+  var dob = new Date("09/02/2009");
+  //calculate month difference from current date in time
+  var month_diff = Date.now() - dob.getTime();
+  
+  //convert the calculated difference in date format
+  var age_dt = new Date(month_diff); 
+  
+  //extract year from date    
+  var year = age_dt.getUTCFullYear();
+  
+  //now calculate the age of the user
+  var age = Math.abs(year - 1970);
+
   const [discord_state, setStatus] = useState('Loading..')
 
   var stylesObj = {
@@ -63,6 +76,7 @@ function Hero(props) {
             &nbsp;
             <span id='discord_s'  data-tooltip-id="discord_status">{discord_state}</span>
 
+            {/* discord status tooltip  */}
             <ReactTooltip
               id="discord_status"
               place="top"
@@ -72,7 +86,14 @@ function Hero(props) {
           </h5>
           {/* name and about me section  */}
           <h1 id='hello'>Hello, I'm <span id='Shaurya'>Shaurya</span></h1>
-          <p id='about'>I'm a {props.age} y/o hobbyist {props.developer} developer from India. I'm a nerd so you may find me as <span id='Shaurya'>{props.nerd_name}</span> online.</p>
+          <p id='about'>I'm a <u data-tooltip-id="dob">{age}</u> y/o hobbyist developer from India. I'm a nerd so you may find me as <span id='Shaurya'>snipc</span> online.</p>
+
+          <ReactTooltip
+              id="dob"
+              place="top"
+              content="9/02/2009"
+              style={{borderRadius:'10px',fontFamily:"'Work Sans', sans-serif"}}
+            />
 
 
           {/* the social links section  */}

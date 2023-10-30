@@ -64,8 +64,8 @@ function App(){
     {/* routes setup */}
     <Routes>
 
-      {/* home route (i have given value in props to age and social links here )  */}
-      <Route path='/' element={<Hero age='14' developer='frontend' nerd_name='snipc' discord='snipc' linkedin='realshaurya' github='realsnipc' email='hey@snipc.me'/>} />
+      {/* home route (i have given value in props to social links here )  */}
+      <Route path='/' element={<Hero/>}/>
 
       {/* the anime section  */}
       <Route path='/anime' element={<Anime/>}/>
