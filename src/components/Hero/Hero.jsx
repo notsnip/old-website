@@ -1,5 +1,6 @@
 import { React, useState } from 'react'
 import { Link } from "react-router-dom";
+import { Tooltip as ReactTooltip } from "react-tooltip";
 
 // main css 
 import './Hero.css'
@@ -60,7 +61,14 @@ function Hero(props) {
             <iconify-icon icon="logos:spotify-icon" id='spotify' height='1.4rem'></iconify-icon>
             <span id="circle" style={stylesObj}></span>
             &nbsp;
-            <span id='discord_s'>{discord_state}</span>
+            <span id='discord_s'  data-tooltip-id="discord_status">{discord_state}</span>
+
+            <ReactTooltip
+              id="discord_status"
+              place="top"
+              content="Discord Status"
+              style={{borderRadius:'10px',fontFamily:"'Work Sans', sans-serif"}}
+            />
           </h5>
           {/* name and about me section  */}
           <h1 id='hello'>Hello, I'm <span id='Shaurya'>Shaurya</span></h1>
@@ -122,26 +130,26 @@ function Hero(props) {
 
       <p id='pages_title'>MORE</p>
       <div id="more_pages">
-      <div id="first" className='page'>
+        <div id="first" className='page'>
           <Link to="/songs" style={{ textDecoration: 'none' }} preventScrollReset={false}>
             <h3>songs</h3>
             <p>This button leads to songs I listen to when I'm coding, gaming, or just plain bored, so buckle up!</p>
           </Link>
         </div>
-      
-              <div id="second" className='page'>
+
+        <div id="second" className='page'>
           <Link to="/anime" style={{ textDecoration: 'none' }}>
             <h3>anime</h3> <p>The anime that I'm currently watching that make me feel like I can do anything.</p>
           </Link>
         </div>
       </div>
 
-      <p id='pages_title' style={{marginTop:'20vh'}}>ABOUT ME</p>
+      <p id='pages_title' style={{ marginTop: '20vh' }}>ABOUT ME</p>
       <div id="about_me">
         <p id="about_para">My name is <span id='Shaurya'>Shaurya</span>. I'm always doing <u>random things</u>.
-        <br/> <br/> Beyond computers, I'm really interested in <a href="/anime" id="about_me_link">anime</a> and <a  id='about_me_link' href="/songs">music</a>, you can often catch me spending time with those. 
-        <br/>Or I'll be reading something or doing homework.</p>
-        <img src="https://media.giphy.com/media/MyibCKeY7w2TS/giphy.gif" alt="some random anime gif" id='about_me_gif'/>
+          <br /> <br /> Beyond computers, I'm really interested in <a href="/anime" id="about_me_link">anime</a> and <a id='about_me_link' href="/songs">music</a>, you can often catch me spending time with those.
+          <br />Or I'll be reading something or doing homework.</p>
+        <img src="https://media.giphy.com/media/MyibCKeY7w2TS/giphy.gif" alt="some random anime gif" id='about_me_gif' />
       </div>
     </>
   )
