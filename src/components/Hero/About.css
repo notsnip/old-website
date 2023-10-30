@@ -1,0 +1,34 @@
+#about_para{
+    color: var(--dark-text);
+    width: 60%;
+    font-size: 17px;
+    
+}
+#about_me span,u,a{
+    font-family: 'Work Sans', sans-serif;
+}
+#about_me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about_me_link{
+    color: rgb(155, 148, 148);
+    text-decoration: underline;
+}
+
+
+/* for mobile folks */
+@media only screen and (max-width: 600px) {
+    #about_me{
+        flex-wrap: wrap;
+        
+    }
+    #about_para{
+        width: 85%;
+    }
+    #about_me_gif{
+        width: 250px;
+    }
+
+}

@@ -8,21 +8,16 @@ import { Link, NavLink } from "react-router-dom";
 function Navbar(props) {
   
 
-
-
-  // const darkMode = useDarkMode(false);
-
-  
   function redirect() {
     console.log('running')
-    window.location= `https://i.snipc.me`;
+    window.location= `https://github.com/realsnipc/snipc/issues`;
   }
 
   return (
     // navbar section 
     <div id='navbar'>
-        <span id='mode' target='' className='switch-btn'>
-          <iconify-icon icon="akar-icons:paper-airplane" height='1.4em' onClick={redirect}></iconify-icon>
+        <span id='mode' target='' className='switch-btn' onClick={redirect}>
+          <iconify-icon icon="fluent:person-feedback-16-filled" height='1.4em' ></iconify-icon>
           </span>
 
         <span id='mode' target=''> 

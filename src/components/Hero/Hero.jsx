@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import './Hero.css'
 // 'pages' area css 
 import './Pages.css'
-// what i do & Contact section 
-import './Others.css'
+// about me section 
+import './About.css'
 import snipc_img from './img/snipc_nobg.png'
 
 function Hero(props) {
@@ -101,7 +101,7 @@ function Hero(props) {
         </div>
       </div>
 
-      {/* page2 secion (donate and stack)  */}
+      {/* page2 secion */}
       <div className="pages2">
         {/* /donate  */}
         <div id="third" className='page'>
@@ -120,10 +120,10 @@ function Hero(props) {
         </div>
       </div>
 
-      <span id='pages_title'>MORE</span>
+      <p id='pages_title'>MORE</p>
       <div id="more_pages">
       <div id="first" className='page'>
-          <Link to="/work" style={{ textDecoration: 'none' }} preventScrollReset={false}>
+          <Link to="/songs" style={{ textDecoration: 'none' }} preventScrollReset={false}>
             <h3>songs</h3>
             <p>This button leads to songs I listen to when I'm coding, gaming, or just plain bored, so buckle up!</p>
           </Link>
@@ -134,73 +134,15 @@ function Hero(props) {
             <h3>anime</h3> <p>The anime that I'm currently watching that make me feel like I can do anything.</p>
           </Link>
         </div>
-
-
-      </div>
-      <div id="others">
-
-
-
-        {/* learning section  */}
-        <div id="learning">
-          <h5>WHAT I DO</h5>
-          <div className="item">
-            <span id="item_container">
-              <h6><iconify-icon icon="gg:website" height='1.5rem'></iconify-icon></h6>
-              <p>Frontend</p>
-            </span>
-          </div>
-          <div className="item">
-            <span id="item_container">
-              <h6><iconify-icon icon="teenyicons:code-solid" height='1.5rem'></iconify-icon></h6>
-              <p>General Programming</p>
-            </span>
-          </div>
-          <div className="item">
-            <span id="item_container">
-              <h6><iconify-icon icon="solar:server-bold-duotone" height='1.5rem'></iconify-icon></h6>
-              <p>Backend (Learning)</p>
-            </span>
-          </div>
-          <div className="item">
-            <span id="item_container">
-              <h6><iconify-icon icon="solar:user-bold-duotone" height='1.5rem'></iconify-icon></h6>
-              <p>UI/UX</p>
-            </span>
-          </div>
-
-        </div>
-
-        <div id="contact">
-          <h5>MORE CONTACTS</h5>
-          <div className="item" onClick={() => { window.location = "https://discord.com/users/1019641343875760350" }}>
-            <span id="item_container">
-              <h6><iconify-icon icon="ic:baseline-discord" height='1.5rem' className='social_icon'></iconify-icon></h6>
-              <p>{props.discord}</p>
-            </span>
-          </div>
-          <div className="item" onClick={() => { window.location = `https://linkedin.com/in/${props.linkedin}` }}>
-            <span id="item_container">
-              <h6><iconify-icon icon="mdi:linkedin" height='1.5rem'></iconify-icon></h6>
-              <p>{props.linkedin}</p>
-            </span>
-          </div>
-          <div className="item" onClick={() => { window.location = `https://github.com/${props.github}` }}>
-            <span id="item_container">
-              <h6><iconify-icon icon="mingcute:github-fill" height='1.5rem'></iconify-icon></h6>
-              <p>{props.github}</p>
-            </span>
-          </div>
-          <div className="item" onClick={() => { window.location = `mailto:${props.email}` }}>
-            <span id="item_container">
-              <h6><iconify-icon icon="dashicons:email" height='1.5rem'></iconify-icon></h6>
-              <p>{props.email}</p>
-            </span>
-          </div>
-        </div>
       </div>
 
-
+      <p id='pages_title' style={{marginTop:'20vh'}}>ABOUT ME</p>
+      <div id="about_me">
+        <p id="about_para">My name is <span id='Shaurya'>Shaurya</span>. I'm always doing <u>random things</u>.
+        <br/> <br/> Beyond computers, I'm really interested in <a href="/anime" id="about_me_link">anime</a> and <a  id='about_me_link' href="/songs">music</a>, you can often catch me spending time with those. 
+        <br/>Or I'll be reading something or doing homework.</p>
+        <img src="https://media.giphy.com/media/MyibCKeY7w2TS/giphy.gif" alt="some random anime gif" id='about_me_gif'/>
+      </div>
     </>
   )
 }

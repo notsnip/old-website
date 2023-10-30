@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 /* the container of pages  */
 .pages1,.pages2,#more_pages{
@@ -7,7 +8,7 @@
 
 /* first two pages  */
 .pages1{
-    margin-top: 15em;
+    margin-top: 11em;
     color: var(--text-white);
 }
 /* 2nd two pages  */
@@ -20,7 +21,7 @@
 .page{
     width: 50%;
     border: 1px solid var(--margin-dark);
-    border-radius: 8px;
+    border-radius: 7px;
     padding: 0px 12px;
     background-color: var(--secondary-bg-dark);
     cursor: pointer;
@@ -61,8 +62,9 @@
 /* title above pages  */
 #pages_title{
     margin-left: 5px;
-    font-size: 16px;
+    font-size: 13px;
     color: var(--dark-text);
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 
@@ -101,5 +103,8 @@
     }
     .page p{
         font-size: 12px;
+    }
+    #pages_title{
+        text-align: center;
     }
 }
