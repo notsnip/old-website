@@ -35,22 +35,6 @@ function App() {
 
           {/* animated cursor component  */}
 
-          <AnimatedCursor
-            color='123, 123, 123'
-            clickables={[
-              'a',
-              {
-                target: 'html',
-                options: {
-                  color: '123, 123, 123',
-                  innerScale: 0.1,
-                  innerSize: 8,
-                  innerStyle: null,
-                  outerAlpha: 0.4
-                }
-              }
-            ]}
-          />
 
           {/* these meta tags change the top bar colour to dark in ios and android devices  */}
           <meta name="theme-color" content="rgb(23,23,23)" />
