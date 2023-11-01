@@ -135,8 +135,8 @@ function Hero(props) {
       <div className="pages2">
         {/* /donate  */}
         <div id="third" className='page'>
-          <Link to="/donate" style={{ textDecoration: 'none' }}>
-            <h3>donate</h3>
+          <Link to="/support" style={{ textDecoration: 'none' }}>
+            <h3>support</h3>
             <p>Support my work to help me create something that will blow up people's minds!</p>
           </Link>
         </div>
