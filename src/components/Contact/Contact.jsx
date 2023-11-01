@@ -20,7 +20,7 @@ function Contact() {
                 <a href="https:/discord.com/users/1019641343875760350" target='_blank'>
                     {/* discord card  */}
                     <div className="contact_card">
-                        <iconify-icon icon="logos:discord-icon" height='3.75rem' style={{ padding: '20px' }}></iconify-icon>
+                        <iconify-icon icon="logos:discord-icon" height='2rem' style={{ paddingLeft: '10px' }}></iconify-icon>
                         <div className="contact_card_content">
 
                             <h2>Discord</h2>
@@ -31,7 +31,9 @@ function Contact() {
                 <a href="https://linkedin.com/in/realshaurya" target='_blank'>
                     {/* linkedin card  */}
                     <div className="contact_card">
-                        <iconify-icon icon="skill-icons:linkedin" height='4rem' style={{ padding: '20px' }}></iconify-icon>
+                        <div className="icon_mobile">
+                        <iconify-icon icon="skill-icons:linkedin" height='2.5rem' style={{ paddingLeft: '10px' }} className='icon_mobile'></iconify-icon>
+                        </div>
                         <div className="contact_card_content">
 
                             <h2>LinkedIn</h2>
@@ -42,7 +44,7 @@ function Contact() {
                 <a href="https://github.com/realsnipc" target='_blank'>
                     {/* Github card   */}
                     <div className="contact_card">
-                        <iconify-icon icon="arcticons:github" height='4rem' style={{ padding: '20px' }}></iconify-icon>
+                        <iconify-icon icon="arcticons:github" height='2.5rem' style={{ paddingLeft: '10px' }}></iconify-icon>
                         <div className="contact_card_content">
 
                             <h2>Github</h2>
@@ -54,11 +56,23 @@ function Contact() {
                 <a href="mailto:hello@snipc.me" target='_blank'>
                     {/* Mail card   */}
                     <div className="contact_card">
-                        <iconify-icon icon="mdi:email-outline" height='4rem' style={{ padding: '20px' }}></iconify-icon>
+                        <iconify-icon icon="mdi:email-outline" height='2.5rem' style={{ paddingLeft: '10px' }}></iconify-icon>
                         <div className="contact_card_content">
 
                             <h2>Mail</h2>
                             <p>m@snipc.me</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://myanimelist.net/profile/snipc" target='_blank'>
+                    {/* Mail card   */}
+                    <div className="contact_card">
+                        <iconify-icon icon="simple-icons:myanimelist" height='2.5rem' style={{ paddingLeft: '10px' }}></iconify-icon>
+                        <div className="contact_card_content">
+
+                            <h2>M.A.L</h2>
+                            <p>@snipc</p>
                         </div>
                     </div>
                 </a>

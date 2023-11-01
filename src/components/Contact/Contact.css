@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     padding: 25px;
 }
 
@@ -49,8 +49,22 @@
 
 
 @media only screen and (max-width: 600px) {
-
     #contact_methods{
+        align-items: center;
         justify-content: center;
+    }
+    .contact_card,.contact_card_content{
+        width: 9rem;
+    }
+    .contact_card_content{
+        padding: 15px;
+        padding-left: 2px;
+
+    }
+    .contact_card_content h2{
+        font-size: 15px;
+    }
+    .contact_card_content p{
+        font-size: 10px;
     }
 }
