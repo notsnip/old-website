@@ -25,6 +25,7 @@
     margin-bottom: 20px;
     background-color: var(--secondary-bg-dark);
     transition: 0.3s;
+    width: 12rem;
 }
 .contact_card:hover{
     background-color: var(--tertiary-background-color);
