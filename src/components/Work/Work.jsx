@@ -80,7 +80,7 @@ function Work() {
       <p id='link'>
         <a href="https://github.com/realsnipc/TributeToSteve/" target='_blank' className='project_link'>
           <iconify-icon icon="mingcute:github-line" height='1.5em'></iconify-icon></a>
-        <a href="https://realsnipc.github.io/TributeToSteve/" className='project_link'>
+        <a href="https://realsnip.github.io/TributeToSteve/" className='project_link'>
         <iconify-icon icon="uil:link" height='1.5em'></iconify-icon>
         </a>
         </p>
