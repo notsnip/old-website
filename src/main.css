@@ -91,7 +91,7 @@ html ::-webkit-scrollbar {
         width: 95%;
     }
     #scroll_to_top{
-        display: none;
+        /* display: none; */
     }
 
 }
