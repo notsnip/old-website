@@ -153,7 +153,7 @@ function Hero(props) {
       <p id='pages_title'>MORE</p>
       <div id="more_pages">
         <div id="first" className='page'>
-          <Link to="/songs" style={{ textDecoration: 'none' }} preventScrollReset={false}>
+          <Link to="https://www.last.fm/user/realsnipc" style={{ textDecoration: 'none' }} preventScrollReset={false}>
             <h3>songs</h3>
             <p>This button leads to songs I listen to when I'm coding, gaming, or just plain bored, so buckle up!</p>
           </Link>
