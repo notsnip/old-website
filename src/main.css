@@ -77,6 +77,14 @@ html ::-webkit-scrollbar {
 }
 
 
+/* hero text on top of pages styles  */
+.text_hero_text{
+    font-family: 'Work Sans', sans-serif;
+    color: var(--text-white);
+    margin-top: 3rem;
+}
+
+
 /* for mobile folks */
 @media only screen and (max-width: 600px) {
     body{

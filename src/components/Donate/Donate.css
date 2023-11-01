@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
 
 
 #donate-methods{
@@ -36,16 +36,10 @@ a{
 }
 #hero-text{
 
+    font-family: 'Work Sans', sans-serif;
     margin-bottom: 3rem;
 }
-.text_hero_text{
-    font-family: 'Work Sans', sans-serif;
-    color: var(--text-white);
-    margin-top: 3rem;
 
-
-
-}
 
 
 @media only screen and (max-width: 600px) {

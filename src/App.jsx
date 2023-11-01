@@ -10,6 +10,7 @@ import ToTop from '../scripts/ToTop';
 import sound from './click_sound.mp3'
 import FadeIn from 'react-fade-in';
 import Page404 from '../scripts/Page404';
+import Contact from './components/Contact/Contact';
 
 
 function App(){
@@ -69,6 +70,9 @@ function App(){
     <Route path='*' element={<Page404/>}/>
       {/* home route (i have given value in props to social links here )  */}
       <Route path='/' element={<Hero/>}/>
+
+          {/* the contact section  */}
+          <Route path='/contact' element={<Contact/>}/>
 
       {/* the anime section  */}
       <Route path='/anime' element={<Anime/>}/>
