@@ -1,6 +1,7 @@
 import React from 'react';
 import './Work.css'
 import FadeIn from 'react-fade-in';
+import ScrollToTop from 'react-scroll-up';
 
 // projects images 
 
@@ -85,13 +86,13 @@ function Work() {
         </p>
       </div> */}
 
-           {/* the github note  */}
-           {/* <div id="note">
-  <h1>Find my other open-source projects on <a href="https://https://github.com/realsnipc?tab=repositories" target='_blank'>GitHub</a></h1>
- </div> */}
 
-
-    
+{/* scroll to top button  */}
+<ScrollToTop showUnder={160}>
+  <div id="scroll_to_top">
+  <iconify-icon icon="ep:top" height='1.3rem'></iconify-icon>
+  </div>
+</ScrollToTop>
  </div>
  </FadeIn>
  </>

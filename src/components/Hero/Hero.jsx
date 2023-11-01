@@ -1,6 +1,7 @@
 import { React, useState } from 'react'
 import { Link } from "react-router-dom";
 import { Tooltip as ReactTooltip } from "react-tooltip";
+import ScrollToTop from 'react-scroll-up';
 
 // main css 
 import './Hero.css'
@@ -172,6 +173,13 @@ function Hero(props) {
           <br />Or I'll be reading something or doing homework.</p>
         <img src="https://media.giphy.com/media/MyibCKeY7w2TS/giphy.gif" alt="some random anime gif" id='about_me_gif' />
       </div>
+
+      {/* scroll to top button  */}
+<ScrollToTop showUnder={160}>
+  <div id="scroll_to_top">
+  <iconify-icon icon="ep:top" height='1.3rem'></iconify-icon>
+  </div>
+</ScrollToTop>
     </>
   )
 }

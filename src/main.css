@@ -16,6 +16,8 @@
     --tw-bg-opacity: 0.3;
 }
 
+
+/* remove user's abillity to select images and text  */
 * {
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -32,6 +34,8 @@ html{
     justify-content: center;
 }
 
+
+/* set body width  */
 body{
     width: 77%;
 }
@@ -43,7 +47,7 @@ html ::-webkit-scrollbar-thumb {
     /* height: 2px; */
 }
 
-
+/* the scrollbar  */
 html ::-webkit-scrollbar-track {
     background-color: #262626;
 
@@ -61,8 +65,25 @@ html ::-webkit-scrollbar {
     
 }
 
+
+/* scroll to top button styling  */
+#scroll_to_top{
+    border: 1px solid var(--margin-dark);
+    padding: 5px 19px;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    border-radius: 20px;
+    background-color: var(--secondary-bg-dark);
+}
+
+
 /* for mobile folks */
 @media only screen and (max-width: 600px) {
     body{
         width: 95%;
-    }}
+    }
+    #scroll_to_top{
+        display: none;
+    }
+
+}
