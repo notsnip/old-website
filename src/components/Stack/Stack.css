@@ -1,5 +1,3 @@
-@import"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap";
-
 :root {
     --pr1: #151519;
     --sr1: #19191d;
@@ -33,16 +31,6 @@
     opacity: 0.5;
 }
 
-.arrow {
-    cursor: pointer;
-    transition: 0.3s;
-    float: right;
-}
-
-.arrow:hover {
-    transition: 0.3s;
-    rotate: 90deg;
-}
 
 .technologies-card {
     margin-bottom: 7.5px;

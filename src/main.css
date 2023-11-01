@@ -90,8 +90,4 @@ html ::-webkit-scrollbar {
     body{
         width: 95%;
     }
-    #scroll_to_top{
-        /* display: none; */
-    }
-
 }
