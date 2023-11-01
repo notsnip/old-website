@@ -43,7 +43,7 @@
 
 }
 #link a{
-    color: rgb(147, 180, 238);
+    color: rgb(165, 164, 164);
     margin-right: 5px;
 }
 
@@ -61,23 +61,6 @@
     margin-left: 20px;
     margin-right: 20px;
 }
-/* the project note styles  */
-/* #note{
-   margin-top: 30px;
-   border: 1px solid var(--margin-dark);
-   border-radius: 10px;
-   font-size: 7px;
-   display: flex;
-   justify-content: center;
-   color: var(--dark-text);
-   background-color: var(--secondary-bg-dark);
-
-} */
-/* #note a{
-    color:grey;
-    font-family: 'Sometype Mono', monospace;
-} */
-
 
 /* last updated line  */
 #last_updated{
@@ -87,8 +70,8 @@
 
 .project_link{
     border: 1px solid var(--margin-dark);
-    padding: 5px 27px;
-    padding-bottom: 0px;
+    padding: 5px 25px;
+    padding-bottom: 2px;
     border-radius: 10px;
     background-color: var(--secondary-bg-dark);
 }
