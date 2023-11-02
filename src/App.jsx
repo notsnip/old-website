@@ -11,7 +11,6 @@ import FadeIn from 'react-fade-in';
 import Page404 from '../scripts/Page404';
 import Contact from './components/Contact/Contact';
 import Stack from './components/Stack/Stack';
-import AnimatedCursor from "react-animated-cursor";
 
 function App() {
 
@@ -33,7 +32,7 @@ function App() {
         <div id='main_div' onClick={play}>
 
           {/* animated cursor component  */}
-          <AnimatedCursor color='87, 87, 87'/>
+          {/* <AnimatedCursor color='87, 87, 87'/> */}
 
 
 
