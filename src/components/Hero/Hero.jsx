@@ -169,7 +169,7 @@ function Hero(props) {
       <p id='pages_title' style={{ marginTop: '20vh' }}>ABOUT ME</p>
       <div id="about_me">
         <p id="about_para">My name is <span id='Shaurya'>Shaurya</span>. I'm always doing <u>random things</u>.
-          <br /> <br /> Beyond computers, I'm really interested in <a href="/anime" id="about_me_link">anime</a> and <a id='about_me_link' href="/songs">music</a>, you can often catch me spending time with those.
+          <br /> <br /> Beyond computers, I'm really interested in <a href="/anime" id="about_me_link">anime</a> and <a id='about_me_link' href="https://www.last.fm/user/realsnipc">music</a>, you can often catch me spending time with those.
           <br />Or I'll be reading something or doing homework.</p>
         <img src="https://media.giphy.com/media/MyibCKeY7w2TS/giphy.gif" alt="some random anime gif" id='about_me_gif' />
       </div>

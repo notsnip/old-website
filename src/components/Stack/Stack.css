@@ -46,6 +46,7 @@
     height: 25px;
     position: relative;
     display: inline-block;
+    cursor: pointer;
 }
 
 .technologies-card:hover {
