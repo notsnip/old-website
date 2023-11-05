@@ -10,7 +10,7 @@
 /* the main container */
 .container{
     display: flex;
-    margin-top: 12vh;
+    margin-top: 15vh;
 }
 
 /* the img and img container  */
@@ -20,6 +20,11 @@
 }
 .img img{
     height: 250px;
+    border-radius: 100px;
+}
+
+b{
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* hello and intro styling  */
@@ -84,7 +89,7 @@ html{
 @media only screen and (max-width: 600px) {
      .container{
         flex-direction: column-reverse;
-        margin-top: 30px;
+        margin-top: 8dvh;
      }
      #hello{
         font-size: 35px;
@@ -106,6 +111,13 @@ html{
      #spotify{
         width: 20px;
      }
+     .img img{
+        border-radius: 200px;
+     }
+     #circle{
+        padding: -14px -11px;
+        border-radius: 200px;
+    }
 }
 
 

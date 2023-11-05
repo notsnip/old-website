@@ -11,13 +11,13 @@ function Navbar(props) {
 
   function redirect() {
     console.log('running')
-    window.location = `https://github.com/realsnipc/snipc/issues`;
+    window.location = `https://github.com/realsnipc/snipc/`;
   }
 
   return (
     // navbar section 
     <div id='navbar'>
-      <span id='mode' target='' className='switch-btn' onClick={redirect} data-tooltip-id="feedback">
+      <span id='mode' target='' className='switch-btn' onClick={redirect} data-tooltip-id="Feedback">
         <iconify-icon icon="fluent:person-feedback-16-filled" height='1.4em' ></iconify-icon>
       </span>
 
@@ -29,7 +29,7 @@ function Navbar(props) {
       </span>
 
       <ReactTooltip
-        id="feedback"
+        id="Feedback"
         place="bottom"
         content="Feedback"
         style={{ borderRadius: '10px', fontFamily: "'Work Sans', sans-serif" }}

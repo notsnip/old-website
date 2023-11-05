@@ -5,6 +5,7 @@ import FadeIn from 'react-fade-in/lib/FadeIn';
 function Contact() {
     return (
         <FadeIn delay={600}>
+            <title>contact • snipc</title>
             <div id="hero_text">
                 <h2 className='text_hero_text'>Contact</h2>
                 <p className='text_hero_text'>Send me a message. Unless I'm busy, in that case it may take a little longer.
@@ -78,8 +79,7 @@ function Contact() {
                 </a>
 
 
-                <a href="https://myanimelist.net/profile/snipc" target='_blank'>
-                    {/* Mail card   */}
+                {/* <a href="https://myanimelist.net/profile/snipc" target='_blank'>
                     <div className="contact_card">
                         <iconify-icon icon="simple-icons:myanimelist" height='2.5rem' style={{ paddingLeft: '10px' }}></iconify-icon>
                         <div className="contact_card_content">
@@ -88,7 +88,7 @@ function Contact() {
                             <p>@snipc</p>
                         </div>
                     </div>
-                </a>
+                </a> */}
             </div>
         </FadeIn>
     )
