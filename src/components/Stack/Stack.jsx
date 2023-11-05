@@ -105,7 +105,7 @@ function Stack() {
                 </div>
 
                 <div className="app-container">
-                    <span className="technologies-text tech-sub">DESKTOP APPS (<iconify-icon icon="fa6-brands:fedora"></iconify-icon>)</span>
+                    <span className="technologies-text tech-sub">DESKTOP APPS (<iconify-icon icon="cib:zorin"></iconify-icon>)</span>
                 </div>
                 <div className="container2">
 
@@ -134,6 +134,15 @@ function Stack() {
                             <iconify-icon icon="logos:discord-icon" height='1.3rem'></iconify-icon>
                         </div>
                         <span className="tech-card-desc">Discord</span>
+                    </div>
+
+
+
+                    <div className="technologies-card">
+                        <div className="tech-card-display">
+                            <iconify-icon icon="logos:spotify-icon" height='1.5rem'></iconify-icon>
+                        </div>
+                        <span className="tech-card-desc">Spotify</span>
                     </div>
 
 
@@ -169,24 +178,17 @@ function Stack() {
 
                     <div className="technologies-card">
                         <div className="tech-card-display">
-                            <iconify-icon icon="logos:spotify-icon" height='1.5rem'></iconify-icon>
-                        </div>
-                        <span className="tech-card-desc">Spotify</span>
-                    </div>
-
-                    <div className="technologies-card">
-                        <div className="tech-card-display">
                             <iconify-icon icon="arcticons:anime-slayer" height='1.5rem'></iconify-icon>
                         </div>
                         <span className="tech-card-desc">Dantotsu</span>
                     </div>
-
+{/* 
                     <div className="technologies-card">
                         <div className="tech-card-display">
                             <iconify-icon icon="simple-icons:roadmapdotsh" height='1.5rem'></iconify-icon>
                         </div>
                         <span className="tech-card-desc">Roadmap.sh</span>
-                    </div>
+                    </div> */}
 
                     {/* Template to add more item  */}
                     {/* <div className="technologies-card">
@@ -194,13 +196,12 @@ function Stack() {
                 <iconify-icon icon="vscode-icons:file-type-html" height='1.5rem'></iconify-icon>
                 </div>
                 <span className="tech-card-desc">Adobe</span>
-            </div> */}
+                </div> */}
+                                <p className='text_hero_text stack_note'>(this awesome section uses a code snippet from <a href="https://wounds.rip/">neksio</a>)</p>
                 </div>
+
             </div>
-            <p className='text_hero_text stack_note'>(this awesome section uses a code snippet from <a href="https://wounds.rip/">neksio</a>)
 
-
-</p>
             {/* scroll to top button  */}
             <ScrollToTop showUnder={160}>
                 <div id="scroll_to_top">
