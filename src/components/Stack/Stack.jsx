@@ -172,19 +172,19 @@ function Stack() {
                         </div>
                         <span className="tech-card-desc">G-Apps</span>
                     </div>
-
+{/* 
                     <div className="technologies-card">
                         <div className="tech-card-display">
                             <iconify-icon icon="devicon-plain:notion" height='1.5rem'></iconify-icon>
                         </div>
                         <span className="tech-card-desc">Notion</span>
-                    </div>
+                    </div> */}
 
                     <div className="technologies-card">
                         <div className="tech-card-display">
-                            <iconify-icon icon="arcticons:saikou" height='1.5rem'></iconify-icon>
+                            <iconify-icon icon="simple-icons:anilist" height='1.5rem'></iconify-icon>
                         </div>
-                        <span className="tech-card-desc">Dantotsu</span>
+                        <span className="tech-card-desc">AniList</span>
                     </div>
 
 
