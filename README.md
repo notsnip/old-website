@@ -11,8 +11,8 @@
 - Iconify
 
 ### Future Plans (To-do)
-[ ] Dynamic projects & stack data from personal api
-[x] Migrate to Vite
+- [ ] Dynamic projects & stack data from personal api
+- [x] Migrate to Vite
 
 
 ## Credits & Inspirations ✨
