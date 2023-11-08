@@ -145,7 +145,7 @@ function Stack() {
 
                     <div className="technologies-card">
                         <div className="tech-card-display">
-                            <iconify-icon icon="logos:discord-icon" height='1.2.5rem'></iconify-icon>
+                            <iconify-icon icon="logos:discord-icon" height='1.25rem'></iconify-icon>
                         </div>
                         <span className="tech-card-desc">Discord</span>
                     </div>
@@ -195,9 +195,10 @@ function Stack() {
                 </div>
                 <span className="tech-card-desc">Adobe</span>
             </div> */}
+                                <p className='text_hero_text stack_note'>(this awesome section uses a code snippet from <a href="https://wounds.rip/">neksio</a>)</p>
 
                 </div>
-                    <p className='text_hero_text stack_note'>(this awesome section uses a code snippet from <a href="https://wounds.rip/">neksio</a>)</p>
+
                 </div>
 
             {/* scroll to top button  */}
