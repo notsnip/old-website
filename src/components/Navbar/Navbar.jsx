@@ -11,7 +11,7 @@ function Navbar(props) {
 
   function redirect() {
     console.log('running')
-    window.location = `https://github.com/realsnipc/snipc/`;
+    window.location = `https://github.com/realsnipc/snipc.me/issues/new`;
   }
 
   return (
