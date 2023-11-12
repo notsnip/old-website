@@ -16,7 +16,6 @@ function App() {
 
 
 
-
   // script to play the 'click' audio 
   function play() {
     new Audio(sound).play()
