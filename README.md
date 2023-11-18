@@ -10,8 +10,9 @@
 - Vite
 - Iconify
 
-### Future Plans (To-do)
+### To-do's
 - [ ] Dynamic projects & stack data from personal api
+- [ ] Revamp Stack section
 - [x] Migrate to Vite
 
 
