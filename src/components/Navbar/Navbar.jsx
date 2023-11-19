@@ -10,25 +10,24 @@ function Navbar(props) {
 
 
   function redirect() {
-    console.log('running')
-    window.location = `https://github.com/realsnipc/snipc.me/issues/new`;
+    history.back()
   }
 
   return (
     // navbar section 
     <div id='navbar'>
 
-{/*       
-      <span id='mode' target='' className='switch-btn' onClick={redirect} data-tooltip-id="Feedback">
-        <iconify-icon icon="fluent:person-feedback-16-filled" height='1.4em' ></iconify-icon>
-      </span> */}
+      
+      <span id='mode' target='' className='switch-btn' onClick={redirect} data-tooltip-id="Back">
+        <iconify-icon icon="lets-icons:back" height='1.4em' ></iconify-icon>
+      </span>
 
-      <span id='mode' target='' data-tooltip-id="home">
+      {/* <span id='mode' target='' data-tooltip-id="home">
         <Link to='/'>
           <iconify-icon icon="ic:round-home" height='1.4em' style={{ color: 'white' }}>
           </iconify-icon>
         </Link>
-      </span>
+      </span> */}
 
       {/* <ReactTooltip
         id="Feedback"
@@ -38,9 +37,9 @@ function Navbar(props) {
       /> */}
 
       <ReactTooltip
-        id="home"
+        id="Back"
         place="bottom"
-        content="Home"
+        content="Back"
         style={{ borderRadius: '10px', fontFamily: "'Work Sans', sans-serif" }}
       />
 
