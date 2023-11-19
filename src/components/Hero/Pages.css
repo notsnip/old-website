@@ -77,12 +77,12 @@
 
 /* reduce the padding and margin for a better look  */
 #more_pages h3{
-    margin-top: 13px;
+    margin-top: 17px;
     padding-bottom: 0px;
 }
 #more_pages p{
     padding-top: 5px;
-    margin-bottom: 13px;
+    margin-bottom: 12px;
 }
 
 
@@ -100,9 +100,12 @@
     }
     .page h3{
         font-size: 15px;
+        margin-top: 20px;
+        
     }
     .page p{
         font-size: 12px;
+        padding-bottom: 5px;
     }
     #pages_title{
         text-align: center;
