@@ -17,9 +17,11 @@ function Navbar(props) {
   return (
     // navbar section 
     <div id='navbar'>
+
+{/*       
       <span id='mode' target='' className='switch-btn' onClick={redirect} data-tooltip-id="Feedback">
         <iconify-icon icon="fluent:person-feedback-16-filled" height='1.4em' ></iconify-icon>
-      </span>
+      </span> */}
 
       <span id='mode' target='' data-tooltip-id="home">
         <Link to='/'>
@@ -28,12 +30,12 @@ function Navbar(props) {
         </Link>
       </span>
 
-      <ReactTooltip
+      {/* <ReactTooltip
         id="Feedback"
         place="bottom"
         content="Feedback"
         style={{ borderRadius: '10px', fontFamily: "'Work Sans', sans-serif" }}
-      />
+      /> */}
 
       <ReactTooltip
         id="home"
