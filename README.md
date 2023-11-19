@@ -12,7 +12,7 @@
 
 ### To-do's
 - [ ] Dynamic projects & stack data from personal api
-- [ ] Revamp Stack section
+- [x] Revamp Stack section
 - [x] Migrate to Vite
 
 

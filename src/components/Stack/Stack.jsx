@@ -11,7 +11,7 @@ function Stack() {
                 <h2 className='text_hero_text'>Stack</h2>
                 <p className='text_hero_text'>Discover the apps and tools that power my productivity, creativity, and everyday life.
                     <br />
-                    (suggest me some more epic tools)
+                    (You can suggest me more!)
 
                 </p>
             </div>
@@ -78,13 +78,13 @@ function Stack() {
                         <div className="tech-card-display">
                             <iconify-icon icon="logos:prerender-icon" height='1.5rem'></iconify-icon>
                         </div>
-                        <span className="tech-card-desc">Render.com</span>
+                        <span className="tech-card-desc">Render</span>
                     </div>
                     <div className="technologies-card">
                         <div className="tech-card-display">
                             <iconify-icon icon="bi:github" height='1.5rem'></iconify-icon>
                         </div>
-                        <span className="tech-card-desc">Git+Github</span>
+                        <span className="tech-card-desc">Github</span>
                     </div>
 
                     <div className="technologies-card">
@@ -119,7 +119,7 @@ function Stack() {
                 </div>
 
                 <div className="app-container">
-                    <span className="technologies-text tech-sub">APPS ( <iconify-icon icon="cib:zorin"></iconify-icon> + <iconify-icon icon="uil:android"></iconify-icon> )</span>
+                    <span className="technologies-text tech-sub">APPS ( <iconify-icon icon="cib:zorin"></iconify-icon>)</span>
                 </div>
                 <div className="container2">
 
@@ -138,54 +138,24 @@ function Stack() {
 
                     <div className="technologies-card">
                         <div className="tech-card-display">
-                            <iconify-icon icon="logos:chrome" height='1.5rem'></iconify-icon>
-                        </div>
-                        <span className="tech-card-desc">Chrome</span>
-                    </div>
-
-                    <div className="technologies-card">
-                        <div className="tech-card-display">
                             <iconify-icon icon="logos:discord-icon" height='1.25rem'></iconify-icon>
                         </div>
                         <span className="tech-card-desc">Discord</span>
                     </div>
 
-
-
                     <div className="technologies-card">
                         <div className="tech-card-display">
-                            <iconify-icon icon="logos:spotify-icon" height='1.5rem'></iconify-icon>
+                            <iconify-icon icon="devicon:canva" height='1.5rem'></iconify-icon>
                         </div>
-                        <span className="tech-card-desc">Spotify</span>
+                        <span className="tech-card-desc">Canva</span>
                     </div>
-
-                    <div className="technologies-card">
-                        <div className="tech-card-display">
-                            <iconify-icon icon="skill-icons:linkedin" height='1.5rem'></iconify-icon>
-                        </div>
-                        <span className="tech-card-desc">Linkedin</span>
-                    </div>
-
-                    <div className="technologies-card">
-                        <div className="tech-card-display">
-                            <iconify-icon icon="flat-color-icons:google" height='1.5rem'></iconify-icon>
-                        </div>
-                        <span className="tech-card-desc">G-Apps</span>
-                    </div>
-{/* 
+                    {/* 
                     <div className="technologies-card">
                         <div className="tech-card-display">
                             <iconify-icon icon="devicon-plain:notion" height='1.5rem'></iconify-icon>
                         </div>
                         <span className="tech-card-desc">Notion</span>
                     </div> */}
-
-                    <div className="technologies-card">
-                        <div className="tech-card-display">
-                            <iconify-icon icon="simple-icons:anilist" height='1.5rem'></iconify-icon>
-                        </div>
-                        <span className="tech-card-desc">AniList</span>
-                    </div>
 
 
                     {/* Template to add more item  */}
@@ -195,11 +165,11 @@ function Stack() {
                 </div>
                 <span className="tech-card-desc">Adobe</span>
             </div> */}
-                                <p className='text_hero_text stack_note'>(this awesome section uses a code snippet from <a href="https://wounds.rip/">neksio</a>)</p>
+                    <p className='text_hero_text stack_note'>(this awesome section uses a code snippet from <a href="https://wounds.rip/">neksio</a>)</p>
 
                 </div>
 
-                </div>
+            </div>
 
             {/* scroll to top button  */}
             <ScrollToTop showUnder={160}>
