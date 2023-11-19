@@ -5,7 +5,7 @@ import FadeIn from 'react-fade-in/lib/FadeIn';
 function Contact() {
     return (
         <FadeIn delay={600}>
-            <title>contact • snipc</title>
+            <title>Contact - snipc</title>
             <div id="hero_text">
                 <h2 className='text_hero_text'>Contact</h2>
                 <p className='text_hero_text'>Send me a message. Unless I'm busy, in that case it may take a little longer.

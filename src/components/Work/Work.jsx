@@ -15,7 +15,7 @@ function Work() {
  <>
  <FadeIn delay={300}>
  <meta name="description" content="Projects I (Shaurya) have made and I'm working on."/>
- <title>work • snipc</title>
+ <title>Work - snipc</title>
 
 
  <div id="repos_container">

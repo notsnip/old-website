@@ -6,7 +6,7 @@ import ScrollToTop from 'react-scroll-up';
 function Stack() {
     return (
         <FadeIn delay={600}>
-            <title>stack • snipc</title>
+            <title>Stack - snipc</title>
             <div id="hero_text">
                 <h2 className='text_hero_text'>Stack</h2>
                 <p className='text_hero_text'>Discover the apps and tools that power my productivity, creativity, and everyday life.

@@ -87,7 +87,7 @@ function Anime() {
     <>
 <FadeIn delay={500}>
 <meta name="description" content="Animes I (Shaurya) have watched and some of my favourites ones"/>
-<title>anime • snipc</title>
+<title>Anime - snipc</title>
 
       <h5>most-liked</h5>
       <div id="favourite_anime">
