@@ -6,7 +6,7 @@ function Footer(props) {
 
 <div id="footer">
   <a href={props.project_link} id="link" target='_blank'>
-    <p id='icon'><iconify-icon icon="ph:link-bold" style={{color: '#999'}}></iconify-icon> </p> <span id='text'>Open Source • snipc</span>
+    <p id='icon'><iconify-icon icon="ph:link-bold" style={{color: '#999'}}></iconify-icon> </p> <span id='text'>Open Source - Github</span>
     </a>
 </div>
   )
