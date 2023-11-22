@@ -65,7 +65,7 @@ function Hero(props) {
   return (
     <>
 
-      <title>Home - snipc</title>
+      <title>Shaurya Chaudhary ~ snipc</title>
 
       <div className="container" data-theme={props.w_theme} >
         {/* here comes the text container  */}
