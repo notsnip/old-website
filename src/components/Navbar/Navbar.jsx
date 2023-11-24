@@ -18,8 +18,8 @@ function Navbar(props) {
     <div id='navbar'>
 
       
-      <span id='mode' target='' className='switch-btn' onClick={redirect} data-tooltip-id="Back">
-        <iconify-icon icon="lets-icons:back" height='1.4em' ></iconify-icon>
+      <span id='mode' target='' className='switch-btn' onClick={redirect} data-tooltip-id="Home">
+        <iconify-icon icon="ant-design:home-filled" height='1.4em' ></iconify-icon>
       </span>
 
       {/* <span id='mode' target='' data-tooltip-id="home">
@@ -37,9 +37,9 @@ function Navbar(props) {
       /> */}
 
       <ReactTooltip
-        id="Back"
+        id="Home"
         place="bottom"
-        content="Back"
+        content="Home (Back)"
         style={{ borderRadius: '10px', fontFamily: "'Work Sans', sans-serif" }}
       />
 
