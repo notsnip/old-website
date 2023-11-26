@@ -39,7 +39,7 @@ function Navbar(props) {
       <ReactTooltip
         id="Home"
         place="bottom"
-        content="Home (Back)"
+        content="Home"
         style={{ borderRadius: '10px', fontFamily: "'Work Sans', sans-serif" }}
       />
 
