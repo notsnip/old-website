@@ -11,9 +11,10 @@
 - Iconify
 
 ### To-do's
-- [ ] Dynamic projects & stack data from personal api
+- [ ] Add On Scroll Animation
 - [ ] Add light mode
-- [ ] Fox avatar left margin 
+- [ ] Fix avatar left margin
+- [ ] Remove Anilist from socials 
 
 
 ## Credits & Inspirations ✨
