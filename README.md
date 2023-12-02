@@ -12,8 +12,8 @@
 
 ### To-do's
 - [ ] Dynamic projects & stack data from personal api
-- [x] Revamp Stack section
-- [x] Migrate to Vite
+- [ ] Add light mode
+- [ ] Fox avatar left margin 
 
 
 ## Credits & Inspirations ✨
