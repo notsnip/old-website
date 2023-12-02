@@ -9,7 +9,7 @@ import './Hero.css'
 import './Pages.css'
 // about me section 
 import './About.css'
-import snipc_img from './img/1.png'
+import snipc_img from './img/2.webp'
 
 function Hero(props) {
 
