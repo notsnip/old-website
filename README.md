@@ -12,14 +12,7 @@
 
 ### To-do's
 - [ ] Improve Animation
-- [x] Add light mode
-- [x] fix header
-- [x] fix stack
-- [ ] fix work
-- [x] Fix avatar left margin
-- [x] Remove Anilist from socials
-- [x] update discord status area
-
+- [ ] Add Skeleton Loading
 
 ## Credits & Inspirations ✨
 
