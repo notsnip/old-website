@@ -11,7 +11,7 @@
 - Iconify
 
 ### To-do's
-- [ ] Add On Scroll Animation
+- [x] Improve Animation
 - [ ] Add light mode
 - [x] Fix avatar left margin
 - [x] Remove Anilist from socials
