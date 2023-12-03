@@ -24,6 +24,10 @@
     text-decoration: underline;
 }
 
+#about_me_gif{
+    width: 303px;
+}
+
 
 /* for mobile folks */
 @media only screen and (max-width: 600px) {
