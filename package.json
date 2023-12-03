@@ -16,7 +16,8 @@
     "react-fade-in": "^2.0.1",
     "react-router-dom": "^6.16.0",
     "react-scroll-up": "^1.4.0",
-    "react-tooltip": "^5.21.6"
+    "react-tooltip": "^5.21.6",
+    "theme-change": "^2.5.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

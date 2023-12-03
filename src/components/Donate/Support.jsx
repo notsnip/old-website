@@ -1,8 +1,14 @@
 import React from 'react'
 import './Donate.css'
 import FadeIn from 'react-fade-in/lib/FadeIn';
+import { useEffect } from 'react';
+import { themeChange } from 'theme-change'
 
-function Support(props) {
+
+function Support(props) {useEffect(() => {
+  themeChange(false)
+  // 👆 false parameter is required for react project
+}, [])
   return (
 <>
 <meta name="description" content="Support me by donating some amount to help me awesome stuff."/>

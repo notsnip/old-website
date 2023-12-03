@@ -1,9 +1,15 @@
 import React, { useState } from 'react';
 import FadeIn from 'react-fade-in/lib/FadeIn';
+import { useEffect } from 'react';
+import { themeChange } from 'theme-change'
+
 import './Anime.css'
 
 function Anime() {
-
+useEffect(() => {
+  themeChange(false)
+  // 👆 false parameter is required for react project
+}, [])
   // recently updated anime 
   const [anime1,setanime1]=useState("Loading")
   const [img1,setimg1]=useState()

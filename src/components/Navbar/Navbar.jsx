@@ -1,40 +1,73 @@
 // importing libraries and css
-import React from 'react'
-import './Navbar.css'
+import React from 'react';
+import './Navbar.css';
 import { Link } from "react-router-dom";
 import { Tooltip as ReactTooltip } from "react-tooltip";
-
+import { useEffect } from 'react';
+import { themeChange } from 'theme-change';
 
 
 function Navbar(props) {
 
+  useEffect(() => {
+
+    if (localStorage.getItem("theme") === null) {
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        localStorage.setItem('theme', 'dark');
+      } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+        localStorage.setItem('theme', 'light');
+      }
+    themeChange(false);
+
+    }
+
+    setThemeAttribute();
+
+
+
+
+
+
+  }, []);
+
+  function setThemeAttribute() {
+
+
+    var item = localStorage.getItem('theme');
+    if (item == "light") {
+      document.querySelector('.theme').setAttribute("data-set-theme", "dark");
+    } else if (item == "dark") {
+      document.querySelector('.theme').setAttribute("data-set-theme", "light");
+    }
+  }
 
   function redirect() {
-    history.back()
+    history.back();
   }
 
   return (
     // navbar section 
     <div id='navbar'>
 
-      
-      <span id='mode' target='' className='switch-btn' onClick={redirect} data-tooltip-id="Home">
-        <iconify-icon icon="mdi:home-outline" height='1.4em' ></iconify-icon>
+
+<span id='mode' target=''data-act-class="ACTIVECLASS" data-tooltip-id='Theme' className='theme' onClick={() => {
+        setThemeAttribute();
+      }} >
+          <iconify-icon icon="tabler:sun" height='1.4em' style={{ color: 'var(--text-white)' }}>
+          </iconify-icon>
+
+      </span>
+      <span id='mode' target='' className='switch-btn' data-tooltip-id="Home" >
+        <iconify-icon icon="mdi:home-outline" height='1.4em' style={{ color: 'var(--text-white)' }} ></iconify-icon>
       </span>
 
-      {/* <span id='mode' target='' data-tooltip-id="home">
-        <Link to='/'>
-          <iconify-icon icon="ic:round-home" height='1.4em' style={{ color: 'white' }}>
-          </iconify-icon>
-        </Link>
-      </span> */}
 
-      {/* <ReactTooltip
-        id="Feedback"
+      <ReactTooltip
+        id="Theme"
         place="bottom"
-        content="Feedback"
+        content="Theme"
         style={{ borderRadius: '10px', fontFamily: "'Work Sans', sans-serif" }}
-      /> */}
+      />
 
       <ReactTooltip
         id="Home"
@@ -47,7 +80,7 @@ function Navbar(props) {
 
 
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

@@ -1,7 +1,9 @@
-import React from 'react';
+import {React,useEffect} from 'react';
 import './Work.css'
 import FadeIn from 'react-fade-in';
 import ScrollToTop from 'react-scroll-up';
+import { themeChange } from 'theme-change'
+
 
 // projects images 
 
@@ -10,7 +12,13 @@ import snipc_me from './img/snipc_me.png'
 import tribute_to_steve from './img/tribute_to_steve.png'
 
 
+
+
 function Work() {
+  useEffect(() => {
+    themeChange(false)
+    // 👆 false parameter is required for react project
+  }, [])
   return (
  <>
  <FadeIn delay={300}>
@@ -90,7 +98,7 @@ function Work() {
 {/* scroll to top button  */}
 <ScrollToTop showUnder={160}>
   <div id="scroll_to_top">
-  <iconify-icon icon="ep:top" height='1.3rem'></iconify-icon>
+  <iconify-icon icon="ep:top" height='1.3rem' style={{ color: 'var(--text-white)' }}></iconify-icon>
   </div>
 </ScrollToTop>
  </div>

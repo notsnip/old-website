@@ -2,8 +2,14 @@ import React from 'react';
 import './Stack.css';
 import FadeIn from 'react-fade-in/lib/FadeIn';
 import ScrollToTop from 'react-scroll-up';
+import { useEffect } from 'react';
+import { themeChange } from 'theme-change'
 
-function Stack() {
+
+function Stack() {useEffect(() => {
+  themeChange(false)
+  // 👆 false parameter is required for react project
+}, [])
     return (
         <FadeIn delay={600}>
             <title>Stack - snipc</title>
@@ -171,7 +177,7 @@ function Stack() {
             {/* scroll to top button  */}
             <ScrollToTop showUnder={160}>
                 <div id="scroll_to_top">
-                    <iconify-icon icon="ep:top" height='1.3rem'></iconify-icon>
+                    <iconify-icon icon="ep:top" height='1.3rem' style={{ color: 'var(--text-white)' }}></iconify-icon>
                 </div>
             </ScrollToTop>
 
