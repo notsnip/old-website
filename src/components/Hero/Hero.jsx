@@ -2,6 +2,10 @@ import { React, useState } from 'react'
 import { Link } from "react-router-dom";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import ScrollToTop from 'react-scroll-up';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 // main css 
 import './Hero.css'
@@ -67,9 +71,9 @@ function Hero(props) {
 
       <title>Shaurya Chaudhary ~ snipc</title>
 
-      <div className="container" data-theme={props.w_theme} >
+      <div className="container" >
         {/* here comes the text container  */}
-        <div className="text" data-theme={props.w_theme}>
+        <div className="text" >
           {/* the text in bracket */}
           <h5 id="intro">
             <iconify-icon icon="logos:spotify-icon" id='spotify' height='1.4rem'></iconify-icon>
@@ -167,7 +171,7 @@ function Hero(props) {
       </div>
 
       <p id='pages_title' style={{ marginTop: '20vh' }}>ABOUT ME</p>
-      <div id="about_me">
+      <div id="about_me" data-aos="fadeInUp" data-aos-anchor=".other-element" >
         <p id="about_para">My name is <span id='Shaurya'>Shaurya</span>. I'm always doing <u>random things</u>.
           <br /> <br /> Beyond computers, I'm really interested in <a href="https://www.last.fm/user/realsnipc" id="about_me_link">music</a> and <a id='about_me_link' href="#">gaming</a>, you can often find me spending time with those.
           <br />I'm trying to shift my focus to reading and going out.</p>
