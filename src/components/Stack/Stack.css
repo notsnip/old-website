@@ -1,9 +1,9 @@
 :root {
-    --pr1: #151519;
-    --sr1: #19191d;
-    --tb1: #1c1c21;
-    --fff-background-color: #222228;
-    --tc1: #e4e4e4;
+    --pr1: #f0f0f0;
+    --sr1: #31319c;
+    --tb1: #4c4ccc;
+    --fff-background-color: #3535e9;
+    --tc1: var(--text-white)
 }
 
 

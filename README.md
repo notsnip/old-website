@@ -11,8 +11,11 @@
 - Iconify
 
 ### To-do's
-- [x] Improve Animation
-- [ ] Add light mode
+- [ ] Improve Animation
+- [x] Add light mode
+- [x] fix header
+- [x] fix stack
+- [ ] fix work
 - [x] Fix avatar left margin
 - [x] Remove Anilist from socials
 - [x] update discord status area

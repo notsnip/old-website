@@ -57,8 +57,9 @@ function Navbar(props) {
           </iconify-icon>
 
       </span>
-      <span id='mode' target='' className='switch-btn' data-tooltip-id="Home" >
-        <iconify-icon icon="mdi:home-outline" height='1.4em' style={{ color: 'var(--text-white)' }} ></iconify-icon>
+      
+      <span id='mode' target='' className='switch-btn' data-tooltip-id="Home" ><Link to={'/'}>
+        <iconify-icon icon="mdi:home-outline" height='1.4em' style={{ color: 'var(--text-white)' }} ></iconify-icon></Link>
       </span>
 
 
