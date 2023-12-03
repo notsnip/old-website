@@ -66,19 +66,6 @@ function Contact() {
                     </div>
                 </a>
 
-                <a href="https://anilist.co/user/snipc/" target='_blank'>
-                    {/* Mail card   */}
-                    <div className="contact_card">
-                        <iconify-icon icon="simple-icons:anilist" height='2.5rem' style={{ paddingLeft: '10px' }}></iconify-icon>
-                        <div className="contact_card_content">
-
-                            <h2>A.L</h2>
-                            <p>@snipc</p>
-                        </div>
-                    </div>
-                </a>
-
-
                 {/* <a href="https://myanimelist.net/profile/snipc" target='_blank'>
                     <div className="contact_card">
                         <iconify-icon icon="simple-icons:myanimelist" height='2.5rem' style={{ paddingLeft: '10px' }}></iconify-icon>

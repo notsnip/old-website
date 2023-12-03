@@ -1,7 +1,8 @@
 /* this is the main css file with universal styling  */
 
-/* poppin and work sans fonts  */
+/* poppins, DM sans and work sans fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter&display=swap');
 
 /* main colors  */
 :root {
@@ -14,6 +15,7 @@
     --text-white: rgb(212, 212, 212);
     --dark-text: rgb(102, 102, 102);
     --tw-bg-opacity: 0.3;
+    --dc-status: rgb(180, 180, 180)
 }
 
 

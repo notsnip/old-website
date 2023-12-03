@@ -10,9 +10,6 @@ function Stack() {
             <div id="hero_text">
                 <h2 className='text_hero_text'>Stack</h2>
                 <p className='text_hero_text'>Discover the apps and tools that power my productivity, creativity, and everyday life.
-                    <br />
-                    (You can suggest me more!)
-
                 </p>
             </div>
 

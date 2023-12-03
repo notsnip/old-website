@@ -85,6 +85,13 @@ html{
 #links{
     margin-top: 20px;
 }
+
+/* discord status  */
+#discord_s{
+    font-family: 'DM Sans';
+    color: var(--dc-status);
+}
+
 /* for mobile folks */
 @media only screen and (max-width: 600px) {
      .container{
@@ -101,7 +108,7 @@ html{
         width: 100%;
      }
      #discord_s{
-        font-size: 10px;
+        font-size: 14px;
      }
 
      #intro{
@@ -115,7 +122,7 @@ html{
         border-radius: 200px;
      }
      #circle{
-        padding: -14px -11px;
+        padding: 0px ,1px;
         border-radius: 200px;
     }
 }

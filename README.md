@@ -14,8 +14,8 @@
 - [ ] Add On Scroll Animation
 - [ ] Add light mode
 - [ ] Fix avatar left margin
-- [ ] Remove Anilist from socials
-- [ ] update discord status area 
+- [x] Remove Anilist from socials
+- [x] update discord status area 
 
 
 ## Credits & Inspirations ✨
