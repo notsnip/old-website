@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Inter&display=swap');
 
 /* margin to the container to move it down from hero section  */
 #repos_container{
@@ -21,21 +21,19 @@
 .repo img{
     width: 500px;
     height: 250px;
-    border-radius: 10px;
-    border: 1px solid rgb(51, 51, 51);
+    border-radius: 9px;
 }
 .repo p,h2{
     margin: 0px;
 }
 .repo h2{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 30px;
     color: var( --text-white);
     margin-bottom: 10px;
 
 }
 .repo p{
-    font-family: 'Raleway', sans-serif;
     font-size: 17px;
 }
 #link{
