@@ -6,6 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import { useEffect } from 'react'
 import { themeChange } from 'theme-change'
+import FadeIn from 'react-fade-in';
 // ..
 AOS.init();
 
@@ -75,6 +76,10 @@ function Hero(props) {
 
   return (
     <>
+
+
+      {/* fade in animation effect to whole hero content  */}
+      <FadeIn delay={500}>
 
       <title>Shaurya Chaudhary ~ snipc</title>
 
@@ -190,7 +195,9 @@ function Hero(props) {
   <div id="scroll_to_top">
   <iconify-icon icon="ep:top" height='1.3rem' style={{ color: 'var(--text-white)' }}></iconify-icon>
   </div>
+
 </ScrollToTop>
+</FadeIn>
     </>
   )
 }

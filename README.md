@@ -11,7 +11,7 @@
 - Iconify
 
 ### To-do's
-- [ ] Improve Animation
+- [x] Improve Animation
 - [ ] Add Skeleton Loading
 
 ## Credits & Inspirations ✨

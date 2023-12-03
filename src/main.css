@@ -106,6 +106,26 @@ html ::-webkit-scrollbar {
     width: 8px;
 }
 
+.fade-enter {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+
 /* this code removes blue section when someone click on image on mobile  */
 * {
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;

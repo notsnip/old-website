@@ -7,7 +7,7 @@ import Footer from './components/Footer/Footer';
 import Support from './components/Donate/Support';
 import ToTop from '../scripts/ToTop';
 import sound from './click_sound.mp3'
-import FadeIn from 'react-fade-in';
+
 import Page404 from '../scripts/Page404';
 import Contact from './components/Contact/Contact';
 import Stack from './components/Stack/Stack';
@@ -26,8 +26,6 @@ function App() {
 
 
 
-      {/* fade in animation effect to whole hero content  */}
-      <FadeIn delay={900}>
         <div id='main_div' onClick={play}>
 
           {/* animated cursor component  */}
@@ -50,9 +48,40 @@ function App() {
           {/* routes setup */}
           <Routes>
 
+          <Route
+        render={({ location }) => (
+          <TransitionGroup>
+            <CSSTransition
+              key={location.key}
+              timeout={300}
+              classNames="fade"
+            >
+              <Route path='*' element={<Page404 />} />
+            {/* home route*/}
+            <Route path='/' element={<Hero />} />
+
+            {/* the contact section  */}
+            <Route path='/contact' element={<Contact />} />
+
+            {/* the stack section  */}
+            <Route path='/stack' element={<Stack />} />
+
+            {/* the anime section  */}
+            <Route path='/anime' element={<Anime />} />
+
+            {/* projects section  */}
+            <Route path='/work' element={<Work />} />
+
+            {/* Donate section  */}
+            <Route path='/support' element={<Support type='support' title="“No act of kindness, no matter how small, is ever wasted.” – Aesop" />} />
+            </CSSTransition>
+          </TransitionGroup>
+        )}
+      />
+
 
             <Route path='*' element={<Page404 />} />
-            {/* home route (i have given value in props to social links here )  */}
+            {/* home route*/}
             <Route path='/' element={<Hero />} />
 
             {/* the contact section  */}
@@ -74,7 +103,7 @@ function App() {
           <Footer project_link='https://github.com/realsnipc/snipc' />
 
         </div>
-      </FadeIn>
+
     </>
   )
 }
