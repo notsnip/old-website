@@ -12,7 +12,7 @@
 
 ### To-do's
 - [x] Improve Animation
-- [ ] Add Skeleton Loading
+- [x] V2
 
 ## Credits & Inspirations ✨
 
