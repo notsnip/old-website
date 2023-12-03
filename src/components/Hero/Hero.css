@@ -11,6 +11,7 @@
 .container{
     display: flex;
     margin-top: 15vh;
+    gap: 100px
 }
 
 /* the img and img container  */
@@ -97,6 +98,7 @@ html{
      .container{
         flex-direction: column-reverse;
         margin-top: 8dvh;
+        gap: 0px;
      }
      #hello{
         font-size: 35px;

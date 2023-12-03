@@ -13,7 +13,7 @@
 ### To-do's
 - [ ] Add On Scroll Animation
 - [ ] Add light mode
-- [ ] Fix avatar left margin
+- [x] Fix avatar left margin
 - [x] Remove Anilist from socials
 - [x] update discord status area 
 
