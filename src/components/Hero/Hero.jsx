@@ -21,7 +21,37 @@ function Hero(props) {
 
   useEffect(() => {
     themeChange(false)
-    // 👆 false parameter is required for react project
+      // fetch discord data from Lanyard 
+  fetch("https://api.lanyard.rest/v1/users/1019641343875760350")
+  .then((res) => res.json())
+  .then((json) => {
+    let data = json.data.discord_status
+    // Conditions respective to data recieved
+    if (json.data.spotify != null) {
+      setStatus(`Listening to ${json.data.spotify.song}`)
+      document.getElementById('circle').style.display = 'none'
+      document.getElementById('intro').style.display = 'flex'
+      document.getElementById('spotify').style.display = 'inline'
+
+    }
+    else if (data == 'offline') {
+      setStatus('Offline')
+    }
+    else if (data == 'online') {
+      setStatus('Online')
+      document.getElementById('circle').style.backgroundColor = 'rgb(121, 214, 121)'
+    }
+    else if (data == 'dnd') {
+      setStatus('Busy')
+      document.getElementById('circle').style.backgroundColor = 'rgb(212, 109, 109)'
+
+    }
+    else if (data == 'idle') {
+      setStatus('AFK')
+      document.getElementById('circle').style.backgroundColor = 'rgb(209, 209, 116)'
+
+    }
+  })
   }, [])
 
   var dob = new Date("09/02/2009");
@@ -42,37 +72,7 @@ function Hero(props) {
   var stylesObj = {
     backgroundColor: 'grey',
   };
-  // fetch discord data from Lanyard 
-  fetch("https://api.lanyard.rest/v1/users/1019641343875760350")
-    .then((res) => res.json())
-    .then((json) => {
-      let data = json.data.discord_status
-      // Conditions respective to data recieved
-      if (json.data.spotify != null) {
-        setStatus(`Listening to ${json.data.spotify.song}`)
-        document.getElementById('circle').style.display = 'none'
-        document.getElementById('intro').style.display = 'flex'
-        document.getElementById('spotify').style.display = 'inline'
 
-      }
-      else if (data == 'offline') {
-        setStatus('Offline')
-      }
-      else if (data == 'online') {
-        setStatus('Online')
-        document.getElementById('circle').style.backgroundColor = 'rgb(121, 214, 121)'
-      }
-      else if (data == 'dnd') {
-        setStatus('Busy')
-        document.getElementById('circle').style.backgroundColor = 'rgb(212, 109, 109)'
-
-      }
-      else if (data == 'idle') {
-        setStatus('AFK')
-        document.getElementById('circle').style.backgroundColor = 'rgb(209, 209, 116)'
-
-      }
-    })
   return (
     <>
 
