@@ -19,7 +19,7 @@ function Navbar(props) {
 
       
       <span id='mode' target='' className='switch-btn' onClick={redirect} data-tooltip-id="Home">
-        <iconify-icon icon="ant-design:home-filled" height='1.4em' ></iconify-icon>
+        <iconify-icon icon="mdi:home-outline" height='1.4em' ></iconify-icon>
       </span>
 
       {/* <span id='mode' target='' data-tooltip-id="home">

@@ -15,7 +15,7 @@
 - [ ] Add light mode
 - [x] Fix avatar left margin
 - [x] Remove Anilist from socials
-- [x] update discord status area 
+- [x] update discord status area
 
 
 ## Credits & Inspirations ✨
