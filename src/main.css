@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter&display=swap');
 
 /* main colors  */
-:root{
+/* :root{
     --bg-dark: rgb(23, 23, 23);
     --margin-dark: #242424;
     --secondary-bg-dark: rgba(36, 36, 36, 0.3);
@@ -16,7 +16,7 @@
     --dark-text: rgb(102, 102, 102);
     --tw-bg-opacity: 0.3;
     --dc-status: rgb(180, 180, 180)
-}
+} */
 /* 
 @media (prefers-color-scheme: light) {
     :root{
