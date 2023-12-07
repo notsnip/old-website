@@ -9,6 +9,7 @@
 - React.js (with react-router-dom)
 - Vite
 - Iconify
+- Third-party packages from good peoples
 
 ### To-do's (V3) 
 - [ ] Add skeleton loading to pages (good idea?)
