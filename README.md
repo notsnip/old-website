@@ -18,7 +18,8 @@
 - [ ] Fix my screwed anime section
 - [ ] Add data dynamically (maybe?)
 - [ ] Update Tooltip (it's not that bad anyway)
-- [ ] Change Scroll to top icon (it's not cool) 
+- [ ] Change Scroll to top icon (it's not cool)
+- [ ] Improve code quality and structure
 ## Credits & Inspirations ✨
 
 Thanks a lot to [Eggsy](https://eggsy.xyz) (a lot! ) & [Neksio](https://wounds.rip) to provide overall inspiration for this project ☁️.
