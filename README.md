@@ -17,7 +17,6 @@
 - [ ] Fix my screwed anime section
 - [ ] Add data dynamically (maybe?)
 - [ ] Update Tooltip (it's not that bad anyway) 
-- [ ] 
 ## Credits & Inspirations ✨
 
 Thanks a lot to [Eggsy](https://eggsy.xyz) & [Neksio](https://wounds.rip) to provide overall inspiration for this project ☁️.
