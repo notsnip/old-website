@@ -22,7 +22,7 @@
 - [ ] Improve code quality and structure
 ## Credits & Inspirations ✨
 
-Thanks a lot to [Eggsy](https://eggsy.xyz) (a lot! ) & [Neksio](https://wounds.rip) to provide overall inspiration for this project ☁️.
+Thanks a lot to [Eggsy](https://eggsy.xyz) (really lot! ) & [Neksio](https://wounds.rip) to provide overall inspiration for this project ☁️.
 
 [Lanyard](https://github.com/Phineas/Lanyard) for a sweet and hassle free Discord status integration 🛠️.
 
