@@ -95,7 +95,7 @@ useEffect(() => {
 <meta name="description" content="Animes I (Shaurya) have watched and some of my favourites ones"/>
 <title>Anime - snipc</title>
 
-      <h5>most-liked</h5>
+      <h5>liked-ones</h5>
       <div id="favourite_anime">
       <div className="anime">
           <img src={fav_img1} alt="" />

@@ -44,6 +44,7 @@ h5{
     /* font-family: 'Gabarito', sans-serif; */
     font-family: 'Sometype Mono', monospace;
     font-size: 20px;
+    color: var(--text-white);
 }
 
 /* mobile styling */

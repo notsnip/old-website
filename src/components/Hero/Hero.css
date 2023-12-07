@@ -48,7 +48,8 @@ b{
     color: var(--special-text)
 }
 #Shaurya:hover{
-    color: rgb(238, 215, 215);;
+    color: rgb(170, 168, 168);
+    transition: 0.3s;
 }
 
 /* status circle and spotify icon syling  */
