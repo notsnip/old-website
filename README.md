@@ -20,6 +20,7 @@
 - [ ] Update Tooltip (it's not that bad anyway)
 - [ ] Change Scroll to top icon (it's not cool)
 - [ ] Improve code quality and structure
+- [ ] Add React Lazy Loading to images
 ## Credits & Inspirations ✨
 
 Thanks a lot to [Eggsy](https://eggsy.xyz) (really lot! ) & [Neksio](https://wounds.rip) to provide overall inspiration for this project ☁️.
