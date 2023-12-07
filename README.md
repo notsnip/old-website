@@ -10,10 +10,14 @@
 - Vite
 - Iconify
 
-### To-do's
-- [x] Improve Animation
-- [x] V2
-
+### To-do's (V3) 
+- [ ] Add skeleton loading to pages (good idea?)
+- [ ] Improve pages
+- [ ] Add a 404 page (personal satisfaction!)
+- [ ] Fix my screwed anime section
+- [ ] Add data dynamically (maybe?)
+- [ ] Update Tooltip (it's not that bad anyway) 
+- [ ] 
 ## Credits & Inspirations ✨
 
 Thanks a lot to [Eggsy](https://eggsy.xyz) & [Neksio](https://wounds.rip) to provide overall inspiration for this project ☁️.
