@@ -7,6 +7,11 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 import { useEffect } from 'react'
 import { themeChange } from 'theme-change'
 import FadeIn from 'react-fade-in';
+// import snipc_img from './img/2.webp'
+// import snipc_hat_img from './img/3.png'
+
+import pfp from '../../scripts/Effects'
+
 // ..
 AOS.init();
 
@@ -16,7 +21,7 @@ import './Hero.css'
 import './Pages.css'
 // about me section 
 import './About.css'
-import snipc_img from './img/2.webp'
+
 
 function Hero(props) {
 
@@ -70,10 +75,10 @@ function Hero(props) {
 
   const [discord_state, setStatus] = useState('Loading..')
 
+
   var stylesObj = {
     backgroundColor: 'grey',
   };
-
   return (
     <>
 
@@ -121,10 +126,9 @@ function Hero(props) {
   <a href="https://linkedin.com/in/realshaurya" target="_blank"className="link"  id="linkedin" ><iconify-icon icon="ri:linkedin-fill" height='1.5em'style={{color:'white'}}></iconify-icon></a>
 </div> */}
         </div>
-
         {/* image container */}
         <div className="img">
-          <img src={snipc_img} alt="My online avatar I use as an alternate to my real photo. " />
+          <img src={pfp} alt="My online avatar I use as an alternate to my real photo. " />
         </div>
 
 

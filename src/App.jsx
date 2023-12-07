@@ -5,10 +5,10 @@ import Anime from './components/Anime/Anime';
 import Work from './components/Work/Work';
 import Footer from './components/Footer/Footer';
 import Support from './components/Donate/Support';
-import ToTop from '../scripts/ToTop';
+import ToTop from './scripts/ToTop';
 import sound from './click_sound.mp3'
 
-import Page404 from '../scripts/Page404';
+import Page404 from './scripts/Page404';
 import Contact from './components/Contact/Contact';
 import Stack from './components/Stack/Stack';
 
@@ -21,17 +21,14 @@ function App() {
     new Audio(sound).play()
   }
 
+
+
   return (
     <>
 
 
 
         <div id='main_div' onClick={play}>
-
-          {/* animated cursor component  */}
-          {/* <AnimatedCursor color='87, 87, 87'/> */}
-
-
 
           {/* these meta tags change the top bar colour to dark in ios and android devices  */}
           <meta name="theme-color" content="rgb(23,23,23)" />
