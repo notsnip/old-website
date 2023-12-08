@@ -1,15 +1,15 @@
 <h1 align='center'>snipc.me</h1>
 
-![ss](src/assets/ss.png)
+![ss](src/assets/mockup.png)
 
 ![](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 ## Stack
-- React.js (with react-router-dom)
+- React.js (with react-router)
 - Vite
 - Iconify
-- Third-party packages from good peoples
+- Support 🤝
 
 ### To-do's (V3) 
 - [ ] Add skeleton loading to pages (good idea?)

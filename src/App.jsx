@@ -1,33 +1,24 @@
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
-import Anime from './components/Anime/Anime';
-import Work from './components/Work/Work';
+import Hero from './pages/Hero/Hero';
+import Anime from './pages/Anime/Anime';
+import Work from './pages/Work/Work';
 import Footer from './components/Footer/Footer';
-import Support from './components/Donate/Support';
+import Support from './pages/Donate/Support';
 import ToTop from './scripts/ToTop';
 import sound from './click_sound.mp3'
-
-import Page404 from './scripts/Page404';
-import Contact from './components/Contact/Contact';
-import Stack from './components/Stack/Stack';
+import Contact from './pages/Contact/Contact';
+import Stack from './pages/Stack/Stack';
 
 function App() {
-
-
 
   // script to play the 'click' audio 
   function play() {
     new Audio(sound).play()
   }
 
-
-
   return (
     <>
-
-
-
         <div id='main_div' onClick={play}>
 
           {/* these meta tags change the top bar colour to dark in ios and android devices  */}
@@ -39,8 +30,6 @@ function App() {
 
           {/* scroll to top script which shift the page to top when user visit a route (this is script not button) */}
           <ToTop />
-
-
 
           {/* routes setup */}
           <Routes>
@@ -76,8 +65,7 @@ function App() {
         )}
       />
 
-
-            <Route path='*' element={<Page404 />} />
+            <Route path='*' element={<Hero />} />
             {/* home route*/}
             <Route path='/' element={<Hero />} />
 
@@ -98,7 +86,6 @@ function App() {
           </Routes>
           {/* footer (on every route) with text and project_link props */}
           <Footer project_link='https://github.com/realsnipc/snipc' />
-
         </div>
 
     </>
