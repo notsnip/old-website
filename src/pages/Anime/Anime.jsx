@@ -95,6 +95,28 @@ useEffect(() => {
 <meta name="description" content="Animes I (Shaurya) have watched and some of my favourites ones"/>
 <title>Anime - snipc</title>
 
+      
+      <h5>freshly-updated</h5>
+      <div id="recently_updated_anime">
+        <div className="anime">
+          <img src={img1} alt="" />
+          <span id='name'>{anime1}</span>
+          <span id='count'>{ep1}</span>
+        </div>
+
+        <div className="anime">
+          <img src={img2} alt="" />
+          <span id='name'>{anime2}</span>
+          <span id='count'>{ep2}</span>
+        </div>
+
+        <div className="anime">
+          <img src={img3} alt="" />
+          <span id='name'>{anime3}</span>
+          <span id='count'>{ep3}</span>
+        </div>
+      </div>
+
       <h5>liked-ones</h5>
       <div id="favourite_anime">
       <div className="anime">
@@ -128,26 +150,6 @@ useEffect(() => {
         </div>
 
        
-      </div>
-      <h5>freshly-updated</h5>
-      <div id="recently_updated_anime">
-        <div className="anime">
-          <img src={img1} alt="" />
-          <span id='name'>{anime1}</span>
-          <span id='count'>{ep1}</span>
-        </div>
-
-        <div className="anime">
-          <img src={img2} alt="" />
-          <span id='name'>{anime2}</span>
-          <span id='count'>{ep2}</span>
-        </div>
-
-        <div className="anime">
-          <img src={img3} alt="" />
-          <span id='name'>{anime3}</span>
-          <span id='count'>{ep3}</span>
-        </div>
       </div>
 
 

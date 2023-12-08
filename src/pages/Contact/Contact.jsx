@@ -14,9 +14,7 @@ function Contact() {useEffect(() => {
             <title>Contact - snipc</title>
             <div id="hero_text">
                 <h2 className='text_hero_text'>Contact</h2>
-                <p className='text_hero_text'>Send me a message. Unless I'm busy, in that case it may take a little longer.
-                    <br />
-                    (But don't worry, I'll get back to you eventually!)
+                <p className='text_hero_text'>If you have any questions, Reach out to me.
                 </p>
             </div>
 
@@ -27,7 +25,8 @@ function Contact() {useEffect(() => {
                 <a href="https:/discord.com/users/1019641343875760350" target='_blank'>
                     {/* discord card  */}
                     <div className="contact_card">
-                        <iconify-icon icon="logos:discord-icon" height='2rem' style={{ paddingLeft: '10px' }}></iconify-icon>
+                        <iconify-icon icon="ri:discord-fill" height='2.5rem' style={{ paddingLeft: '10px'
+                        ,color: 'var(--text-white)'}}></iconify-icon>
                         <div className="contact_card_content">
 
                             <h2>Discord</h2>
@@ -39,7 +38,7 @@ function Contact() {useEffect(() => {
                     {/* linkedin card  */}
                     <div className="contact_card">
                         <div className="icon_mobile">
-                        <iconify-icon icon="skill-icons:linkedin" height='2.5rem' style={{ paddingLeft: '10px' }} className='icon_mobile'></iconify-icon>
+                        <iconify-icon icon="ri:linkedin-fill" height='2.5rem' style={{ paddingLeft: '10px',color: 'var(--text-white)' }} className='icon_mobile'></iconify-icon>
                         </div>
                         <div className="contact_card_content">
 
@@ -51,7 +50,7 @@ function Contact() {useEffect(() => {
                 <a href="https://github.com/realsnipc" target='_blank'>
                     {/* Github card   */}
                     <div className="contact_card">
-                        <iconify-icon icon="arcticons:github" height='2.5rem' style={{ paddingLeft: '10px' }}></iconify-icon>
+                        <iconify-icon icon="ri:github-line" height='2.5rem' style={{ paddingLeft: '10px',color: 'var(--text-white)' }}></iconify-icon>
                         <div className="contact_card_content">
 
                             <h2>Github</h2>
@@ -63,7 +62,7 @@ function Contact() {useEffect(() => {
                 <a href="mailto:hello@snipc.me" target='_blank'>
                     {/* Mail card   */}
                     <div className="contact_card">
-                        <iconify-icon icon="mdi:email-outline" height='2.5rem' style={{ paddingLeft: '10px' }}></iconify-icon>
+                        <iconify-icon icon="iconoir:mail" height='2.5rem' style={{ paddingLeft: '10px',color: 'var(--text-white)' }}></iconify-icon>
                         <div className="contact_card_content">
 
                             <h2>Mail</h2>

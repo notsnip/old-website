@@ -1,14 +1,13 @@
 import {React,useEffect} from 'react';
 import './Work.css'
 import FadeIn from 'react-fade-in';
-import ScrollToTop from 'react-scroll-up';
 import { themeChange } from 'theme-change'
 
 
 // projects images 
 
 import old_snipc from './img/old_snipc.png'
-import snipc_me from './img/snipc_me.png'
+import snipc_me from './img/snipc_me.jpeg'
 import tribute_to_steve from './img/tribute_to_steve.png'
 
 
@@ -93,14 +92,6 @@ function Work() {
         </a>
         </p>
       </div> */}
-
-
-{/* scroll to top button  */}
-<ScrollToTop showUnder={160}>
-  <div id="scroll_to_top">
-  <iconify-icon icon="ep:top" height='1.3rem' style={{ color: 'var(--text-white)' }}></iconify-icon>
-  </div>
-</ScrollToTop>
  </div>
  </FadeIn>
  </>

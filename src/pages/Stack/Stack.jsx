@@ -1,7 +1,6 @@
 import React from 'react';
 import './Stack.css';
 import FadeIn from 'react-fade-in/lib/FadeIn';
-import ScrollToTop from 'react-scroll-up';
 import { useEffect } from 'react';
 import { themeChange } from 'theme-change'
 
@@ -168,18 +167,11 @@ function Stack() {useEffect(() => {
                 </div>
                 <span className="tech-card-desc">Adobe</span>
             </div> */}
-                    <p className='text_hero_text stack_note'>(this awesome section uses a code snippet from <a href="https://wounds.rip/">neksio</a>)</p>
+                    <p className='text_hero_text stack_note'>P.S: this awesome section uses a code snippet from <a href="https://wounds.rip/">neksio</a></p>
 
                 </div>
 
             </div>
-
-            {/* scroll to top button  */}
-            <ScrollToTop showUnder={160}>
-                <div id="scroll_to_top">
-                    <iconify-icon icon="ep:top" height='1.3rem' style={{ color: 'var(--text-white)' }}></iconify-icon>
-                </div>
-            </ScrollToTop>
 
         </FadeIn>
     );

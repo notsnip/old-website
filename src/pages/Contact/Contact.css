@@ -1,6 +1,6 @@
-#hero_text h2, #hero_text p{
-    margin-top: 0px;
+#hero_text p{
     margin-bottom: 20px;
+    margin-top: 3px;
 }
 #hero_text p{
     color: var(--dark-text);
@@ -19,23 +19,21 @@
 .contact_card{
     display: flex;
     align-items: center;
-    border: 1px solid var(--margin-dark);
+    border: 1.5px solid var(--margin-dark);
     border-radius: 10px;
-    margin-right: 20px;
-    margin-bottom: 20px;
     background-color: var(--secondary-bg-dark);
     transition: 0.3s;
-    width: 12rem;
+    width: 30rem;
+    margin: 10px;
 }
 .contact_card:hover{
     background-color: var(--tertiary-background-color);
 }
 .contact_card_content{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     flex-direction: column;
-    /* margin-left: 15px; */
-    padding: 25px;
+    padding: 20px;
 }
 
 .contact_card_content h2,p{
@@ -54,12 +52,10 @@
         align-items: center;
         justify-content: center;
     }
-    .contact_card,.contact_card_content{
-        width: 9rem;
+    .contact_card{
+        width: 90vw;
     }
     .contact_card_content{
-        padding: 15px;
-        padding-left: 2px;
 
     }
     .contact_card_content h2{

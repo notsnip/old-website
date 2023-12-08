@@ -27,8 +27,8 @@
     margin: 0px;
 }
 .repo h2{
-    font-family: 'Work Sans', sans-serif;
-    font-size: 30px;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-size: 27px;
     color: var( --text-white);
     margin-bottom: 10px;
 
@@ -95,11 +95,12 @@
     }
     .repo img{
         margin-bottom: 20px;
-        width: 21em;
-        height: 11em;
+        width: 22em;
+        height: 11em;    
+        border: 1px solid var(--margin-dark);
     }
     #info_text,.right #info_text{
-        margin-left: 10px;
+        margin-left: 0px;
         margin-right: 0px;
     }
 

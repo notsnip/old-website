@@ -6,7 +6,7 @@ function Footer(props) {
 
 <div id="footer">
   <a href='https://github.com/realsnipc/snipc.me' id="link" target='_blank'>
-    <p id='icon'><iconify-icon icon="ph:link-bold" style={{color: '#999'}}></iconify-icon> </p> <span id='text'>Open Source - V3.-1.1</span>
+    <p id='icon'><iconify-icon icon="ph:link-bold" style={{color: '#999'}}></iconify-icon> </p> <span id='text'>Open Source - V3 Beta</span>
     </a>
 </div>
   )

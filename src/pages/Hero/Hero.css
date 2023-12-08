@@ -11,7 +11,7 @@
 .container{
     display: flex;
     margin-top: 15vh;
-    gap: 100px
+    gap: 120px;
 }
 
 /* the img and img container  */

@@ -11,6 +11,7 @@
     margin-right: 30px;
     margin-bottom: 15px;
     flex-wrap: wrap;
+    cursor: pointer;
 
 
 }
@@ -42,7 +43,8 @@
 
 h5{
     /* font-family: 'Gabarito', sans-serif; */
-    font-family: 'Sometype Mono', monospace;
+    font-family: "Work Sans";
+    /* font-family: 'Sometype Mono', monospace; */
     font-size: 20px;
     color: var(--text-white);
 }

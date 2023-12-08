@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import { themeChange } from 'theme-change'
 
 
-function Support(props) {useEffect(() => {
+function Support() {useEffect(() => {
   themeChange(false)
   // 👆 false parameter is required for react project
 }, [])
@@ -16,27 +16,28 @@ function Support(props) {useEffect(() => {
 <title>Support - snipc</title>
 <FadeIn delay={400}>
 <div id="hero-text">
-    <h2 className='text_hero_text'>{props.type}</h2>
-    <p> {props.title}</p>
+    <h2 className='text_hero_text'>Support</h2>
+    <p>
+If you appreciate my work or would like to show your support, I would be incredibly grateful for your support! Your generosity would truly make my day! ✧˖°. </p>
 </div>
 
-<div id="donate-methods"></div>
+<div id="donate-methods">
 
 
 {/* buymeacoffee  */}
 <a href="https://buymeacoffee.com/snipc">
 <div className="donate-method">
 <iconify-icon icon="simple-icons:buymeacoffee" height='2rem'></iconify-icon>
-    <h5>Buy Me Coffee</h5>
+    <h5>Buy Me A Coffee</h5>
 </div>
 </a>
 
 
 {/* patreon  */}
-<a href="https://patreon.com/snipc">
+<a href="https://github.com/realsnipc/snipc" target='_blank'>
 <div className="donate-method">
-<iconify-icon icon="mdi:patreon" height='2rem'></iconify-icon>
-    <h5>Patreon </h5>
+<iconify-icon icon="entypo-social:github" height='2rem'></iconify-icon>
+    <h5>Star on Github </h5>
 </div>
 </a>
 {/* 
@@ -48,6 +49,7 @@ function Support(props) {useEffect(() => {
     <h5>Star - Github </h5>
 </div>
 </a> */}
+</div>
 </FadeIn>
 
 </>

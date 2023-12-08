@@ -1,16 +1,15 @@
 
-
-
 #donate-methods{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .donate-method{
     display: flex;
     align-items: center;
     border: 1px solid var(--margin-dark);
     padding: 15px;
-    width: 20%;
+    width: 40vw;
     border-radius: 10px;
     background-color: var(--secondary-bg-dark);
     margin-top: 1rem;
@@ -25,6 +24,7 @@
        margin: 0px;
        text-decoration: none;
        margin-left: 10px;
+       font-family: 'Work Sans';
 }
 
 #hero-text p{
@@ -43,8 +43,12 @@ a{
 
 
 @media only screen and (max-width: 600px) {
+    #donate-methods{
+        flex-direction: column;
+        align-items: center;
+    }
     .donate-method{
-        width: 70%;
+        width: 80vw
     }
 
 }
