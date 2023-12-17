@@ -31,6 +31,10 @@
     opacity: 0.5;
 }
 
+.technologies-container{
+    margin-right: 15px;
+}
+
 
 .technologies-card {
     margin-bottom: 7.5px;

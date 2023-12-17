@@ -7,6 +7,7 @@ import snipc_happy_celebrate_img from '../pages/Hero/img/5.webp';
 const date = new Date();
 
 
+
 // Winter Theme in December 
 if (date.getMonth() == 11) {
     snowStorm.resume();
@@ -17,7 +18,7 @@ if (date.getMonth() == 11) {
     snowStorm.freezeOnBlur = true;
     snowStorm.vMaxX = 8;
     snowStorm.vMaxY = 5;
-    var pfp = snipc_hat_img;
+    var pfp = snipc_hat_img;    
 }
 // Thumbs up on Monday (idk why)
 else if (date.getDay() == 1) {

@@ -23,7 +23,11 @@ function Work() {
  <FadeIn delay={300}>
  <meta name="description" content="Projects I (Shaurya) have made and I'm working on."/>
  <title>Work - snipc</title>
-
+ <div id="hero_text">
+                <h2 className='text_hero_text'>Projects</h2>
+                <p className='text_hero_text'>Projects I've worked on so far.
+                </p>
+            </div>
 
  <div id="repos_container">
 
@@ -34,7 +38,7 @@ function Work() {
       <img src={old_snipc} alt="" height='250px' width='500px'/>
       <div id="info_text">
       <h2>Old Homepage</h2>
-      <p> A single framed page with links to my socials. Used to be my homepage</p>
+      <p> A single framed page with links to my socials. Used to be my homepage.</p>
       <p id='link'>
         <a href="https://github.com/realsnipc/old.snipc" target='_blank' className='project_link'>
           <iconify-icon icon="mingcute:github-line" height='1.5em'></iconify-icon></a>
@@ -65,7 +69,7 @@ function Work() {
     <div className="repo">
       <img src={snipc_me} alt="" height='250px' width='500px'/>
       <div id="info_text">
-      <h2>snipc.me</h2>
+      <h2>snipc</h2>
       <p> My personal website, built with React.js, Vite and &gt;3!</p>
       <p id='link'>
         <a href="https://github.com/realsnipc/snipc.me" target='_blank' className='project_link'>
