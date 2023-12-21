@@ -22,7 +22,7 @@ function Contact() {useEffect(() => {
             <div id="contact_methods">
 
 
-                <a href="https:/discord.com/users/1019641343875760350" target='_blank'>
+                <a href="https://dsc.gg/devsh" target='_blank'>
                     {/* discord card  */}
                     <div className="contact_card">
                         <iconify-icon icon="ri:discord-fill" height='2.5rem' style={{ paddingLeft: '10px'
