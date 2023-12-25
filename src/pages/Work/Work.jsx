@@ -9,6 +9,7 @@ import { themeChange } from 'theme-change'
 import old_snipc from './img/old_snipc.png'
 import snipc_me from './img/snipc_me.jpeg'
 import tribute_to_steve from './img/tribute_to_steve.png'
+import sni_blog from './img/sni_blog.jpg'
 
 
 
@@ -35,6 +36,21 @@ function Work() {
 {/* projects  */}
 
 <div className="repo">
+      <img src={sni_blog} alt=""/>
+      <div id="info_text">
+      <h2>Blog</h2>
+      <p> My Blog for anything I want to share or write.</p>
+      <p id='link'>
+        <a href="https://github.com/realsnipc/blog" target='_blank' className='project_link'>
+          <iconify-icon icon="mingcute:github-line" height='1.5em'></iconify-icon></a>
+        <a href="https://blog.snipc.me" className='project_link'>
+        <iconify-icon icon="uil:link" height='1.5em'></iconify-icon>
+        </a>
+        </p>
+      </div>
+    </div>
+
+<div className="repo right">
       <img src={old_snipc} alt="" height='250px' width='500px'/>
       <div id="info_text">
       <h2>Old Homepage</h2>
@@ -49,7 +65,7 @@ function Work() {
       </div>
     </div>
 
-    <div className="repo right">
+    <div className="repo">
       <img src={tribute_to_steve} alt="" height='250px' width='500px'/>
       <div id="info_text">
       <h2>Tribute To Steve</h2>
@@ -66,7 +82,7 @@ function Work() {
 
 
 
-    <div className="repo">
+    <div className="repo right">
       <img src={snipc_me} alt="" height='250px' width='500px'/>
       <div id="info_text">
       <h2>snipc</h2>
