@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import FadeIn from 'react-fade-in/lib/FadeIn';
 import { useEffect } from 'react';
 import { themeChange } from 'theme-change'
 
@@ -91,7 +90,6 @@ useEffect(() => {
   })
   return (
     <>
-<FadeIn delay={500}>
 <meta name="description" content="Animes I (Shaurya) have watched and some of my favourites ones"/>
 <title>Anime - snipc</title>
 
@@ -151,9 +149,6 @@ useEffect(() => {
 
        
       </div>
-
-
-      </FadeIn>
       </>
   )
 }

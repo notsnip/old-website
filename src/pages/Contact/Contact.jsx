@@ -1,6 +1,5 @@
 import React from 'react'
 import './Contact.css'
-import FadeIn from 'react-fade-in/lib/FadeIn';
 import { useEffect } from 'react';
 import { themeChange } from 'theme-change'
 
@@ -10,7 +9,7 @@ function Contact() {useEffect(() => {
   // 👆 false parameter is required for react project
 }, [])
     return (
-        <FadeIn delay={600}>
+        <>
             <title>Contact - snipc</title>
             <div id="hero_text">
                 <h2 className='text_hero_text'>Contact</h2>
@@ -82,7 +81,7 @@ function Contact() {useEffect(() => {
                     </div>
                 </a> */}
             </div>
-        </FadeIn>
+            </>
     )
 }
 

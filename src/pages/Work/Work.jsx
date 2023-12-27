@@ -1,6 +1,5 @@
 import {React,useEffect} from 'react';
 import './Work.css'
-import FadeIn from 'react-fade-in';
 import { themeChange } from 'theme-change'
 
 
@@ -21,7 +20,6 @@ function Work() {
   }, [])
   return (
  <>
- <FadeIn delay={300}>
  <meta name="description" content="Projects I (Shaurya) have made and I'm working on."/>
  <title>Work - snipc</title>
  <div id="hero_text">
@@ -113,7 +111,6 @@ function Work() {
         </p>
       </div> */}
  </div>
- </FadeIn>
  </>
   )
 }

@@ -1,6 +1,5 @@
 import React from 'react'
 import './Donate.css'
-import FadeIn from 'react-fade-in/lib/FadeIn';
 import { useEffect } from 'react';
 import { themeChange } from 'theme-change'
 
@@ -14,7 +13,7 @@ function Support() {useEffect(() => {
 <meta name="description" content="Support me by donating some amount to help me awesome stuff."/>
 
 <title>Support - snipc</title>
-<FadeIn delay={400}>
+<>
 <div id="hero-text">
     <h2 className='text_hero_text'>Support</h2>
     <p>
@@ -50,7 +49,7 @@ If you appreciate my work or would like to show your support, I would be incredi
 </div>
 </a> */}
 </div>
-</FadeIn>
+</>
 
 </>
   )

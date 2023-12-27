@@ -10,6 +10,7 @@ import sound from './click_sound.mp3';
 import Contact from './pages/Contact/Contact';
 import Stack from './pages/Stack/Stack';
 import ScrollToTop from 'react-scroll-up';
+import 'animate.css';
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
 
   return (
     <>
-      <div id='main_div' onClick={play}>
+      <div id='main_div' onClick={play} className='animate__animated animate__fadeIn animate__delay-1s'>
 
         {/* these meta tags change the top bar colour to dark in ios and android devices  */}
         <meta name="theme-color" content="rgb(23,23,23)" />

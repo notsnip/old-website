@@ -5,7 +5,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import { useEffect } from 'react';
 import { themeChange } from 'theme-change';
-import FadeIn from 'react-fade-in';
 
 import pfp from '../../scripts/Effects';
 
@@ -79,9 +78,6 @@ function Hero(props) {
   return (
     <>
 
-
-      {/* fade in animation effect to whole hero content  */}
-      <FadeIn delay={500}>
 
         <title>Shaurya Chaudhary ~ snipc</title>
 
@@ -190,7 +186,6 @@ function Hero(props) {
             <br />I love exploring new things and places.</p>
           <img src="https://media.tenor.com/lO6HqZ3I2dIAAAAi/e.gif" alt="some random anime gif" id='about_me_gif' />
         </div>
-      </FadeIn>
     </>
   );
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import './Stack.css';
-import FadeIn from 'react-fade-in/lib/FadeIn';
 import { useEffect } from 'react';
 import { themeChange } from 'theme-change'
 
@@ -10,7 +9,7 @@ function Stack() {useEffect(() => {
   // 👆 false parameter is required for react project
 }, [])
     return (
-        <FadeIn delay={600}>
+        <>
             <title>Stack - snipc</title>
             <div id="hero_text">
                 <h2 className='text_hero_text'>Stack</h2>
@@ -173,7 +172,7 @@ function Stack() {useEffect(() => {
 
             </div>
 
-        </FadeIn>
+        </>
     );
 }
 
