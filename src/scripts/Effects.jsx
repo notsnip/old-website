@@ -20,18 +20,24 @@ if (date.getMonth() == 11) {
     snowStorm.vMaxY = 5;
     var pfp = snipc_hat_img;    
 }
+
+
+// Extra Effects 
+
 // Thumbs up on Monday (idk why)
-else if (date.getDay() == 1) {
-    var pfp = snipc_thumb_img;
-}
+// else if (date.getDay() == 6) {
+//     var pfp = snipc_thumb_img;
+// }
+
 // On Weekends
-else if (date.getDay() == 6 || date.getDay() == 0) {
-    var pfp = snipc_happy_heart_img;
-}
+// else if (date.getDay() == 6 || date.getDay() == 0) {
+//     var pfp = snipc_happy_heart_img;
+// }
+
 // Future Use 
-else if (date.getMonth()==1) {
-    var pfp = snipc_happy_celebrate_img;
-}
+// else if (date.getMonth()==1) {
+//     var pfp = snipc_happy_celebrate_img;
+// }
 else {
     var pfp = snipc_img;
 }

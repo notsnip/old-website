@@ -6,6 +6,10 @@
     display: flex;
 }
 
+#about_para a{
+    color: inherit;
+}
+
 /* first two pages  */
 .pages1{
     margin-top: 11em;

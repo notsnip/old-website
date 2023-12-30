@@ -158,7 +158,7 @@ function Hero(props) {
           <div id="fourth" className='page'>
             <Link to="/stack" style={{ textDecoration: 'none' }}>
               <h3>stack</h3>
-              <p>The tools that make me look like a genius (even though I'm not). </p>
+              <p>The tools that power my life and make me look like a genius (even though I'm not). </p>
             </Link>
           </div>
         </div>
@@ -181,10 +181,10 @@ function Hero(props) {
 
         <p id='pages_title' style={{ marginTop: '20vh' }}>ABOUT ME</p>
         <div id="about_me" data-aos="fadeInUp" data-aos-anchor=".other-element" >
-          <p id="about_para">My name is <span id='Shaurya'>Shaurya</span>. I'm always doing <u>random things</u>.
-            <br /> <br /> Beyond computers, I'm really interested in <a href="" id="about_me_link">reading</a> and <a id='about_me_link' href="/anime">anime</a>, you can often find me spending time with those.
-            <br />I love exploring new things and places.</p>
-          <img src="https://media.tenor.com/lO6HqZ3I2dIAAAAi/e.gif" alt="some random anime gif" id='about_me_gif' />
+          <p id="about_para">My name is <span id='Shaurya'>Shaurya</span>. I'm always trying <u>random things</u>.
+            <br /> <br /> Beyond computers, I'm really interested in <a href="https://www.last.fm/user/realsnipc" id="about_me_link">music</a> and <a id='about_me_link' href="/anime">anime</a>, you can often find me spending time with those.
+            <br />wanna know more about me? lets <a href="/contact">have a chat!</a></p>
+          <img src="https://media.giphy.com/media/Y1IFN5kK9E7fO/giphy.gif" alt="some random anime gif" id='about_me_gif' />
         </div>
     </>
   );

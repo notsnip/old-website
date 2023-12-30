@@ -4,10 +4,11 @@ import { useEffect } from 'react';
 import { themeChange } from 'theme-change'
 
 
-function Stack() {useEffect(() => {
-  themeChange(false)
-  // 👆 false parameter is required for react project
-}, [])
+function Stack() {
+    useEffect(() => {
+        themeChange(false)
+        // 👆 false parameter is required for react project
+    }, [])
     return (
         <>
             <title>Stack - snipc</title>
@@ -66,6 +67,12 @@ function Stack() {useEffect(() => {
                             <iconify-icon icon="simple-icons:express" height='1.5rem'></iconify-icon>
                         </div>
                         <span className="tech-card-desc">Express.js</span>
+                    </div>
+                    <div className="technologies-card">
+                        <div className="tech-card-display">
+                            <iconify-icon icon="vscode-icons:file-type-tailwind" height='1.5rem'></iconify-icon>
+                        </div>
+                        <span className="tech-card-desc">Tailwind CSS</span>
                     </div>
 
                 </div>
