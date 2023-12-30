@@ -9,7 +9,7 @@
 - Iconify
 - Support 🤝
 
-#### Get for yourself
+## Get for yourself
 
 All components and pages are in `src/pages` and `src/components` respectively. Edit as per your needs.
 
