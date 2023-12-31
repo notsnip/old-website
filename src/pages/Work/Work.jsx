@@ -21,7 +21,7 @@ function Work() {
   return (
  <>
  <meta name="description" content="Projects I (Shaurya) have made and I'm working on."/>
- <title>Work - snipc</title>
+ <title>work | snipc</title>
  <div id="hero_text">
                 <h2 className='text_hero_text'>Projects</h2>
                 <p className='text_hero_text'>Projects I've worked on so far.

@@ -91,7 +91,7 @@ useEffect(() => {
   return (
     <>
 <meta name="description" content="Animes I (Shaurya) have watched and some of my favourites ones"/>
-<title>Anime - snipc</title>
+<title>anime | snipc</title>
 
       
       <h5>freshly-updated</h5>

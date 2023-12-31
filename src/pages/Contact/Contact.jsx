@@ -10,7 +10,7 @@ function Contact() {useEffect(() => {
 }, [])
     return (
         <>
-            <title>Contact - snipc</title>
+            <title>contact | snipc</title>
             <div id="hero_text">
                 <h2 className='text_hero_text'>Contact</h2>
                 <p className='text_hero_text'>If you have any questions, Reach out to me.

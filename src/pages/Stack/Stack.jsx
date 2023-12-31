@@ -11,7 +11,7 @@ function Stack() {
     }, [])
     return (
         <>
-            <title>Stack - snipc</title>
+            <title>stack | snipc</title>
             <div id="hero_text">
                 <h2 className='text_hero_text'>Stack</h2>
                 <p className='text_hero_text'>Discover the apps and tools that power my productivity, creativity, and everyday life.

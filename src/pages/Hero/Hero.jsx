@@ -79,7 +79,7 @@ function Hero(props) {
     <>
 
 
-        <title>Shaurya Chaudhary ~ snipc</title>
+        <title>Shaurya Chaudhary | snipc</title>
 
         <div className="container" >
           {/* here comes the text container  */}

@@ -12,7 +12,7 @@ function Support() {useEffect(() => {
 <>
 <meta name="description" content="Support me by donating some amount to help me awesome stuff."/>
 
-<title>Support - snipc</title>
+<title>support | snipc</title>
 <>
 <div id="hero-text">
     <h2 className='text_hero_text'>Support</h2>
