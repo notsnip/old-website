@@ -71,6 +71,7 @@ html {
     color: white;
     display: flex;
     justify-content: center;
+    transition: 0.2s;
 }
 
 
