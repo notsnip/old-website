@@ -38,8 +38,7 @@ b{
     font-size: 15px;
     margin-bottom: 2px;
     color: var(--text-white);
-
-
+    transition: 0.3s;
     /* margin-top: 0px; */
 }
 
@@ -60,6 +59,7 @@ b{
 #circle{
     padding: 0px 10px;
     border-radius: 150px;
+    transition: 0.3s;
 }
 #spotify{
     display: none;
@@ -94,8 +94,10 @@ html{
 
 /* discord status  */
 #discord_s{
-    font-family: 'DM Sans';
+    font-family: 'Work Sans';
     color: var(--dc-status);
+    transition: 0.3s;
+    margin-left: 5px;
 }
 
 /* for mobile folks */

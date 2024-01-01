@@ -5,8 +5,10 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import { useEffect } from 'react';
 import { themeChange } from 'theme-change';
-
+import Skeleton from 'react-loading-skeleton';
 import pfp from '../../scripts/Effects';
+import 'react-loading-skeleton/dist/skeleton.css';
+
 
 // ..
 AOS.init();
@@ -24,7 +26,8 @@ function Hero(props) {
   useEffect(() => {
     themeChange(false);
     // fetch discord data from Lanyard 
-    fetch("https://api.lanyard.rest/v1/users/1019641343875760350")
+setTimeout(() => {
+  fetch("https://api.lanyard.rest/v1/users/1019641343875760350")
       .then((res) => res.json())
       .then((json) => {
         let data = json.data.discord_status;
@@ -54,6 +57,8 @@ function Hero(props) {
 
         }
       });
+}, 1500);
+    
   }, []);
 
   var dob = new Date("09/02/2009");
@@ -69,7 +74,7 @@ function Hero(props) {
   //now calculate the age of the user
   var age = Math.abs(year - 1970);
 
-  const [discord_state, setStatus] = useState('Loading..');
+  const [discord_state, setStatus] = useState(false);
 
 
   var stylesObj = {
@@ -82,14 +87,20 @@ function Hero(props) {
         <title>Shaurya Chaudhary | snipc</title>
 
         <div className="container fade-in" >
+
           {/* here comes the text container  */}
           <div className="text" >
             {/* the text in bracket */}
             <h5 id="intro">
               <iconify-icon icon="logos:spotify-icon" id='spotify' height='1.4rem'></iconify-icon>
-              <span id="circle" style={stylesObj}></span>
+             
               &nbsp;
-              <span id='discord_s' data-tooltip-id="discord_status">{discord_state}</span>
+              {
+                !discord_state && <span id='discord_s'><Skeleton containerClassName="flex-1" height={19} width={70} circle=''/></span>
+              }
+              
+             { discord_state &&<> <span id="circle" style={stylesObj}></span><span id='discord_s' data-tooltip-id="discord_status" className='fade-in'>{discord_state}</span>  </>
+             }
 
               {/* discord status tooltip  */}
               <ReactTooltip
@@ -102,6 +113,7 @@ function Hero(props) {
             {/* name and about me section  */}
             <h1 id='hello'>Hello, I'm <span id='Shaurya'>Shaurya</span></h1>
             <p id='about'>I'm a <b data-tooltip-id="dob">{age}</b> y/o fullstack developer from India. On the Internet, people call me snipc!</p>
+
 
             <ReactTooltip
               id="dob"
@@ -181,6 +193,7 @@ function Hero(props) {
 
         <p id='pages_title' style={{ marginTop: '20vh' }}>ABOUT ME</p>
         <div id="about_me" data-aos="fadeInUp" data-aos-anchor=".other-element" >
+
           <p id="about_para">My name is <span id='Shaurya'>Shaurya</span>. I'm always trying <u>random things</u>.
             <br /> <br /> Beyond computers, I'm really interested in <a href="https://www.last.fm/user/realsnipc" id="about_me_link">music</a> and <a id='about_me_link' href="/anime">anime</a>, you can often find me spending time with those.
             <br />wanna know more about me? lets <a href="/contact">have a chat!</a></p>
