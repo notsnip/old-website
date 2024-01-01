@@ -23,17 +23,17 @@ function Work() {
  <meta name="description" content="Projects I (Shaurya) have made and I'm working on."/>
  <title>work | snipc</title>
  <div id="hero_text">
-                <h2 className='text_hero_text'>Projects</h2>
-                <p className='text_hero_text'>Projects I've worked on so far.
+                <h2 className='text_hero_text fade-in'>Projects</h2>
+                <p className='text_hero_text fade-in'>Projects I've worked on so far.
                 </p>
             </div>
 
- <div id="repos_container">
+ <div id="repos_container fade-in">
 
 
 {/* projects  */}
 
-<div className="repo">
+<div className="repo fade-in">
       <img src={sni_blog} alt=""/>
       <div id="info_text">
       <h2>Blog</h2>

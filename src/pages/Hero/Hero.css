@@ -45,7 +45,11 @@ b{
 
 /* "Name" element styling  */
 #Shaurya{
-    color: var(--special-text)
+   
+
+          /** TEXT GRADIENT */ color: #f0bbc2; background-image: -webkit-linear-gradient(45deg, #f0bbc2 0%, #ffdde1 100%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+          
+        
 }
 #Shaurya:hover{
     color: rgb(170, 168, 168);

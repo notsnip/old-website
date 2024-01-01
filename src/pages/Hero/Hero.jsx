@@ -81,7 +81,7 @@ function Hero(props) {
 
         <title>Shaurya Chaudhary | snipc</title>
 
-        <div className="container" >
+        <div className="container fade-in" >
           {/* here comes the text container  */}
           <div className="text" >
             {/* the text in bracket */}
@@ -101,7 +101,7 @@ function Hero(props) {
             </h5>
             {/* name and about me section  */}
             <h1 id='hello'>Hello, I'm <span id='Shaurya'>Shaurya</span></h1>
-            <p id='about'>I'm a <b data-tooltip-id="dob">{age}</b> y/o hobbyist developer from India. I'm a nerd so you may find me as snipc online.</p>
+            <p id='about'>I'm a <b data-tooltip-id="dob">{age}</b> y/o fullstack developer from India. On the Internet, people call me snipc!</p>
 
             <ReactTooltip
               id="dob"

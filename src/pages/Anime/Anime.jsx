@@ -89,7 +89,7 @@ useEffect(() => {
 
   })
   return (
-    <>
+<div className='fade-in'>
 <meta name="description" content="Animes I (Shaurya) have watched and some of my favourites ones"/>
 <title>anime | snipc</title>
 
@@ -149,7 +149,7 @@ useEffect(() => {
 
        
       </div>
-      </>
+      </div>
   )
 }
 

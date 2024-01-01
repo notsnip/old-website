@@ -19,7 +19,7 @@ function Stack() {
             </div>
 
 
-            <div className="technologies-container">
+            <div className="technologies-container fade-in">
                 <div className="tech-cont">
                     <br />
                     <br />

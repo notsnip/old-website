@@ -10,6 +10,7 @@ function Contact() {useEffect(() => {
 }, [])
     return (
         <>
+        <div className='fade-in'>
             <title>contact | snipc</title>
             <div id="hero_text">
                 <h2 className='text_hero_text'>Contact</h2>
@@ -80,6 +81,7 @@ function Contact() {useEffect(() => {
                         </div>
                     </div>
                 </a> */}
+            </div>
             </div>
             </>
     )
