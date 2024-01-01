@@ -22,9 +22,17 @@ import './About.css';
 
 
 function Hero(props) {
+  
+  const [discord_state, setStatus] = useState(false);
+  const [isDarkTheme, setDarkTheme] = useState(false);
 
   useEffect(() => {
     themeChange(false);
+    if(localStorage.getItem('theme')=='dark'){
+      setDarkTheme(true);
+    }
+    console.log(isDarkTheme)
+
     // fetch discord data from Lanyard 
 setTimeout(() => {
   fetch("https://api.lanyard.rest/v1/users/1019641343875760350")
@@ -74,7 +82,6 @@ setTimeout(() => {
   //now calculate the age of the user
   var age = Math.abs(year - 1970);
 
-  const [discord_state, setStatus] = useState(false);
 
 
   var stylesObj = {
@@ -93,12 +100,19 @@ setTimeout(() => {
             {/* the text in bracket */}
             <h5 id="intro">
               <iconify-icon icon="logos:spotify-icon" id='spotify' height='1.4rem'></iconify-icon>
-             
+        
               &nbsp;
+
+              {/* Loading skeleton for dark mode */}
               {
-                !discord_state && <span id='discord_s'><Skeleton containerClassName="flex-1" height={19} width={70} circle=''/></span>
+                (!discord_state && isDarkTheme) &&<span id='discord_s'><Skeleton containerClassName="flex-1" height={19} width={70} baseColor={'#2e2c2c'} highlightColor='#505050'/></span>
+              }
+              {/* Loading skeleton for light mode  */}
+              {
+                (!discord_state && !isDarkTheme) && <span id='discord_s'><Skeleton containerClassName="flex-1" height={19} width={70} /></span>
               }
               
+              {/* Discord status  */}
              { discord_state &&<> <span id="circle" style={stylesObj}></span><span id='discord_s' data-tooltip-id="discord_status" className='fade-in'>{discord_state}</span>  </>
              }
 

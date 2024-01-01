@@ -84,7 +84,7 @@ function Work() {
       <img src={snipc_me} alt="" height='250px' width='500px'/>
       <div id="info_text">
       <h2>snipc</h2>
-      <p> My personal website, built with React.js, Vite and &gt;3!</p>
+      <p> You are here, my personal website - built with React.js, Vite and a lot of &gt;3!</p>
       <p id='link'>
         <a href="https://github.com/realsnipc/snipc.me" target='_blank' className='project_link'>
           <iconify-icon icon="mingcute:github-line" height='1.5em'></iconify-icon></a>

@@ -66,6 +66,10 @@
     font-size: 10px;
 }
 
+.right img{
+    margin-left: 60px;
+}
+
 .project_link{
     border: 1px solid var(--margin-dark);
     padding: 5px 25px;
