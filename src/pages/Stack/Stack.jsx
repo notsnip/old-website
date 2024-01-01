@@ -72,7 +72,7 @@ function Stack() {
                         <div className="tech-card-display">
                             <iconify-icon icon="vscode-icons:file-type-tailwind" height='1.5rem'></iconify-icon>
                         </div>
-                        <span className="tech-card-desc">Tailwind CSS</span>
+                        <span className="tech-card-desc">Tailwind</span>
                     </div>
 
                 </div>
