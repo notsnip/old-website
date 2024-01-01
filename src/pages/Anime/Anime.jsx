@@ -7,9 +7,11 @@ import './Anime.css'
 function Anime() {
 useEffect(() => {
   themeChange(false)
-  // 👆 false parameter is required for react project
 }, [])
   // recently updated anime 
+
+
+  // Note: Guys please forgive me, I wrote this code when I was learning React. I know there is better way to do implement this! I'm just not feeling like rewriting this (help me!)
   const [anime1,setanime1]=useState("Loading")
   const [img1,setimg1]=useState()
   const [ep1,setep1]=useState()
