@@ -98,7 +98,9 @@ function Anime() {
     <div className='fade-in'>
       <meta name="description" content="Animes I (Shaurya) have watched and some of my favourites ones" />
       <title>anime | snipc</title>
-
+{
+  !allLoaded && <> Stealing data from the cloud..</>
+}
       { allLoaded &&
         <>
           <h5>freshly-updated</h5>

@@ -65,7 +65,7 @@ setTimeout(() => {
 
         }
       });
-}, 1500);
+}, 0);
     
   }, []);
 
@@ -200,7 +200,7 @@ setTimeout(() => {
 
           <div id="second" className='page'>
             <Link to="/anime" style={{ textDecoration: 'none' }}>
-              <h3>anime</h3> <p>The anime that I'm currently watching that make me feel like I can do anything.</p>
+              <h3>anime</h3> <p>The anime that I used to watch that make me feel like I can do anything.</p>
             </Link>
           </div>
         </div>
@@ -208,9 +208,10 @@ setTimeout(() => {
         <p id='pages_title' style={{ marginTop: '20vh' }}>ABOUT ME</p>
         <div id="about_me" data-aos="fadeInUp" data-aos-anchor=".other-element" >
 
-          <p id="about_para">My name is <span id='Shaurya'>Shaurya</span>. I'm always trying <u>random things</u>.
-            <br /> <br /> Beyond computers, I'm really interested in <a href="https://www.last.fm/user/realsnipc" id="about_me_link">music</a> and <a id='about_me_link' href="/anime">anime</a>, you can often find me spending time with those.
-            <br />wanna know more about me? lets <a href="/contact">have a chat!</a></p>
+          <p id="about_para">My name is <span id='Shaurya'>Shaurya</span>, and code is my jam. 
+            <br /> <br /> When I'm not wrangling code, you can find me learning new things or doing random things (Sadly, free time's been a bit scarce lately!)
+            <br /> <br />Brain wired for logic, heart fueled by innovation, I'm dancing with the future, one byte at a time.
+</p>
           <img src="https://media.giphy.com/media/Y1IFN5kK9E7fO/giphy.gif" alt="some random anime gif" id='about_me_gif' />
         </div>
     </>
