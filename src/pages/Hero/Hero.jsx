@@ -8,6 +8,7 @@ import { themeChange } from 'theme-change';
 import Skeleton from 'react-loading-skeleton';
 import pfp from '../../scripts/Effects';
 import 'react-loading-skeleton/dist/skeleton.css';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 // ..
@@ -147,7 +148,9 @@ setTimeout(() => {
           </div>
           {/* image container */}
           <div className="img">
-            <img src={pfp} alt="My online avatar I use as an alternate to my real photo. " />
+
+            {/* <img src={pfp} alt="My online avatar I use as an alternate to my real photo. " /> */}
+            <LazyLoadImage effect="blur" src={pfp} alt='profile memoji'/>
           </div>
 
 
@@ -209,10 +212,10 @@ setTimeout(() => {
         <div id="about_me" data-aos="fadeInUp" data-aos-anchor=".other-element" >
 
           <p id="about_para">My name is <span id='Shaurya'>Shaurya</span>, and code is my jam. 
-            <br /> <br /> When I'm not wrangling code, you can find me learning new things or doing random things (Sadly, free time's been a bit scarce lately!)
+            <br /> <br /> When I'm not wrangling code, you can find me learning new things or playing games (Sadly, free time's been a bit scarce lately!)
             <br /> <br />Brain wired for logic, heart fueled by innovation, I'm dancing with the future, one byte at a time.
 </p>
-          <img src="https://media.giphy.com/media/Y1IFN5kK9E7fO/giphy.gif" alt="some random anime gif" id='about_me_gif' />
+<LazyLoadImage effect="blur" src="https://media.giphy.com/media/Y1IFN5kK9E7fO/giphy.gif"  alt="some random anime gif" id='about_me_gif'/>
         </div>
     </>
   );

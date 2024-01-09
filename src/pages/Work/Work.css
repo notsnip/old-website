@@ -47,17 +47,7 @@
 
 /* moves the text away from the image to the right side  */
 #info_text{
-    margin-left: 90px;
-}
-
-
-/* moves the project image to right side (for alternate pattern) */
-.right{
-    flex-direction: row-reverse;
-}
-.right #info_text{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 250px;
 }
 
 /* last updated line  */
@@ -103,12 +93,9 @@
         height: 11em;    
         border: 1px solid var(--margin-dark);
     }
-    #info_text,.right #info_text{
+    #info_text{
         margin-left: 0px;
         margin-right: 0px;
-    }
-    .right img{
-        margin-left: 0px;
     }
 
   }
