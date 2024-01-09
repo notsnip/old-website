@@ -1,7 +1,5 @@
 {
-  "name": "snipc.me",
-  "private": true,
-  "version": "0.0.0",
+  "name": "website",
   "type": "module",
   "scripts": {
     "dev": "vite",
