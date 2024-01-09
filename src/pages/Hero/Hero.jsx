@@ -202,7 +202,7 @@ setTimeout(() => {
           </div>
 
           <div id="second" className='page'>
-            <Link to="/anime" style={{ textDecoration: 'none' }}>
+            <Link to="https://anilist.co/user/snipc" style={{ textDecoration: 'none' }}>
               <h3>anime</h3> <p>The anime that I used to watch that make me feel like I can do anything.</p>
             </Link>
           </div>

@@ -173,7 +173,7 @@ function Stack() {
                 </div>
                 <span className="tech-card-desc">Adobe</span>
             </div> */}
-                    <p className='text_hero_text stack_note'>P.S: this awesome section uses a code snippet from <a href="https://wounds.rip/">neksio</a></p>
+                    {/* <p className='text_hero_text stack_note'>P.S: this awesome section uses a code snippet from <a href="https://wounds.rip/">neksio</a></p> */}
 
                 </div>
 

@@ -50,7 +50,7 @@ function Contact() {useEffect(() => {
                 <a href="https://github.com/realsnipc" target='_blank'>
                     {/* Github card   */}
                     <div className="contact_card">
-                        <iconify-icon icon="ri:github-line" height='2.5rem' style={{ paddingLeft: '10px',color: 'var(--text-white)' }}></iconify-icon>
+                        <iconify-icon icon="uil:github" height='2.5rem' style={{ paddingLeft: '10px',color: 'var(--text-white)' }}></iconify-icon>
                         <div className="contact_card_content">
 
                             <h2>Github</h2>
@@ -62,7 +62,7 @@ function Contact() {useEffect(() => {
                 <a href="mailto:hello@snipc.me" target='_blank'>
                     {/* Mail card   */}
                     <div className="contact_card">
-                        <iconify-icon icon="iconoir:mail" height='2.5rem' style={{ paddingLeft: '10px',color: 'var(--text-white)' }}></iconify-icon>
+                        <iconify-icon icon="majesticons:mail" height='2.5rem' style={{ paddingLeft: '10px',color: 'var(--text-white)' }}></iconify-icon>
                         <div className="contact_card_content">
 
                             <h2>Mail</h2>
