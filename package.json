@@ -1,5 +1,5 @@
 {
-  "name": "snipc website",
+  "name": "snipc-website",
   "type": "module",
   "scripts": {
     "dev": "vite",
