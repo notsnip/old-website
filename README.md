@@ -11,7 +11,7 @@
 
 ## Get for yourself
 
-All components and pages are in `src/pages` and `src/components` respectively. Edit as per your needs.
+All components and pages are in `src/components` and `src/pages`  respectively. Edit as per your needs.
 
 All routes and default components are in `src/App.js`.
 
