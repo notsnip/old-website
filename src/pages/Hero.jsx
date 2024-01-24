@@ -61,7 +61,7 @@ function Hero() {
     <>
       <title>Shaurya Chaudhary | snipc</title>
       {/* <Zoom> */}
-      <div className="container">
+      <div className="container fade-in">
         {/* here comes the text container  */}
         <div className="text">
           {/* the text in bracket */}
