@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import { useEffect } from "react";
@@ -16,6 +16,7 @@ import { Avatar } from "../components/Avatar";
 function Hero() {
   const [discord_state, setStatus] = useState(false);
   const [isDarkTheme, setDarkTheme] = useState(false);
+  const statusCircle = useRef("");
 
   useEffect(() => {
     themeChange(false);
@@ -28,23 +29,20 @@ function Hero() {
         let data = json.data.discord_status;
         if (json.data.spotify != null) {
           setStatus(`Listening to ${json.data.spotify.song}`);
-          document.getElementById("circle").style.display = "none";
+          statusCircle.current.style.display = "none";
           document.getElementById("intro").style.display = "flex";
           document.getElementById("spotify").style.display = "inline";
         } else if (data == "offline") {
           setStatus("Offline");
         } else if (data == "online") {
           setStatus("Online");
-          document.getElementById("circle").style.backgroundColor =
-            "rgb(121, 214, 121)";
+          statusCircle.current.style.backgroundColor = "rgb(121, 214, 121)";
         } else if (data == "dnd") {
           setStatus("Busy");
-          document.getElementById("circle").style.backgroundColor =
-            "rgb(212, 109, 109)";
+          statusCircle.current.style.backgroundColor = "rgb(212, 109, 109)";
         } else if (data == "idle") {
           setStatus("AFK");
-          document.getElementById("circle").style.backgroundColor =
-            "rgb(209, 209, 116)";
+          statusCircle.current.style.backgroundColor = "rgb(209, 209, 116)";
         }
       });
   }, []);
@@ -99,7 +97,7 @@ function Hero() {
             {discord_state && (
               <>
                 {" "}
-                <span id="circle" style={stylesObj}></span>
+                <span id="circle" style={stylesObj} ref={statusCircle}></span>
                 <span
                   id="discord_s"
                   data-tooltip-id="discord_status"
@@ -188,7 +186,7 @@ function Hero() {
             <h3>stack</h3>
             <p>
               The tools that power my life and make me look like a genius (even
-              though I'm not).{" "}
+              though I'm not).
             </p>
           </Link>
         </div>
@@ -210,7 +208,7 @@ function Hero() {
           </Link>
         </div>
 
-        <div id="second" className="page">
+        {/* <div id="second" className="page">
           <Link
             to="https://anilist.co/user/snipc"
             style={{ textDecoration: "none" }}
@@ -221,7 +219,7 @@ function Hero() {
               anything.
             </p>
           </Link>
-        </div>
+        </div> */}
       </div>
 
       <p id="pages_title" style={{ marginTop: "20vh" }}>
@@ -229,13 +227,13 @@ function Hero() {
       </p>
       <div id="about_me" data-aos="fadeInUp" data-aos-anchor=".other-element">
         <p id="about_para">
-          My name is <span id="Shaurya">Shaurya</span>, and code is my jam.
+          My name is <span id="Shaurya">Shaurya</span>, and i love code.
           <br /> <br /> When I'm not wrangling code, you can find me learning
-          new things or playing games (Sadly, free time's been a bit scarce
+          new things or reading something (Sadly, free time's been a bit scarce
           lately!)
           <br /> <br />
-          Brain wired for logic, heart fueled by innovation, I'm dancing with
-          the future, one byte at a time.
+          "Brain wired for logic, heart fueled by innovation, I'm dancing with
+          the future, one byte at a time. " - Amigo AI
         </p>
         <LazyLoadImage
           effect="blur"

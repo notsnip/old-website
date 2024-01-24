@@ -45,6 +45,14 @@ else {
 // Stop Snow by default
 date.getMonth() == 11 ? {} : snowStorm.stop();
 
+
+
+// Stop Snow by default
+date.getMonth() == 11 ? {} : snowStorm.stop();
+
+export default pfp;
+
+
 function Avatar() {
   return (
     <>

@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   border: 1px solid var(--margin-dark);
-  padding: 15px;
+  padding: 15px 20px;
   border-radius: 10px;
   background-color: var(--secondary-bg-dark);
   margin-top: 1rem;
