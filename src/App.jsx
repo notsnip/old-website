@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <div id='main_div' onClick={play} className='fade-in'>
+      <div id='main_div' onClick={play}>
 
         {/* these meta tags change the top bar colour to dark in ios and android devices  */}
         <meta name="theme-color" content="rgb(23,23,23)" />

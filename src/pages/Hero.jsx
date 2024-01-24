@@ -7,6 +7,7 @@ import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+// import Zoom from 'react-reveal/Zoom';
 
 import "../styles/Hero.css";
 import "../styles/Pages.css";
@@ -59,8 +60,8 @@ function Hero() {
   return (
     <>
       <title>Shaurya Chaudhary | snipc</title>
-
-      <div className="container fade-in">
+      {/* <Zoom> */}
+      <div className="container">
         {/* here comes the text container  */}
         <div className="text">
           {/* the text in bracket */}
@@ -242,6 +243,7 @@ function Hero() {
           id="about_me_gif"
         />
       </div>
+      {/* </Zoom> */}
     </>
   );
 }
