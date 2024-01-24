@@ -6,6 +6,7 @@ import { themeChange } from "theme-change";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 import "../styles/Hero.css";
 import "../styles/Pages.css";
@@ -78,7 +79,7 @@ function Hero() {
                 <Skeleton
                   containerClassName="flex-1"
                   height={19}
-                  width={70}
+                  width={"90px"}
                   baseColor={"#2e2c2c"}
                   highlightColor="#505050"
                 />
@@ -87,7 +88,11 @@ function Hero() {
             {/* Loading skeleton for light mode  */}
             {!discord_state && !isDarkTheme && (
               <span id="discord_s">
-                <Skeleton containerClassName="flex-1" height={19} width={70} />
+                <Skeleton
+                  containerClassName="flex-1"
+                  height={19}
+                  width={"90px"}
+                />
               </span>
             )}
             {/* Discord status  */}
@@ -135,8 +140,7 @@ function Hero() {
           />
         </div>
 
-        <Avatar/>
-
+        <Avatar />
       </div>
 
       {/* pages1 section (work & anime)  */}

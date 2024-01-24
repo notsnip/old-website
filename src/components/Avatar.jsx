@@ -4,6 +4,8 @@ import snipc_img from "../assets/avatars/2.webp";
 import snipc_hat_img from "../assets/avatars/3.png";
 import snipc_happy_heart_img from "../assets/avatars/4.webp";
 import snipc_happy_celebrate_img from "../assets/avatars/5.webp";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const date = new Date();
 
@@ -47,8 +49,9 @@ function Avatar() {
   return (
     <>
       <div className="img">
-        <img
+        <LazyLoadImage
           src={pfp}
+          effect="blur"
           alt="My online avatar I use as an alternate to my real photo. "
         />
       </div>

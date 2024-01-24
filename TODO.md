@@ -1,4 +1,3 @@
-- [ ] Format and restructure files and folder
 - [ ] Fix image lazy loading
 - [ ] update "about me"
 - [ ] fix discord status
