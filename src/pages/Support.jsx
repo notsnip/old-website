@@ -1,5 +1,5 @@
 import React from 'react'
-import './Donate.css'
+import '../styles/Donate.css'
 import { useEffect } from 'react';
 import { themeChange } from 'theme-change'
 

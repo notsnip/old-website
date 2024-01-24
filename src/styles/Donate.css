@@ -1,0 +1,49 @@
+#donate-methods {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 80vh;
+}
+.donate-method {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--margin-dark);
+  padding: 15px;
+  border-radius: 10px;
+  background-color: var(--secondary-bg-dark);
+  margin-top: 1rem;
+  color: var(--text-white);
+}
+.donate-method:hover {
+  background-color: var(--tertiary-background-color);
+  transition: 0.3s;
+}
+.donate-method h5 {
+  margin: 0px;
+  text-decoration: none;
+  margin-left: 10px;
+  font-family: "Work Sans";
+}
+
+#hero-text p {
+  color: var(--dark-text);
+  font-family: "Work Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+#hero-text {
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  #donate-methods {
+    flex-direction: column;
+    align-items: center;
+  }
+  .donate-method {
+    width: 80vw;
+  }
+}

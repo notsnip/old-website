@@ -1,14 +1,12 @@
 import {React,useEffect} from 'react';
-import './Work.css'
+import '../styles/Work.css'
 import { themeChange } from 'theme-change'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-
 // projects images 
-
-import snipc_me from './img/snipc_me.jpeg'
-import tribute_to_steve from './img/tribute_to_steve.png'
-import sni_blog from './img/blog.png'
+import snipc_me from '../assets/projects/snipc_me.jpeg'
+import tribute_to_steve from '../assets/projects/tribute_to_steve.png'
+import sni_blog from '../assets/projects/blog.png'
 
 
 

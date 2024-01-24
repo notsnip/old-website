@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
+
+#footer {
+  margin-top: 13vh;
+  display: flex;
+  justify-content: end;
+  opacity: 0.4;
+  align-items: center;
+}
+#icon {
+  margin: 0px;
+  margin-top: 2px;
+}
+#text {
+  margin-left: 5px;
+  color: var(--dark-text);
+  font-family: "Karla", sans-serif;
+}
+#link {
+  display: flex;
+  text-decoration: none;
+}

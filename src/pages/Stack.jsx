@@ -1,5 +1,5 @@
 import React from 'react';
-import './Stack.css';
+import '../styles/Stack.css';
 import { useEffect } from 'react';
 import { themeChange } from 'theme-change'
 

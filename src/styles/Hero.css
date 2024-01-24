@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+/* made the about section narrow to not take up img's space  */
+#about {
+  width: 70%;
+  color: var(--text-white);
+  font-family: "Work Sans", sans-serif;
+}
+
+/* the main container */
+.container {
+  display: flex;
+  margin-top: 15vh;
+  gap: 120px;
+}
+
+/* the img and img container  */
+.img {
+  display: flex;
+  justify-content: center;
+}
+.img img {
+  height: 250px;
+  border-radius: 100px;
+}
+
+b {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* hello and intro styling  */
+#hello {
+  font-size: 55px;
+  margin: 0px;
+  color: var(--text-white);
+}
+#intro {
+  font-size: 15px;
+  margin-bottom: 2px;
+  color: var(--text-white);
+  transition: 0.3s;
+  /* margin-top: 0px; */
+}
+
+/* "Name" element styling  */
+#Shaurya {
+  /** TEXT GRADIENT */
+  color: #f0bbc2;
+  background-image: -webkit-linear-gradient(45deg, #f0bbc2 0%, #ffdde1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+#Shaurya:hover {
+  color: rgb(170, 168, 168);
+  transition: 0.3s;
+}
+
+/* status circle and spotify icon syling  */
+#circle {
+  padding: 0px 10px;
+  border-radius: 150px;
+  transition: 0.3s;
+}
+#spotify {
+  display: none;
+  width: 25px;
+}
+
+/* some space between links  */
+#linkedin {
+  margin-left: 20px;
+}
+html {
+  background-color: var(--bg-dark);
+}
+
+/* link styles  */
+.link {
+  border: 2px solid var(--margin-dark);
+  padding: 12px 7px;
+  padding-bottom: 0px;
+  border-radius: 10px;
+  background-color: rgba(38, 38, 38, 0.3);
+  transition: 0.3s;
+}
+.link:hover {
+  background-color: var(--tertiary-background-color);
+  transition: 0.3s;
+}
+#links {
+  margin-top: 20px;
+}
+
+/* discord status  */
+#discord_s {
+  font-family: "Work Sans";
+  color: var(--dc-status);
+  transition: 0.3s;
+  margin-left: 5px;
+}
+
+/* for mobile folks */
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column-reverse;
+    margin-top: 8dvh;
+    gap: 0px;
+  }
+  #hello {
+    font-size: 35px;
+  }
+  .text {
+    text-align: center;
+  }
+  #about {
+    width: 100%;
+  }
+  #discord_s {
+    font-size: 14px;
+  }
+
+  #intro {
+    justify-content: center;
+    align-items: center;
+  }
+  #spotify {
+    width: 20px;
+  }
+  #circle {
+    padding: 0px, 1px;
+    border-radius: 200px;
+  }
+}

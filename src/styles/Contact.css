@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+#hero_text p {
+  margin-bottom: 20px;
+  margin-top: 3px;
+}
+#hero_text p {
+  color: var(--dark-text);
+}
+
+#contact_methods {
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25rem;
+}
+#contact_methods a {
+  text-decoration: none;
+  color: grey;
+}
+.contact_card {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid var(--margin-dark);
+  border-radius: 10px;
+  background-color: var(--secondary-bg-dark);
+  transition: 0.3s;
+  width: 30rem;
+  margin: 10px;
+}
+.contact_card:hover {
+  background-color: var(--tertiary-background-color);
+}
+.contact_card_content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.contact_card_content h2,
+p {
+  font-family: "Work Sans", sans-serif;
+  color: var(--text-white);
+}
+
+.contact_card_content p {
+  margin: 1px;
+  color: var(--dark-text);
+}
+.contact_card_content h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  #contact_methods {
+    align-items: center;
+    justify-content: center;
+  }
+  .contact_card {
+    width: 90vw;
+  }
+  .contact_card_content h2 {
+    font-size: 15px;
+  }
+  .contact_card_content p {
+    font-size: 10px;
+  }
+}

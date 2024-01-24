@@ -1,0 +1,6 @@
+- [ ] Format and restructure files and folder
+- [ ] Fix image lazy loading
+- [ ] update "about me"
+- [ ] fix discord status
+- [ ] shift to a better way for scripts
+- [ ] move to a new animation library

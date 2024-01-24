@@ -1,0 +1,38 @@
+/* navbar button styling  */
+#mode {
+  border: 1px solid var(--margin-dark);
+  padding: 8px 22px;
+  border-radius: 30px;
+  opacity: 1;
+  background-color: var(--secondary-bg-dark);
+  padding-bottom: 3px;
+  user-select: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#mode:hover {
+  background-color: var(--tertiary-background-color);
+  transition: 0.3s;
+}
+#mode:focus {
+  outline: 0;
+}
+
+/* navbar postioning */
+#navbar {
+  margin-top: 7vh;
+  display: flex;
+  justify-content: end;
+}
+
+/* mobile styling */
+@media only screen and (max-width: 600px) {
+  /* fixes the postion of navbar container  */
+  #navbar {
+    margin-top: 20px;
+  }
+  #mode {
+    padding: 7px 20px;
+    padding-bottom: 1px;
+  }
+}

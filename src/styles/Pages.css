@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+/* the container of pages  */
+.pages1,
+.pages2,
+#more_pages {
+  display: flex;
+}
+
+#about_para a {
+  color: inherit;
+}
+
+/* first two pages  */
+.pages1 {
+  margin-top: 11em;
+  color: var(--text-white);
+}
+/* 2nd two pages  */
+.pages2 {
+  margin-top: 15px;
+  margin-bottom: 4rem;
+}
+
+/* particular page styles  */
+.page {
+  width: 50%;
+  border: 1px solid var(--margin-dark);
+  border-radius: 7px;
+  padding: 0px 12px;
+  background-color: var(--secondary-bg-dark);
+  cursor: pointer;
+}
+
+.page:hover {
+  background-color: var(--tertiary-background-color);
+  transition: 0.3s;
+}
+
+.page p {
+  margin: 1px;
+  margin-bottom: 13px;
+  font-size: 16px;
+  color: var(--dark-text);
+  padding-top: 7px;
+  font-family: "Work Sans", sans-serif;
+  padding-bottom: 3px;
+}
+.page h3 {
+  margin-bottom: 0px;
+  font-size: 15px;
+  margin-top: 17px;
+  color: var(--text-white);
+  padding-bottom: 5px;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* specific styles according to number  */
+#first,
+#third {
+  margin-right: 17px;
+}
+#second {
+  margin-bottom: 3px;
+}
+
+/* title above pages  */
+#pages_title {
+  margin-left: 5px;
+  font-size: 13px;
+  color: var(--dark-text);
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* the other pages  */
+#more_pages {
+  margin-top: 10px;
+}
+
+/* reduce the padding and margin for a better look  */
+#more_pages h3 {
+  margin-top: 17px;
+  padding-bottom: 0px;
+}
+#more_pages p {
+  padding-top: 5px;
+  margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .pages1,
+  .pages2,
+  #more_pages {
+    flex-direction: column;
+    align-items: center;
+  }
+  #first,
+  #third {
+    margin-right: 0px;
+  }
+  .page {
+    width: 87%;
+    margin-bottom: 20px;
+  }
+  .page h3 {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .page p {
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  #pages_title {
+    text-align: center;
+  }
+}

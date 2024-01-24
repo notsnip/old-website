@@ -1,21 +1,20 @@
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar';
-import Hero from './pages/Hero/Hero';
-import Anime from './pages/Anime/Anime';
-import Work from './pages/Work/Work';
-import Footer from './components/Footer/Footer';
-import Support from './pages/Donate/Support';
+import Navbar from './components/Navbar';
+import Hero from './pages/Hero';
+import Work from './pages/Work';
+import Footer from './components/Footer';
+import Support from './pages/Support';
 import ToTop from './scripts/ToTop';
-import sound from './click_sound.mp3';
-import Contact from './pages/Contact/Contact';
-import Stack from './pages/Stack/Stack';
+import clickSound from './click_sound.mp3';
+import Contact from './pages/Contact';
+import Stack from './pages/Stack';
 import ScrollToTop from 'react-scroll-up';
 
 function App() {
 
   // script to play the 'click' audio 
   function play() {
-    new Audio(sound).play();
+    new Audio(clickSound).play();
   }
 
   return (
@@ -44,38 +43,6 @@ function App() {
         {/* routes setup */}
         <Routes>
 
-
-          <Route
-            render={({ location }) => (
-              <TransitionGroup>
-                <CSSTransition
-                  key={location.key}
-                  timeout={300}
-                  classNames="fade"
-                >
-                  <Route path='*' element={<Page404 />} />
-                  {/* home route*/}
-                  <Route path='/' element={<Hero />} />
-
-                  {/* the contact section  */}
-                  <Route path='/contact' element={<Contact />} />
-
-                  {/* the stack section  */}
-                  <Route path='/stack' element={<Stack />} />
-
-                  {/* the anime section  */}
-                  <Route path='/anime' element={<Anime />} />
-
-                  {/* projects section  */}
-                  <Route path='/work' element={<Work />} />
-
-                  {/* Donate section  */}
-                  <Route path='/support' element={<Support type='support' title="“No act of kindness, no matter how small, is ever wasted.” – Aesop" />} />
-                </CSSTransition>
-              </TransitionGroup>
-            )}
-          />
-
           <Route path='*' element={<Hero />} />
           {/* home route*/}
           <Route path='/' element={<Hero />} />
@@ -85,9 +52,6 @@ function App() {
 
           {/* the stack section  */}
           <Route path='/stack' element={<Stack />} />
-
-          {/* the anime section  */}
-          <Route path='/anime' element={<Anime />} />
 
           {/* projects section  */}
           <Route path='/work' element={<Work />} />
