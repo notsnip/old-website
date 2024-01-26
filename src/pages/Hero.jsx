@@ -234,7 +234,7 @@ function Hero() {
           lately!)
           <br /> <br />
           "Brain wired for logic, heart fueled by innovation, I'm dancing with
-          the future, one byte at a time. " - Amigo AI
+          the future, one byte at a time."
         </p>
         <LazyLoadImage
           effect="blur"

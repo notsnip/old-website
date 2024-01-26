@@ -18,14 +18,14 @@ function Work() {
   const projects = [
     {
       name: "Blog",
-      des: "My Blog for uploading random articles and thoughts.",
+      des: "My Blog where I share my thoughts and ideas",
       github: "https://github.com/realsnipc/blog",
       img: sni_blog,
       link: "https://blog.snipc.me",
     },
     {
       name: "Tribute to Steve",
-      des: "Tribute to 'Steven Paul Jobs' to remember his revolutionary contributions to the world, I've created this website.",
+      des: "Tribute to 'Steven Paul Jobs'. To remember his revolutionary contributions to the world, I've created this website.",
       github: "https://github.com/realsnipc/TributeToSteve",
       img: tribute_to_steve,
       link: "https://realsnipc.github.io/TributeToSteve/",
@@ -83,23 +83,6 @@ function Work() {
             </div>
           </div>
         ))}
-
-        {/* projects  */}
-
-        {/* template for adding another project (use class 'right' for alternate items) */}
-        {/* <div className="repo">
-      <img src={tribute_to_steve} alt="" height='250px' width='500px'/>
-      <div id="info_text">
-      <h2>Tribute To Steve</h2>
-      <p>Tribute to 'Steven Paul Jobs' to remember his revolutionary contributions to the world, I've created this website.</p>
-      <p id='link'>
-        <a href="https://github.com/realsnipc/TributeToSteve/" target='_blank' className='project_link'>
-          <iconify-icon icon="mingcute:github-line" height='1.5em'></iconify-icon></a>
-        <a href="https://realsnip.github.io/TributeToSteve/" className='project_link'>
-        <iconify-icon icon="uil:link" height='1.5em'></iconify-icon>
-        </a>
-        </p>
-      </div> */}
       </div>
     </>
   );
