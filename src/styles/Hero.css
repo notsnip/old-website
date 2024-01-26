@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
 /* made the about section narrow to not take up img's space  */
 #about {
   width: 70%;
@@ -50,6 +50,7 @@ b {
   -webkit-background-clip: text;
   cursor: pointer;
   -webkit-text-fill-color: transparent;
+  
 }
 #Shaurya:hover {
   color: rgb(170, 168, 168);
@@ -94,10 +95,11 @@ html {
 
 /* discord status  */
 #discord_s {
-  font-family: "Work Sans";
+  font-family: Work Sans;
   color: var(--dc-status);
   transition: 0.3s;
   margin-left: 5px;
+  font-size: 15px;
 }
 
 /* for mobile folks */
