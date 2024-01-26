@@ -7,7 +7,6 @@ import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-// import Zoom from 'react-reveal/Zoom';
 
 import "../styles/Hero.css";
 import "../styles/Pages.css";
@@ -16,6 +15,7 @@ import { Avatar } from "../components/Avatar";
 
 function Hero() {
   const [discord_state, setStatus] = useState(false);
+  const [statusBg, setStatusBg] = useState("grey");
   const [isDarkTheme, setDarkTheme] = useState(false);
   const statusCircle = useRef("");
 
@@ -37,13 +37,13 @@ function Hero() {
           setStatus("Offline");
         } else if (data == "online") {
           setStatus("Online");
-          statusCircle.current.style.backgroundColor = "rgb(121, 214, 121)";
+          setStatusBg("rgb(121, 214, 121)");
         } else if (data == "dnd") {
           setStatus("Busy");
-          statusCircle.current.style.backgroundColor = "rgb(212, 109, 109)";
+          setStatusBg("rgb(212, 109, 109)");
         } else if (data == "idle") {
           setStatus("AFK");
-          statusCircle.current.style.backgroundColor = "rgb(209, 209, 116)";
+          setStatusBg("rgb(209, 209, 116)");
         }
       });
   }, []);
@@ -54,9 +54,6 @@ function Hero() {
   var year = age_dt.getUTCFullYear();
   var age = Math.abs(year - 1970);
 
-  var stylesObj = {
-    backgroundColor: "grey",
-  };
   return (
     <>
       <title>Shaurya Chaudhary | snipc</title>
@@ -90,7 +87,7 @@ function Hero() {
                 <Skeleton
                   containerClassName="flex-1"
                   height={19}
-                  width={"90px"}
+                  width={"80px"}
                 />
               </span>
             )}
@@ -98,7 +95,7 @@ function Hero() {
             {discord_state && (
               <>
                 {" "}
-                <span id="circle" style={stylesObj} ref={statusCircle}></span>
+                <span id="circle" style={{backgroundColor:statusBg}} ref={statusCircle}></span>
                 <span
                   id="discord_s"
                   data-tooltip-id="discord_status"
