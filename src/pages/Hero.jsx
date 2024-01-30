@@ -86,7 +86,7 @@ function Hero() {
               <span id="discord_s">
                 <Skeleton
                   containerClassName="flex-1"
-                  height={19}
+                  height={17}
                   width={"80px"}
                 />
               </span>

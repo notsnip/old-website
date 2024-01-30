@@ -61,6 +61,7 @@ function Avatar() {
           src={pfp}
           effect="blur"
           alt="My online avatar I use as an alternate to my real photo. "
+          visibleByDefault={true}
         />
       </div>
     </>
