@@ -226,8 +226,7 @@ function Hero() {
       <div id="about_me" data-aos="fadeInUp" data-aos-anchor=".other-element">
         <p id="about_para">
           My name is <span id="Shaurya">Shaurya</span>, and i love code.
-          <br /> <br /> When I'm not wrangling code, you can find me learning
-          new things or reading something (Sadly, free time's been a bit scarce
+          <br /> <br /> When I'm not wrangling code, you can find me playing games or reading something (Though, free time's been a bit scarce
           lately!)
           <br /> <br />
           "Brain wired for logic, heart fueled by innovation, I'm dancing with
