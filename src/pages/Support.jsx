@@ -17,7 +17,7 @@ function Support() {useEffect(() => {
 <div id="hero-text">
     <h2 className='text_hero_text'>Support</h2>
     <p>
-If you appreciate my work or would like to show your support, I would be incredibly grateful for your support! Your generosity would truly make my day! ✧˖°. </p>
+If you appreciate my work or would like to show your support, I would be incredibly grateful for your support! ✧˖°. </p>
 </div>
 
 <div id="donate-methods">
@@ -35,7 +35,7 @@ If you appreciate my work or would like to show your support, I would be incredi
 {/* patreon  */}
 <a href="https://github.com/realsnipc/snipc" target='_blank'>
 <div className="donate-method">
-<iconify-icon icon="entypo-social:github" height='2rem'></iconify-icon>
+<iconify-icon icon="bi:github" height='2rem'></iconify-icon>
     <h5>Star on Github </h5>
 </div>
 </a>
