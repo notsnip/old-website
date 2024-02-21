@@ -56,7 +56,8 @@ function Hero() {
 
   return (
     <>
-      <title>Shaurya Chaudhary | snipc</title>
+      <title>
+Snipc (Old Website)</title>
       {/* <Zoom> */}
       <div className="container fade-in">
         {/* here comes the text container  */}
