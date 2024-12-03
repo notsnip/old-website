@@ -5,16 +5,12 @@
 
 This project is built with **React.js** and optimized using **Vite** for fast and efficient development. It features a responsive design and a clean codebase, making it easy to customize and extend for your needs.
 
----
-
 ## Tech Stack
 
 - **React.js** (with React Router for seamless navigation)
 - **Vite** (for a blazing-fast development environment)
 - **Iconify** (for scalable and customizable icons)
 - **Support** 🤝 (because teamwork makes the dream work!)
-
----
 
 ## Getting Started
 
@@ -29,8 +25,6 @@ All routes and default components are managed in the `src/App.js` file. Update t
 
 ### Deployment:
 Follow the [official Vite deployment guide](https://vitejs.dev/guide/static-deploy) for detailed instructions on deploying your project to a production environment.
-
----
 
 ## Credits & Inspirations ✨
 
