@@ -3,6 +3,8 @@
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)  
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
+> Some of the links on this website may be invalid now, consider visiting the new one https://notsnip.vercel.app
+
 This project is built with **React.js** and optimized using **Vite** for fast and efficient development. It features a responsive design and a clean codebase, making it easy to customize and extend for your needs.
 
 ## Tech Stack
